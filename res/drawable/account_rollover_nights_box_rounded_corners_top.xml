@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/account_rollover_nights_box_top_background" />
+    <corners android:radius="0.0dip" android:topLeftRadius="8.0dip" android:topRightRadius="8.0dip" />
+</shape>

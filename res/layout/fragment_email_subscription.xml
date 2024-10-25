@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/container" android:tag="layout/fragment_email_subscription_0" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:id="@id/tvInstructions" android:layout_marginTop="32.0dip" android:layout_marginBottom="24.0dip" android:text="@string/my_account_email_subscriptions_header" style="@style/MyAccount_Email_Subscriptions_Header_Label" />
+        <TextView android:id="@id/tvNewsAndInfoSectionHeader" android:text="@string/my_account_email_subscriptions_category_hhonors_news" style="@style/MyAccount_Email_Subscriptions_Category_Header" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/cbMonthlyStatement" android:tag="binding_1" android:text="@string/my_account_email_subscriptions_monthly_statement" style="@style/MyAccount_Email_Subscriptions_Item_CheckBox" />
+        <View android:tag="binding_2" style="@style/MyAccount_Email_Subscriptions_Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/cbSpecialNewsAndAnnouncements" android:tag="binding_3" android:text="@string/my_account_email_subscriptions_special_news" style="@style/MyAccount_Email_Subscriptions_Item_CheckBox" />
+        <View android:id="@id/cbSpecialNewsAndAnnouncementsDivider" android:tag="binding_4" style="@style/MyAccount_Email_Subscriptions_Divider" />
+        <FrameLayout android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@id/gdpr_elements" layout="@layout/layout_gdpr_elements" />
+        </FrameLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/my_account_email_subscriptions_unsubscribe" style="@style/MyAccount_Email_Subscriptions_Category_Header" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/my_account_email_subscriptions_un_sub_header" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/cbUnSubMarketingPromotional" android:tag="binding_6" android:text="@string/my_account_email_subscriptions_un_sub_marketing_promotional" style="@style/MyAccount_Email_Subscriptions_Item_CheckBox" />
+        <View android:id="@id/unSubMarketingPromotionalDivider" style="@style/MyAccount_Email_Subscriptions_Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/cbUnSpecialOffersAnnouncements" android:tag="binding_7" android:text="@string/my_account_email_subscriptions_un_sub_special_offers_announcements" style="@style/MyAccount_Email_Subscriptions_Item_CheckBox" />
+        <View android:id="@id/unSpecialOffersAnnouncementsDivider" style="@style/MyAccount_Email_Subscriptions_Divider" />
+    </LinearLayout>
+</ScrollView>

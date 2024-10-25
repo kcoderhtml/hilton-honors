@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_os_update_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="250.0dip" android:src="@drawable/ic_force_update" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/nero" android:layout_gravity="center" android:tag="binding_1" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:fontFamily="sans-serif" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:fontFamily="sans-serif" />
+        <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:tag="binding_3" android:layout_width="152.0dip" android:layout_marginBottom="32.0dip" style="@style/DefaultButton" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/sign_in_surrounding_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:layout_gravity="center" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/continue_session" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

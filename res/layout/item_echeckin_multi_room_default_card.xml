@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/room_one_card" android:tag="layout/item_echeckin_multi_room_default_card_0" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentPadding="0.0dip" style="@style/HiltonCardView.Clickable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="8.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="22.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_bed" android:tint="@color/brand_accent" android:layout_marginStart="26.0dip" android:layout_marginEnd="18.0dip" />
+            <TextView android:textSize="22.0sp" android:textColor="@color/nero" android:id="@id/room_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/dark_gray" android:layout_gravity="bottom" android:id="@id/room_number_tv" android:tag="binding_2" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="end" android:tag="binding_3" android:layout_width="22.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_check" android:layout_marginStart="17.0dip" android:layout_marginEnd="26.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:id="@id/tv_bed_description" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="66.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:id="@id/rate_type" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="66.0dip" android:layout_marginEnd="26.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:id="@id/adult_children_label" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="66.0dip" android:layout_marginEnd="26.0dip" />
+        <View android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+        <com.mofo.android.hilton.core.view.HalfStayActionView android:id="@id/rl_action_layout" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="8.0dip" android:minHeight="56.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

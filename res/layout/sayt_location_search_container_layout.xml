@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/sayt_location_search_container_layout_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hilton.android.module.shop.view.SearchEditText android:id="@id/suggestLocationField" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:transitionName="@string/location_search_edit_text_transition" android:elevation="4.0dip" />
+    <androidx.cardview.widget.CardView android:id="@id/card_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_content_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/stay_card_black" android:id="@id/tv_launch_m3_mvp" android:paddingTop="24.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/launch_mvp" android:textAlignment="textStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" android:elevation="4.0dip" />
+            <androidx.cardview.widget.CardView android:orientation="vertical" android:id="@id/search_error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:cardCornerRadius="8.0dip">
+                <LinearLayout android:orientation="vertical" android:background="@color/banner_emergency_background" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/stay_card_black" android:id="@id/search_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/drawbridge_no_result_summary" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView android:textSize="16.0sp" android:textColor="@color/stay_card_black" android:id="@id/tv_hotels_near_me" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/search_hotels_nearby" android:drawablePadding="6.0dip" android:textAlignment="textStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" android:elevation="4.0dip" app:drawableStartCompat="@drawable/ic_hotels_nearby" />
+            <com.google.android.material.tabs.TabLayout android:id="@id/location_search_tab_layout" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginBottom="20.0dip" />
+            <com.hilton.android.module.shop.view.LocationSearchViewPager android:id="@id/location_search_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

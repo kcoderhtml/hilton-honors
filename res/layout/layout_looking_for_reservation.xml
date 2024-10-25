@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/layout_looking_for_reservation_0" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:layout_gravity="center" android:id="@id/dont_have_an_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_in_looking_for_a_specific_reservation" android:accessibilityHeading="true" />
+    <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/button_find_you_stay" android:tag="binding_1" android:layout_marginTop="8.0dip" android:text="@string/find_stay_button_text" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" style="@style/DefaultButton" />
+</LinearLayout>

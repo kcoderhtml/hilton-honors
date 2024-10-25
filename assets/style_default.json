@@ -1,0 +1,139 @@
+{
+  "id": "style_default",
+  "name": "Sample Default Style",
+  "version": "1.2",
+  "wayfinding": {
+    "path-stroke-min-width": "3",
+    "path-stroke-max-width": "40",
+    "path-stroke-color": "#4688f1",
+    "path-stroke-alpha": "0.5",
+    "path-arrow-fill-color": "#4688f1",
+    "path-arrow-stroke-color": "#ffffff",
+    "path-arrow-size": "1.0",
+    "highlighted-path-stroke-min-width": "3",
+    "highlighted-path-stroke-max-width": "40",
+    "highlighted-path-stroke-color": "#4688f1",
+    "highlighted-path-stroke-alpha": "1.0",
+    "highlighted-path-arrow-fill-color": "#4688f1",
+    "highlighted-path-arrow-stroke-color": "#ffffff",
+    "highlighted-path-arrow-size": "1.0"
+  },
+  "styles": [
+    {
+      "layer-id": "background",
+      "fill-color": "#c9c9c9",
+      "hidden": "true"
+    },
+    {
+      "layer-id": "venue",
+      "hidden": "true"
+    },
+    {
+      "layer-id": "outdoors",
+      "hidden": "true"
+    },
+    {
+      "layer-id": "floor_outlines_floor_vo_1",
+      "hidden": "true"
+    },
+    {
+      "layer-id": "floor_art_[FLOOR]",
+      "hidden": "true"
+    },
+    {
+      "layer-id": "building_outlines_[BUILDING]",
+      "fill-color": "#424e4f"
+    },
+    {
+      "layer-id": "floor_outlines_[FLOOR]",
+      "fill-color": "#424e4f"
+    },
+    {
+      "layer-id": "floor_walkways_floor_vo_1",
+      "fill-color": "#ffffff"
+    },
+    {
+      "layer-id": "floor_walkways_[FLOOR]",
+      "fill-color": "#ffffff"
+    },
+    {
+      "layer-id": "floor_elevators_[FLOOR]",
+      "fill-color": "#dcf4dd"
+    },
+    {
+      "layer-id": "floor_stairwells_[FLOOR]",
+      "fill-color": "#dcf4dd"
+    },
+    {
+      "layer-id": "floor_restrooms_[FLOOR]",
+      "fill-color": "#efefef"
+    },
+    {
+      "layer-id": "floor_other_rooms_[FLOOR]",
+      "fill-color": "#efefef"
+    },
+    {
+      "layer-id": "floor_rooms_[FLOOR]",
+      "fill-color": "#efefef"
+    },
+    {
+      "layer-id": "floor_non_public_units_[FLOOR]",
+      "fill-color": "#efefef"
+    },
+    {
+      "layer-id": "floor_open_to_below_units_[FLOOR]",
+      "fill-color": "#B3BCBC"
+    },
+    {
+      "layer-id": "floor_fixtures_[FLOOR]",
+      "fill-color": "#efefef"
+    },
+    {
+      "layer-id": "floor_amenities_[FLOOR]",
+      "text-value": "{NAME}",
+      "font-name": "Open Sans Regular",
+      "font-size": "12",
+      "font-color": "#000000",
+      "font-stroke-color": "#ffffff",
+      "font-stroke-width": "1.5",
+      "max-text-width": "4"
+    },
+    {
+      "layer-id": "floor_openings_[FLOOR]",
+      "line-color": "#ffffff"
+    },
+    {
+      "layer-id": "floor_water_[FLOOR]",
+      "fill-color": "#51b9ea"
+    },
+    {
+      "layer-id": "floor_labels_[FLOOR]",
+      "text-value": "{NAME}",
+      "font-name": "Open Sans Regular",
+      "font-size": "12",
+      "font-color": "#000000",
+      "font-stroke-color": "#ffffff",
+      "font-stroke-width": "1.5",
+      "max-text-width": "4"
+    },
+    {
+      "layer-id": "building_labels_[BUILDING]",
+      "text-value": "{NAME}",
+      "font-name": "Open Sans Regular",
+      "font-size": "20",
+      "font-color": "#ffffff",
+      "font-stroke-color": "#000000",
+      "font-stroke-width": "1.5",
+      "max-text-width": "10"
+    },
+    {
+      "layer-id": "floor_icons_[FLOOR]",
+      "icon-name": "{class}",
+      "hidden": "false"
+    },
+    {
+      "layer-id": "floor_selected_unit_[FLOOR]",
+      "fill-color": "#b0ccf8"
+    }
+  ]
+}

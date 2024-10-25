@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.hilton.android.hhonors" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH" android:required="false"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:maxSdkVersion="28" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.hilton.android.hhonors.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission android:name="com.hilton.android.hhonors.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:maxSdkVersion="30" android:name="android.permission.BLUETOOTH_ADMIN" android:required="false"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <queries>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND"/>
+            <data android:mimeType="message/rfc822"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND_MULTIPLE"/>
+            <data android:mimeType="application/pdf"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.DIAL"/>
+            <data android:scheme="tel"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:host="*" android:scheme="smsto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:host="*" android:scheme="mailto"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+        </intent>
+        <package android:name="me.lyft.android"/>
+        <package android:name="com.tencent.mm"/>
+        <package android:name="com.google.android.apps.maps"/>
+        <package android:name="androidx.test.orchestrator"/>
+        <package android:name="androidx.test.services"/>
+        <package android:name="com.google.android.apps.common.testing.services"/>
+    </queries>
+    <queries>
+        <package android:name="me.lyft.android"/>
+        <package android:name="com.google.android.apps.walletnfcrel"/>
+    </queries>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" android:usesPermissionFlags="neverForLocation"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <instrumentation android:name="androidx.test.runner.AndroidJUnitRunner" android:targetPackage="com.aegir.vmms.android"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="com.hilton.android.hhonors.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.hilton.android.hhonors.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@mipmap/ic_launcher_hilton_prod" android:label="Hilton Honors" android:largeHeap="true" android:name="com.mofo.hilton.android.hhonors.app.HHonorsApp" android:networkSecurityConfig="@xml/network_security_config" android:preserveLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher_hilton_prod" android:supportsRtl="true" android:theme="@style/HHonorsTheme">
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="false"/>
+        <meta-data android:name="asset_statements" android:resource="@string/asset_statements"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAZFAduZdem_7EYfiFV0RmtUwzpMVWeLbs"/>
+        <provider android:authorities="com.hilton.android.hhonors.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <provider android:authorities="com.hilton.android.hhonors.provider" android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.provider.StaysProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.service.RateOurAppService"/>
+        <service android:exported="false" android:name="com.mofo.android.hilton.core.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:exported="false" android:name="com.mofo.android.hilton.core.service.ReverseGeocodingService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.mofo.android.hilton.core.service.GooglePayService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.receiver.NewUpcomingStaysReceiver">
+            <intent-filter>
+                <action android:name="com.hilton.android.hhonors.db.ACTION_BROADCAST_STAYS_UPDATED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:label="@string/widget_name" android:name="com.mofo.android.hilton.core.widget.WidgetProvider">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DELETED"/>
+                <action android:name="android.appwidget.action.APPWIDGET_DISABLED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.mofo.android.hilton.core.receiver.MasterInstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.mofo.android.hilton.core.receiver.AppShortcutsRefreshReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.receiver.DeviceBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.service.FcmListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="false" android:name="com.mofo.android.hilton.core.service.RegistrationIntentService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.mofo.android.hilton.core.activity.BootActivity" android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.gms.actions.SEARCH_ACTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <data android:host="open" android:scheme="hhonors"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="hilton.test-app.link" android:scheme="https"/>
+                <data android:host="hilton-alternate.test-app.link" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="hilton.app.link" android:scheme="https"/>
+                <data android:host="hilton-alternate.app.link" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.mofo.android.hilton.core.activity.DeeplinkHandlerActivity" android:noHistory="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="open" android:scheme="hhonors"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="app" android:scheme="hhonors"/>
+                <data android:host="*"/>
+                <data android:scheme="hhonors"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="secure3.hilton.com" android:path="/en/hh/customer/login/index.htm" android:scheme="https"/>
+                <data android:host="secure3.hilton.com" android:pathPattern="/en_US/hh/reservation/.*\\/checkin.htm" android:scheme="https"/>
+                <data android:host="secure3.hilton.com" android:pathPattern="/en_US/hh/reservation/stay/.*\\/checkin.htm" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:host="www3.hilton.com" android:pathPrefix="/en/hotels"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="hiltonhonors3.hilton.com" android:path="/rs/hilton-honors-mobile-app/" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="hiltonhonors3.hilton.com" android:pathPrefix="/rs/hilton-honors-mobile-app" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.hilton.com" android:pathPrefix="/rs/hilton-honors-mobile-app" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="www.hilton.com" android:path="/rs/hilton-honors-mobile-app/" android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="" android:launchMode="singleTop" android:name="com.mofo.android.hilton.core.activity.SignInActivity" android:parentActivityName="com.mofo.android.hilton.core.activity.SignInActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_join_hhonors" android:launchMode="singleTop" android:name="com.mofo.android.hilton.core.activity.JoinHHonorsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme" android:windowSoftInputMode="stateVisible"/>
+        <activity android:label="@string/title_activity_nor1_upgrade" android:name="com.mofo.android.hilton.feature.nor1.Nor1UpgradeActivity" android:screenOrientation="portrait" android:theme="@style/Nor1ActivityTheme"/>
+        <activity android:label="@string/nor1_upgrade_details_title" android:name="com.mofo.android.hilton.feature.nor1.Nor1UpgradeDetailsActivity" android:parentActivityName="com.mofo.android.hilton.feature.nor1.Nor1UpgradeActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/nor1_confirmation_title" android:name="com.mofo.android.hilton.feature.nor1.Nor1ConfirmationActivity" android:parentActivityName="com.mofo.android.hilton.feature.nor1.Nor1UpgradeActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_your_rooms" android:name="com.mofo.android.hilton.feature.yourrooms.YourRoomsActivity" android:parentActivityName="com.mofo.android.hilton.feature.yourrooms.YourRoomsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_recover_account" android:name="com.mofo.android.hilton.feature.signin.RecoverAccountActivity" android:parentActivityName="com.mofo.android.hilton.core.activity.SignInActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_create_password" android:name="com.mofo.android.hilton.core.activity.CreatePasswordActivity" android:parentActivityName="com.mofo.android.hilton.core.activity.SignInActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.core.activity.SimpleTextViewActivity" android:parentActivityName="com.mofo.android.hilton.core.activity.SimpleTextViewActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_brand_alerts" android:launchMode="singleTop" android:name="com.mofo.android.hilton.core.activity.BrandAlertsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="" android:name="com.mofo.android.hilton.feature.nag.NagActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="" android:name="com.mofo.android.hilton.feature.forceupdate.ForceUpdateActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="" android:name="com.mofo.android.hilton.feature.osupdate.OsUpdateActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_unplanned_outage" android:name="com.mofo.android.hilton.feature.unplannedoutage.UnplannedOutageActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_reservation_form_rules_and_restrictions" android:name="com.mofo.android.hilton.core.activity.ReservationFormRulesAndRestrictionsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_hotel_location" android:name="com.mofo.android.hilton.core.activity.HotelLocationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:label="@string/title_activity_hotel_details" android:name="com.mofo.android.hilton.core.activity.HotelDetailsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:label="@string/title_activity_beta" android:name="com.mofo.android.hilton.feature.beta.BetaActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.beta.BetaFeatureActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_hotel_guide" android:name="com.mofo.android.hilton.feature.hotelGuide.HotelGuideActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_account_changes" android:name="com.mofo.android.hilton.core.activity.reservationform.AccountChangesActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_view_receipt" android:name="com.mofo.android.hilton.core.activity.ViewReceiptActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.hotelGuideItem.HotelGuideItemActivity" android:parentActivityName="com.mofo.android.hilton.feature.hotelGuide.HotelGuideActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/benefit_information_title" android:name="com.mofo.android.hilton.core.activity.BenefitsInformationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mofo.android.hilton.core.activity.OptinAnytimeMessageActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_view_receipt" android:name="com.mofo.android.hilton.feature.receipt.ViewStayReceiptsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.bottomnav.contact.ContactUsActivity" android:parentActivityName="com.mofo.android.hilton.feature.bottomnav.launch.BottomNavActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/search_reservations_find_your_stay" android:name="com.mofo.android.hilton.feature.bottomnav.searchreservation.SearchReservationsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.bottomnav.launch.SplashActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.stays.AccountAlertActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|uiMode" android:name="com.mofo.android.hilton.feature.bottomnav.launch.BottomNavActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.core.activity.MyWayHotelBenefitsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.feature.bottomnav.account.personalinformation.enhancedsecurity.EnhancedSecurityActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.core.activity.HotelPhotoGalleryActivity" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.mofo.android.hilton.core.activity.HotelPhotoListActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/fnc_used_coupons_activity_title" android:name="com.mofo.android.hilton.feature.amexcoupons.UsedAmexCouponsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/find_stay_ota_header" android:name="com.mofo.android.hilton.feature.bottomnav.searchreservation.ota.SearchOtaStayActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:exported="true" android:name="com.hilton.mobile.ShopFlowActivity" android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:exported="true" android:name="com.hilton.mobile.honors.enroll.M3EnrollFlowActivity" android:theme="@style/Theme.AppCompat.Light" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:name="com.hilton.mobile.honors.login.M3LoginFlowActivity" android:theme="@style/Theme.AppCompat.Light" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:name="com.mofo.android.hilton.feature.diningReservation.DiningReservationWebViewActivity" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.adobe.marketing.mobile.MessageFullScreenActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden"/>
+        <activity android:exported="true" android:name="com.hilton.mobile.honors.checkout.M3CheckOutFlowActivity" android:theme="@style/Theme.AppCompat.Light" android:windowSoftInputMode="adjustResize"/>
+        <receiver android:name="com.adobe.marketing.mobile.MessageNotificationHandler"/>
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_glXPM2Kabtb7o8tG8hg7fhohwraYrfE7"/>
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test_pdZTSWOfaFi0b3xJ5ka3niheqDlWEnxQ"/>
+        <activity android:name="com.americanexpress.amexadbanner.internal.support.ApplyNowActivity"/>
+        <activity android:name="com.hilton.android.module.shop.feature.setNights.SetNightsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/special_rates" android:name="com.hilton.android.module.shop.feature.specialratecode.SpecialRateCodeActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme" android:windowSoftInputMode="stateHidden"/>
+        <service android:exported="false" android:name="com.hilton.android.module.shop.service.ReverseGeocodingService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:label="@string/title_hotel_search" android:name="com.hilton.android.module.shop.feature.saytlocationsearch.SaytLocationSearchActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/dates" android:name="com.hilton.android.module.shop.feature.calendar.CalendarActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_offers_filter" android:name="com.hilton.android.module.shop.feature.offers.offerfilter.OffersFilterActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_offer_detail" android:name="com.hilton.android.module.shop.feature.offers.offerdetail.OfferDetailActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_offer_find_hotel" android:name="com.hilton.android.module.shop.feature.offers.offerfindhotel.OfferFindHotelActivity" android:parentActivityName="com.hilton.android.module.shop.feature.offers.offerdetail.OfferDetailActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_hotel_search_results_filter" android:name="com.hilton.android.module.shop.feature.hotelsearchresultsfilter.HotelSearchResultsFilterActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/shop_rooms_and_guests" android:name="com.hilton.android.module.shop.feature.roompicker.RoomOccupancyActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.android.module.messaging.feature.conversation.ConversationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.android.module.messaging.feature.info.MessageHotelInfoActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.hilton.android.module.explore.feature.browse.explore.ExploreActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:name="com.hilton.android.module.explore.feature.onboarding.OnBoardingActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.android.module.explore.feature.teammemberprofile.TeamMemberProfileActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:name="com.hilton.android.module.explore.feature.browse.quickhitslocationdetail.QuickHitsLocationDetailActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:name="com.hilton.android.module.explore.feature.locationdetail.LocationDetailActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:name="com.hilton.android.module.explore.feature.hiltonsuggest.HiltonSuggestActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.hilton.android.module.explore.feature.photo.SinglePhotoActivity" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.hilton.android.module.explore.feature.filter.FilterActivity" android:screenOrientation="portrait" android:theme="@style/FilterActivityTheme"/>
+        <activity android:name="com.hilton.android.module.explore.feature.photo.ExplorePhotoGalleryActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.android.module.explore.feature.photo.ExplorePhotoListActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/rate_details_activity_title" android:name="com.hilton.android.module.book.feature.ratedetails.RateDetailsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_room_and_rates_filter" android:name="com.hilton.android.module.book.feature.roomandratesfilter.RoomAndRatesFilterActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_hotel_policies" android:name="com.hilton.android.module.book.feature.hotelpolicies.HotelPoliciesActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_call_us_activity" android:name="com.hilton.android.module.book.feature.callus.CallUsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/activity_title_echeckin_payment" android:name="com.hilton.android.module.book.feature.paymentmethodselection.PaymentMethodSelectionActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_special_requests" android:name="com.hilton.android.module.book.feature.specialrequests.SpecialRequestsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_add_additional_guests" android:name="com.hilton.android.module.book.feature.additionalguests.AddAdditionalGuestsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_pay_with_pam" android:name="com.hilton.android.module.book.feature.paywithpam.PayWithPaMActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/title_activity_reservation_form" android:name="com.hilton.android.module.book.feature.reservationform.ReservationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/book_multi_room_rate_details_title" android:name="com.hilton.android.module.book.feature.ratedetails.MultiRoomRateDetailsActivity" android:parentActivityName="com.hilton.android.module.book.feature.reservationform.ReservationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:label="@string/activity_title_reservation_add_payment_method" android:name="com.hilton.android.module.book.feature.reservationpaymentadd.ReservationPaymentAddActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/title_guest_information" android:name="com.hilton.android.module.book.feature.guestinformation.GuestInformationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="" android:name="com.hilton.android.module.book.feature.pointsandmoneyintro.PointsAndMoneyIntroActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/stay_details_title" android:name="com.hilton.android.module.book.feature.staydetails.StayDetailsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode.Transparent"/>
+        <activity android:label="@string/title_activity_reservation_form_rules_and_restrictions" android:name="com.hilton.android.module.book.feature.reservationform.ReservationFormRulesAndRestrictionsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.android.module.book.feature.gdpr.GdprModalActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/add_ons_customize_your_stay" android:name="com.hilton.android.module.book.feature.addons.AddOnActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/add_ons_customize_your_stay" android:name="com.hilton.android.module.book.feature.addons.StayDetailsAddOnActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="" android:name="com.hilton.android.connectedroom.feature.welcome.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/LightTheme"/>
+        <activity android:label="@string/faq" android:name="com.hilton.android.connectedroom.feature.faq.FAQActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.welcome.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/LightTheme"/>
+        <activity android:label="@string/rate" android:name="com.hilton.android.connectedroom.feature.rate.views.RateActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.hub.HubActivity" android:screenOrientation="portrait" android:theme="@style/LightTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/title_activity_tv" android:name="com.hilton.android.connectedroom.feature.tv.TvActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.hub.HubActivity" android:screenOrientation="portrait" android:theme="@style/DarkTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/title_activity_climate" android:name="com.hilton.android.connectedroom.feature.climate.ClimateActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.hub.HubActivity" android:screenOrientation="portrait" android:theme="@style/DarkTheme.Gradient"/>
+        <activity android:label="@string/title_activity_lights" android:name="com.hilton.android.connectedroom.feature.lights.LightsActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.hub.HubActivity" android:screenOrientation="portrait" android:theme="@style/DarkTheme.Gradient"/>
+        <activity android:label="@string/title_activity_hub" android:name="com.hilton.android.connectedroom.feature.hub.HubActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.welcome.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/DarkTheme.Gradient"/>
+        <activity android:label="@string/title_activity_streaming_apps" android:name="com.hilton.android.connectedroom.feature.account.StreamingAppsChannelsActivity" android:parentActivityName="com.hilton.android.connectedroom.feature.welcome.WelcomeActivity" android:screenOrientation="portrait" android:theme="@style/LightTheme"/>
+        <activity android:name="com.hilton.android.connectedroom.feature.info.InfoDialogActivity" android:theme="@style/DigitalKeyInfoTheme"/>
+        <activity android:name="com.hilton.android.connectedroom.feature.thingslist.views.ThingsListActivity" android:screenOrientation="portrait" android:theme="@style/DarkTheme.Gradient"/>
+        <activity android:name="com.hilton.android.connectedroom.feature.survey.SurveyActivity" android:screenOrientation="portrait" android:theme="@style/LightTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.hilton.android.library.shimpl.ui.fullscreenimagecarousel.FullscreenImageCarouselActivity" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/application_title" android:name="com.hilton.android.library.shimpl.ui.webview.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/application_title" android:name="com.hilton.android.library.shimpl.ui.webview.ScaWebViewActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/application_title" android:name="com.hilton.android.library.shimpl.ui.webview.AmexWebViewActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/application_title" android:name="com.hilton.android.library.shimpl.ui.webview.GooglePayScaWebViewActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/dci_module_title_activity_check_in_time_selection" android:name="com.mobileforming.module.checkin.activity.ECheckInTimeActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_auto_upgrade" android:name="com.mobileforming.module.checkin.activity.AutoUpgradeActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_rules_and_restrictions" android:name="com.mobileforming.module.checkin.activity.CheckinRulesAndRestrictionsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_check_in" android:name="com.mobileforming.module.checkin.activity.CheckInActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_echeck_in_payment" android:name="com.mobileforming.module.checkin.activity.ECheckInPaymentActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_room_details" android:name="com.mobileforming.module.checkin.activity.CheckinRoomDetailsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.checkin.feature.checkout.multiroom.MultiRoomCheckOutActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.checkin.activity.CheckinCompleteActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_hotel_map" android:name="com.mobileforming.module.checkin.feature.hotelmap.HotelMapActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_activity_title_credit_card_fail" android:name="com.mobileforming.module.checkin.feature.payment.CreditCardFailActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.checkin.feature.checkin.CollapsedDciFlowActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.checkin.feature.checkout.CheckoutInfoActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_hotel_map" android:name="com.mobileforming.module.checkin.feature.lokion.floorPlanViewer.FloorPlanViewerActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dci_module_title_activity_hotel_map" android:name="com.mobileforming.module.checkin.feature.lokion.LokionMapActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="Key Manager" android:name="com.mobileforming.module.digitalkey.feature.key.S2RKeyManagerActivity" android:parentActivityName="com.mobileforming.module.digitalkey.feature.unlock.DigitalKeyActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.digitalkey.feature.key.DigitalKeyExplanationActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.digitalkey.feature.key.DialogKeyShareExceptionActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.digitalkey.feature.key.DigitalKeyErrorActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_s2r_hide_room_numbers" android:name="com.mobileforming.module.digitalkey.feature.key.S2RHideRoomNumbersActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_s2r_edit_room_name" android:name="com.mobileforming.module.digitalkey.feature.key.S2REditRoomNameActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_s2r_hide_room_numbers_confirm" android:launchMode="singleTop" android:name="com.mobileforming.module.digitalkey.feature.key.S2RHideRoomNumbersConfirmActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="" android:name="com.mobileforming.module.digitalkey.feature.traveldocs.TravelDocsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_digital_key_faq" android:launchMode="singleTop" android:name="com.mobileforming.module.digitalkey.feature.key.DigitalKeyFaqActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:name="com.mobileforming.module.digitalkey.feature.key.DigitalKeyInfoDialogActivity" android:theme="@style/DigitalKeyInfoTheme"/>
+        <activity android:label="@string/dk_module_title_activity_echeck_in_parking" android:name="com.mobileforming.module.digitalkey.feature.optin.ECheckInParkingActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_digital_key_notifications" android:name="com.mobileforming.module.digitalkey.feature.optin.ECheckInDigitalKeyNotificationsActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonThemeDark.TransparentStatusBar"/>
+        <activity android:label="@string/dk_module_title_activity_echeck_in_digital_key_opt_in" android:name="com.mobileforming.module.digitalkey.feature.optin.ECheckInDigitalKeyOptInActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonThemeDark.TransparentStatusBar"/>
+        <activity android:label="@string/dk_module_title_activity_echeck_in_digital_key_opt_in" android:launchMode="singleTop" android:name="com.mobileforming.module.digitalkey.feature.unlock.DigitalKeyActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_module_title_activity_echeck_in_digital_key_opt_in" android:name="com.mobileforming.module.digitalkey.feature.optin.ECheckInDefaultOptinActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:label="@string/dk_parking" android:name="com.mobileforming.module.digitalkey.feature.optin.DefaultOptInParkingActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme"/>
+        <activity android:excludeFromRecents="true" android:label="" android:name="com.mobileforming.module.fingerprint.activity.FingerprintSecurityActivity" android:screenOrientation="portrait"/>
+        <activity android:label="" android:launchMode="singleTop" android:name="com.mobileforming.module.fingerprint.activity.FingerprintOptInActivity" android:screenOrientation="portrait" android:theme="@style/FingerprintOptInTheme"/>
+        <activity android:name="com.mobileforming.module.navigation.activity.SingleTabFragmentActivity" android:screenOrientation="portrait" android:theme="@style/HiltonCommonTheme.FullScreenMode"/>
+        <activity android:name="com.hilton.mobile.legacymodule.navigation.activity.SingleTabFragmentActivity" android:screenOrientation="portrait" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.hilton.mobile.legacymodule.shimpl.ui.fullscreenimagecarousel.FullscreenImageCarouselActivity" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/legacy_application_title" android:name="com.hilton.mobile.legacymodule.shimpl.ui.webview.WebViewActivity" android:screenOrientation="portrait" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/legacy_application_title" android:name="com.hilton.mobile.legacymodule.shimpl.ui.webview.ScaWebViewActivity" android:screenOrientation="portrait" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/legacy_application_title" android:name="com.hilton.mobile.legacymodule.shimpl.ui.webview.AmexWebViewActivity" android:screenOrientation="portrait" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:label="@string/legacy_application_title" android:name="com.hilton.mobile.legacymodule.shimpl.ui.webview.GooglePayScaWebViewActivity" android:screenOrientation="portrait" android:theme="@style/legacy_HiltonCommonTheme.FullScreenMode"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adyen.checkout.dropin.internal.ui.DropInActivity" android:theme="@style/AdyenCheckout.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.hilton.android.hhonors" android:path="" android:scheme="adyencheckout"/>
+                <data android:host="com.hilton.android.hhonors" android:path="/" android:scheme="adyencheckout"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.adyen.checkout.dropin.SessionDropInService"/>
+        <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true"/>
+        <activity android:exported="false" android:name="com.appboy.ui.AppboyWebViewActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.BrazeWebViewActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyFeedActivity"/>
+        <activity android:exported="false" android:name="com.appboy.ui.activities.AppboyContentCardsActivity"/>
+        <activity android:exported="false" android:name="com.braze.ui.activities.ContentCardsActivity"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.braze.push.NotificationTrampolineActivity" android:theme="@style/Braze.PushTrampoline.Transparent"/>
+        <receiver android:exported="false" android:name="com.braze.push.BrazePushReceiver"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <activity android:name="com.adobe.marketing.mobile.AssuranceFullScreenTakeoverActivity"/>
+        <activity android:name="com.adobe.marketing.mobile.AssuranceErrorDisplayActivity"/>
+        <receiver android:exported="false" android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:isolatedProcess="false" android:label="beacon" android:name="org.altbeacon.beacon.service.BeaconService"/>
+        <service android:enabled="true" android:exported="false" android:name="org.altbeacon.beacon.BeaconIntentProcessor"/>
+        <service android:exported="false" android:name="org.altbeacon.beacon.service.ScanJob" android:permission="android.permission.BIND_JOB_SERVICE">
+            <meta-data android:name="immediateScanJobId" android:value="208352939"/>
+            <meta-data android:name="periodicScanJobId" android:value="208352940"/>
+        </service>
+        <service android:exported="false" android:name="org.altbeacon.bluetooth.BluetoothTestJob" android:permission="android.permission.BIND_JOB_SERVICE">
+            <meta-data android:name="jobId" android:value="1799803768"/>
+        </service>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.adyen.threeds2.internal.ui.activity.ChallengeActivity" android:theme="@style/ThreeDS2Theme.Internal" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="com.hilton.android.hhonors" android:scheme="adyen3ds2"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="com.adyen.threeds2.internal.AppUpgradeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="hostAppId" android:value="com.hilton.android.hhonors"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.FirebaseDynamicLinksKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+            <meta-data android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED" android:value="true"/>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.hilton.android.hhonors.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="true" android:name="androidx.compose.ui.tooling.PreviewActivity"/>
+        <activity android:exported="true" android:name="androidx.activity.ComponentActivity"/>
+        <provider android:authorities="com.hilton.android.hhonors.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="app.cash.paykit.core.CashAppPayInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="com.apollographql.apollo3.cache.normalized.sql.ApolloInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="io.realm.kotlin.internal.RealmInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <receiver android:exported="false" android:name="com.braze.receivers.BrazeActionReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <activity android:excludeFromRecents="true" android:name="com.cyberfend.cyfsecurity.CCADialogActivity" android:theme="@style/DialogActivity"/>
+        <receiver android:exported="false" android:name="com.utc.fs.trframework.DKPassiveScanReceiver" android:permission="android.permission.BLUETOOTH"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

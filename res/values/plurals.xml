@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a11y_amenities">
+        <item quantity="other">Amenities, %d hotel amenities selected</item>
+        <item quantity="one">Amenities, %d hotel amenity selected</item>
+    </plurals>
+    <plurals name="a11y_brand_amenity_checkbox">
+        <item quantity="other">%1$s, %2$d hotels available</item>
+        <item quantity="one">%1$s, %2$d hotel available</item>
+    </plurals>
+    <plurals name="a11y_brands">
+        <item quantity="other">Brands, %d hotel brands selected</item>
+        <item quantity="one">Brands, %d hotel brand selected</item>
+    </plurals>
+    <plurals name="account_milestone_nights_needed">
+        <item quantity="other">nights needed</item>
+        <item quantity="one">night needed</item>
+    </plurals>
+    <plurals name="account_nights">
+        <item quantity="other">%s nights</item>
+        <item quantity="one">%s night</item>
+    </plurals>
+    <plurals name="account_nights_stayed">
+        <item quantity="other">"You've stayed %1$s nights this year."</item>
+        <item quantity="one">"You've stayed %1$s night this year."</item>
+    </plurals>
+    <plurals name="account_nights_to_achieve">
+        <item quantity="other">Your %2$s status is %1$s nights away.</item>
+        <item quantity="one">Your %2$s status is %1$s night away.</item>
+    </plurals>
+    <plurals name="account_nights_to_maintain">
+        <item quantity="other">Stay %1$s Nights to keep %2$s status.</item>
+        <item quantity="one">Stay %1$s Night to keep %2$s status.</item>
+    </plurals>
+    <plurals name="account_points">
+        <item quantity="other">%s points</item>
+        <item quantity="one">%s point</item>
+    </plurals>
+    <plurals name="account_points_earned">
+        <item quantity="other">"You've earned %1$s Base Points this year."</item>
+        <item quantity="one">"You've earned %1$s Base Point this year."</item>
+    </plurals>
+    <plurals name="account_points_to_achieve">
+        <item quantity="other">Your %2$s status is %1$s Points away.</item>
+        <item quantity="one">Your %2$s status is %1$s Point away.</item>
+    </plurals>
+    <plurals name="account_points_to_maintain">
+        <item quantity="other">Earn %1$s Points to keep %2$s status.</item>
+        <item quantity="one">Earn %1$s Point to keep %2$s status.</item>
+    </plurals>
+    <plurals name="account_stays">
+        <item quantity="other">%s stays</item>
+        <item quantity="one">%s stay</item>
+    </plurals>
+    <plurals name="account_stays_had">
+        <item quantity="other">"You've had %1$s stays this year."</item>
+        <item quantity="one">"You've had %1$s stay this year."</item>
+    </plurals>
+    <plurals name="account_stays_to_achieve">
+        <item quantity="other">Your %2$s status is %1$s stays away.</item>
+        <item quantity="one">Your %2$s status is %1$s stay away.</item>
+    </plurals>
+    <plurals name="account_stays_to_maintain">
+        <item quantity="other">Stay %1$s times to keep %2$s status.</item>
+        <item quantity="one">Stay %1$s time to keep %2$s status.</item>
+    </plurals>
+    <plurals name="adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="ages">
+        <item quantity="other">ages</item>
+        <item quantity="one">age</item>
+    </plurals>
+    <plurals name="apply_nights">
+        <item quantity="other">"Apply 
+ %d Nights"</item>
+        <item quantity="one">"Apply 
+ %d Night"</item>
+    </plurals>
+    <plurals name="average_number_of_nights">
+        <item quantity="other">avg/night for %1$d nights</item>
+        <item quantity="one">avg/night for %1$d night</item>
+    </plurals>
+    <plurals name="average_number_of_nights_description">
+        <item quantity="other">Avg/night in %2$s (%3$s) for %1$d nights.</item>
+        <item quantity="one">Avg/night in %2$s (%3$s) for %1$d night.</item>
+    </plurals>
+    <plurals name="average_number_of_nights_description_talkback">
+        <item quantity="other">Average rate per night in %2$s (%3$s) for %1$d nights.</item>
+        <item quantity="one">Average rate per night in %2$s (%3$s) for %1$d night.</item>
+    </plurals>
+    <plurals name="average_number_of_nights_talkback">
+        <item quantity="other">average per night for %1$d nights</item>
+        <item quantity="one">average per night for %1$d night</item>
+    </plurals>
+    <plurals name="calendar_nights">
+        <item quantity="other">%d nights</item>
+        <item quantity="one">%d night</item>
+    </plurals>
+    <plurals name="dci_module_e_checkin_rooms_available">
+        <item quantity="other">%d rooms available</item>
+        <item quantity="one">%d room available</item>
+    </plurals>
+    <plurals name="dci_module_echeckin_rooms">
+        <item quantity="other">%s available rooms</item>
+        <item quantity="one">%s available room</item>
+    </plurals>
+    <plurals name="dci_module_map_pin_beds">
+        <item quantity="other">BEDS</item>
+        <item quantity="one">BED</item>
+    </plurals>
+    <plurals name="dci_module_rating_description">
+        <item quantity="other">%d stars</item>
+        <item quantity="zero">%d star</item>
+        <item quantity="one">%d star</item>
+    </plurals>
+    <plurals name="dci_module_roomsAvailable">
+        <item quantity="other">rooms available</item>
+        <item quantity="one">room available</item>
+    </plurals>
+    <plurals name="dci_module_rooms_filter_see_results">
+        <item quantity="other">See %d Results</item>
+        <item quantity="one">See %d Result</item>
+    </plurals>
+    <plurals name="dci_module_search_result_adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="dci_module_search_result_kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="zero">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="dci_module_updated_booked_rate_rooms_available">
+        <item quantity="other">%d booked rate rooms</item>
+        <item quantity="one">%d booked rate room</item>
+    </plurals>
+    <plurals name="dci_module_updated_upgraded_rooms_available">
+        <item quantity="other">%d free upgrade rooms</item>
+        <item quantity="one">%d free upgrade room</item>
+    </plurals>
+    <plurals name="dci_module_updated_upsell_rooms_available">
+        <item quantity="other">%d paid upgrade rooms</item>
+        <item quantity="one">%d paid upgrade room</item>
+    </plurals>
+    <plurals name="dci_module_upgraded_rooms_available">
+        <item quantity="other">%d free upgrades</item>
+        <item quantity="one">%d free upgrade</item>
+    </plurals>
+    <plurals name="dci_module_upsell_rooms_available">
+        <item quantity="other">%d paid upgrades</item>
+        <item quantity="one">%d paid upgrade</item>
+    </plurals>
+    <plurals name="extra_fingerprint_security_time">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="fnc_rewards">
+        <item quantity="other">%d Free Night Rewards</item>
+        <item quantity="one">%d Free Night Reward</item>
+    </plurals>
+    <plurals name="fractal_calendar_nights">
+        <item quantity="other">%d nights</item>
+        <item quantity="one">%d night</item>
+    </plurals>
+    <plurals name="fractal_picker_modal_results_below">
+        <item quantity="other">%d results below</item>
+        <item quantity="one">%d result below</item>
+    </plurals>
+    <plurals name="fractal_standard_card_image_gallery_content_description">
+        <item quantity="other">%1$s photo gallery, %2$d photos.</item>
+        <item quantity="one">%1$s photo gallery, %2$d photo.</item>
+    </plurals>
+    <plurals name="guests">
+        <item quantity="other">%d guests</item>
+        <item quantity="one">%d guest</item>
+    </plurals>
+    <plurals name="kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="legacy_adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="legacy_ages">
+        <item quantity="other">ages</item>
+        <item quantity="one">age</item>
+    </plurals>
+    <plurals name="legacy_kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="legacy_search_result_adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="legacy_search_result_kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="zero">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="legacy_search_result_rooms">
+        <item quantity="other">%d Rooms</item>
+        <item quantity="one">%d Room</item>
+    </plurals>
+    <plurals name="messaging_new_messages_description">
+        <item quantity="other">%1$s, %2$d new messages available</item>
+        <item quantity="one">%1$s, %2$d new message available</item>
+    </plurals>
+    <plurals name="milestone_bubble_nights">
+        <item quantity="other">"%s
+nights"</item>
+        <item quantity="one">"%s
+night"</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="offers_available">
+        <item quantity="other">%d offers</item>
+        <item quantity="one">%d offer</item>
+    </plurals>
+    <plurals name="pam_fnf_earned">
+        <item quantity="other">You earned %d nights free!</item>
+        <item quantity="one">You earned 1 night free!</item>
+    </plurals>
+    <plurals name="preparing_rooms">
+        <item quantity="other">Preparing %d more rooms…</item>
+        <item quantity="one">Preparing %d more room…</item>
+    </plurals>
+    <plurals name="rooms">
+        <item quantity="other">%d rooms</item>
+        <item quantity="one">%d room</item>
+    </plurals>
+    <plurals name="search_result_adults">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="search_result_kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="zero">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="search_result_miles_filter">
+        <item quantity="other">miles</item>
+        <item quantity="one">mile</item>
+    </plurals>
+    <plurals name="search_result_rooms">
+        <item quantity="other">%d Rooms</item>
+        <item quantity="one">%d Room</item>
+    </plurals>
+    <plurals name="see_all_offers_available">
+        <item quantity="other">See %d offers</item>
+        <item quantity="one">See %d offer</item>
+    </plurals>
+    <plurals name="shopfeature_amenities_chip_a11y_label">
+        <item quantity="other">Configure amenities filter, %1$d amenities selected</item>
+        <item quantity="one">Configure amenities filter, %1$d amenity selected</item>
+    </plurals>
+    <plurals name="shopfeature_brands_chip_a11y_label">
+        <item quantity="other">Configure brands filter, %1$d brands selected</item>
+        <item quantity="one">Configure brands filter, %1$d brand selected</item>
+    </plurals>
+    <plurals name="shopfeature_calendar_nights">
+        <item quantity="other">%d nights</item>
+        <item quantity="one">%d night</item>
+    </plurals>
+    <plurals name="shopfeature_cluster_map_pin_text">
+        <item quantity="other">%1$d Hotels</item>
+        <item quantity="one">%1$d Hotel</item>
+    </plurals>
+    <plurals name="shopfeature_guests">
+        <item quantity="other">%d guests</item>
+        <item quantity="one">%d guest</item>
+    </plurals>
+    <plurals name="shopfeature_kids">
+        <item quantity="other">%d Kids</item>
+        <item quantity="one">%d Kid</item>
+    </plurals>
+    <plurals name="shopfeature_less_than_miles">
+        <item quantity="other">&lt; %d miles</item>
+        <item quantity="one">&lt; %d mile</item>
+    </plurals>
+    <plurals name="shopfeature_miles">
+        <item quantity="other">%d miles</item>
+        <item quantity="one">%d mile</item>
+    </plurals>
+    <plurals name="shopfeature_more_filters_chip_a11y_label">
+        <item quantity="other">Configure more filters, %1$d filters selected</item>
+        <item quantity="one">Configure more filters, %1$d filter selected</item>
+    </plurals>
+    <plurals name="shopfeature_reservation_summary_insufficient_points_alert_message">
+        <item quantity="other">"You have %s points which doesn't cover this reservation, but you can still use them toward your rate"</item>
+        <item quantity="one">"You have %s point which doesn't cover this reservation, but you can still use them toward your rate"</item>
+    </plurals>
+    <plurals name="shopfeature_rooms">
+        <item quantity="other">%d rooms</item>
+        <item quantity="one">%d room</item>
+    </plurals>
+    <plurals name="shopfeature_search_adults_label">
+        <item quantity="other">"Adults Only
+Unable to book %d Kids.
+Update guest info to proceed."</item>
+        <item quantity="one">"Adults Only
+Unable to book %d Kid.
+Update guest info to proceed."</item>
+    </plurals>
+    <plurals name="shopfeature_search_result_rooms">
+        <item quantity="other">%d Rooms</item>
+        <item quantity="one">%d Room</item>
+    </plurals>
+    <plurals name="shopfeature_search_result_rooms_people">
+        <item quantity="other">%d Adults</item>
+        <item quantity="one">%d Adult</item>
+    </plurals>
+    <plurals name="shopfeature_search_results_gallery_content_description">
+        <item quantity="other">%1$s photo gallery, %2$d photos. Two finger swipe left or right to see more</item>
+        <item quantity="one">%1$s photo gallery, %2$d photo.</item>
+    </plurals>
+    <plurals name="shopfeature_search_widget_special_rates_and_codes_accessibility">
+        <item quantity="other">Edit special rates, %1$s special rates applied</item>
+        <item quantity="one">Edit special rates, %1$s special rate applied</item>
+    </plurals>
+    <plurals name="shopfeature_special_offers_header_content_desc">
+        <item quantity="other">Special offers (%1$d items)</item>
+        <item quantity="one">Special offers (%1$d item)</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_aaa_input_validation_error">
+        <item quantity="other">Your AAA membership number should be exactly %d digits</item>
+        <item quantity="one">Your AAA membership number should be exactly %d digit</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_aarp_input_validation_error">
+        <item quantity="other">Your AARP membership number should be no more than %d digits</item>
+        <item quantity="one">Your AARP membership number should be no more than %d digit</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_travel_agent_validation_error">
+        <item quantity="other">Your travel agent number should be exactly %d digits</item>
+        <item quantity="one">Your travel agent number should be exactly %d digit</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_unlimited_rewards_validation_error">
+        <item quantity="other">Your Unlimited Rewards number should be no more than %d digits</item>
+        <item quantity="one">Your Unlimited Rewards number should be no more than %d digit</item>
+    </plurals>
+    <plurals name="sleep_timer_dialog_description_with_timer">
+        <item quantity="other">The TV will turn off in %d minutes.</item>
+        <item quantity="one">The TV will turn off in %d minute.</item>
+    </plurals>
+    <plurals name="special_rates">
+        <item quantity="other">Special Rates, %d rates selected</item>
+        <item quantity="one">Special Rates, %d rate selected</item>
+    </plurals>
+    <plurals name="stays_feature_number_of_nights">
+        <item quantity="other">%d Nights</item>
+        <item quantity="one">%d Night</item>
+    </plurals>
+    <plurals name="two_fa_code_sent_alert">
+        <item quantity="other">&lt;b>Code sent.&lt;/b> &lt;br/>Please wait at least %d minutes before requesting another.</item>
+        <item quantity="one">&lt;b>Code sent.&lt;/b> &lt;br/>Please wait at least 1 minute before requesting another.</item>
+    </plurals>
+</resources>

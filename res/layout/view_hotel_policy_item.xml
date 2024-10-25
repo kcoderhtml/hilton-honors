@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/hotel_policy_container_layout" android:tag="layout/view_hotel_policy_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header_layout" android:tag="binding_1" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mobileforming.module.common.view.DrawableTextView android:gravity="center_vertical" android:id="@id/header_tv" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="16.0dip" android:layout_weight="1.0" app:drawableHeight="24.0dip" app:drawableWidth="24.0dip" style="@style/HotelPoliciesHeader" />
+        <ImageView android:id="@id/expand_icon_iv" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_expand" />
+    </LinearLayout>
+    <TextView android:id="@id/single_column_content" android:tag="binding_4" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/HotelPoliciesParagraph" />
+    <LinearLayout android:orientation="vertical" android:id="@id/double_columns_content" android:tag="binding_5" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:tag="binding_6" style="@style/Divider" />
+</LinearLayout>

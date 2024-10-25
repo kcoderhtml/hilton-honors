@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/profile_switch_banner_layout" android:tag="layout/view_profile_switch_banner_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/profile_switch_banner_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_alert_outline" android:importantForAccessibility="no" app:tint="@color/profile_switch_icon_color" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff1d1d1d" android:id="@id/profile_switch_banner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:layout_marginStart="8.0dip" />
+</LinearLayout>

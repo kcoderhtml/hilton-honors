@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/view_push_notification_pref_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/pref_title" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PreferenceTitle" />
+        <TextView android:id="@id/pref_summary" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PreferenceTitle.Summary" />
+    </LinearLayout>
+    <androidx.appcompat.widget.SwitchCompat android:theme="@style/BrandedSwitch.control" android:id="@id/pref_switch" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

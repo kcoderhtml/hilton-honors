@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/dci_module_fragment_echeckin_building_map_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/map_building_details_container" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/building_details_container" android:tag="binding_1" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View style="@style/Divider" />
+            <include android:id="@id/details_layout" layout="@layout/dci_module_building_floor_item" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/building_details_container_three_options" android:tag="binding_2" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View style="@style/Divider" />
+            <include android:id="@id/details_layout_three_options" layout="@layout/dci_module_building_floor_item_three_options" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab_building_details" android:tag="binding_3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dci_module_fab_compat_negative_half_radius_small" android:layout_marginRight="16.0dip" android:src="@drawable/dci_module_ic_arrow_forward" android:tint="@color/white" android:layout_alignTop="@id/map_building_details_container" android:layout_alignParentRight="true" app:fabSize="mini" app:useCompatPadding="true" />
+    <include android:id="@id/filter_layout" layout="@layout/dci_module_layout_filter_button" />
+</RelativeLayout>

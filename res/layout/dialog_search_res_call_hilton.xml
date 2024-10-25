@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_search_res_call_hilton_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip" android:paddingVertical="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/message" android:text="@string/search_reservation_call_care_msg" android:hyphenationFrequency="none" style="@style/SearchReservationCallCareMsg" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/call_from_US_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_phone_black_24dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@null" android:layout_marginVertical="24.0dip" app:tint="@color/button_colorPrimary" />
+        <TextView android:id="@id/call_from_US_Canada" android:tag="binding_1" android:layout_marginLeft="16.0dip" android:text="@string/call_from_US_Canada" android:layout_toRightOf="@id/call_from_US_image" android:layout_alignParentTop="true" android:layout_marginVertical="24.0dip" style="@style/RecoverAccount_Call_Hilton_Black_Text" />
+        <ImageView android:id="@id/call_internationally_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_phone_black_24dp" android:layout_below="@id/call_from_US_image" android:layout_alignParentLeft="true" android:contentDescription="@null" app:tint="@color/button_colorPrimary" />
+        <TextView android:id="@id/call_internationally" android:tag="binding_2" android:layout_marginLeft="16.0dip" android:text="@string/call_internationally" android:layout_toRightOf="@id/call_internationally_image" android:layout_below="@id/call_from_US_Canada" style="@style/RecoverAccount_Call_Hilton_Black_Text" />
+        <TextView android:id="@id/toll_rates_may_apply" android:tag="binding_3" android:layout_marginLeft="16.0dip" android:text="@string/toll_rates_may_apply" android:layout_toRightOf="@id/call_internationally_image" android:layout_below="@id/call_internationally" style="@style/RecoverAccount_Call_Hilton_Gray_Text" />
+    </RelativeLayout>
+</LinearLayout>

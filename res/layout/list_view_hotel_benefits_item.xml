@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/list_view_hotel_benefits_item_0" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.compose.ui.platform.ComposeView android:layout_gravity="center_vertical" android:id="@id/brand_logo" android:paddingLeft="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.mobileforming.module.common.view.DrawableTextView android:textSize="@dimen/search_location_row_font_size" android:gravity="center_vertical" android:id="@id/brand_name" android:tag="binding_1" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    </LinearLayout>
+    <View android:id="@id/div0" style="@style/Divider" />
+</LinearLayout>

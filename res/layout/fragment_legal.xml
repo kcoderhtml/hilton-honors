@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:tag="layout/fragment_legal_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/privacy_statement" android:text="@string/legal_privacy_statement" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/personal_data_requests" android:text="@string/legal_personal_data_requests" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/dk_terms_of_use" android:text="@string/legal_dk_terms_of_use" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/dci_terms_of_use" android:text="@string/legal_dci_terms_of_use" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/usage_agreement" android:text="@string/legal_usage_agreement" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/do_not_sell_my_info" android:text="@string/legal_do_not_sell_my_info" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/open_source_attributions" android:text="@string/legal_open_source" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/terms_and_conditions" android:text="@string/hilton_honors_terms_conditions" app:drawableColor="@color/light_gray" style="@style/AppPreferenceListItem" />
+</LinearLayout>

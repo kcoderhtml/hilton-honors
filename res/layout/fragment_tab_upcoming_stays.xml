@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_tab_upcoming_stays_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mofo.android.hilton.feature.stays.StaysViewPager android:id="@id/active_stay_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" android:accessibilityTraversalAfter="@id/stay_indicator_dots" />
+    <com.mofo.android.hilton.feature.stays.IndicatorDotsLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/stay_indicator_dots" android:tag="binding_1" android:paddingTop="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" android:importantForAccessibility="yes" />
+</FrameLayout>

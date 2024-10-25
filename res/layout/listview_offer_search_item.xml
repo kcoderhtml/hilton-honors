@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/listview_offer_search_item_0" android:background="@color/white" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/search_results_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/hotel_layout" android:background="@color/light_gray" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="4.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/alert_messaging" android:id="@id/hotel_sold_out_message" android:background="@color/alert_message_bkg" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hotel_sold_out" />
+        <ImageView android:id="@id/ivHotelImage" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="@dimen/search_results_row_height" android:scaleType="centerCrop" android:layout_below="@id/hotel_sold_out_message" />
+        <View android:background="#36000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/pointsDetailsContainer" android:layout_alignBottom="@id/pointsDetailsContainer" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="80.0dip" android:src="@drawable/hotel_search_row_upper_gradient" android:layout_alignTop="@id/pointsDetailsContainer" />
+        <TextView android:id="@id/tvHotelName" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_above="@id/heartDistanceGroup" android:layout_alignParentLeft="true" style="@style/SearchResults_Text.Name" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/heartDistanceGroup" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+            <com.mobileforming.module.common.view.FavoriteHeart android:id="@id/favorite_heart" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+            <TextView android:ellipsize="end" android:id="@id/tvDistanceFrom" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:maxLines="2" android:layout_weight="1.0" android:alpha="0.75" style="@style/SearchResults_Text.Distance" />
+            <FrameLayout android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip">
+                <View android:id="@id/iv_connectedroom_bg" android:tag="binding_5" android:background="@drawable/brand_accent_circle" android:layout_width="24.0dip" android:layout_height="24.0dip" android:transitionName="@string/info_overlay_circle_transition" />
+                <ImageView android:id="@id/iv_connectedroom_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_cr_search_icon" android:transitionName="@string/info_overlay_transition" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/iv_dkey_bg" android:tag="binding_6" android:layout_width="24.0dip" android:layout_height="24.0dip" android:backgroundTint="@color/primary_light_blue" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/pointsDetailsContainer" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hotel_sold_out_message">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+                <LinearLayout android:orientation="vertical" android:id="@id/pricePtContainer" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tvFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_offer_results_from" style="@style/SearchResults_Text.Price_From" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tvPtPrice" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tvFrom" style="@style/SearchResults_Text.Price_Amount" />
+                    <TextView android:id="@id/per_night_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_room_per_night" android:layout_below="@id/tvSymbolAndPrice" style="@style/SearchResults_Text.Price_Per" />
+                    <TextView android:id="@id/special_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/per_night_label" style="@style/SearchResults_Text.RateType" />
+                </LinearLayout>
+                <View android:layout_marginRight="16.0dip" style="@style/HotelsSearchResults_PointsDivider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/pointPtContainer" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:id="@id/tvPointPoints" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchResults_Text.Price_Amount" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_room_hhonors_points" style="@style/SearchResults_Text.Price_Per" />
+                </LinearLayout>
+                <View android:layout_marginRight="16.0dip" style="@style/HotelsSearchResults_PointsDivider" />
+                <LinearLayout android:orientation="vertical" android:id="@id/pointPtCashContainer" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tvPointsPointsCash" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchResults_Text.Price_Amount" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_room_hhonors_points" style="@style/SearchResults_Text.Price_Per" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/cashDetailsContainer" android:tag="binding_13" android:paddingRight="16.0dip" android:layout_width="140.0dip" android:layout_height="140.0dip" android:layout_below="@id/hotel_sold_out_message" android:layout_alignParentRight="true">
+            <TextView android:gravity="right" android:id="@id/tvMessage" android:tag="binding_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/search_results_top_margin" android:maxWidth="90.0dip" style="@style/SearchResults_Text.Price_From" />
+            <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="right" android:id="@id/tvMessageSubHeader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="90.0dip" />
+            <ImageView android:id="@id/btnPhone" android:tag="binding_15" android:focusable="false" android:clickable="false" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/ic_action_phone" style="@android:style/Widget.Holo.Button.Borderless.Small" />
+            <TextView android:id="@id/tvPriceFrom" android:tag="binding_16" android:paddingTop="@dimen/search_results_top_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchResults_Text.Price_From" />
+            <TextView android:id="@id/tvPrice" android:tag="binding_17" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchResults_Text.Price_Amount" />
+            <TextView android:id="@id/tvPricePer" android:tag="binding_18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_room_per_night" style="@style/SearchResults_Text.Price_Per" />
+            <TextView android:id="@id/tvSpecialRateName" android:tag="binding_19" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SearchResults_Text.RateType" />
+            <TextView android:id="@id/tvGroupCode" android:layout_width="64.0dip" android:layout_height="wrap_content" style="@style/SearchResults_Text.GroupCode" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hotel_search_results_filter_item_padding" android:layout_marginBottom="@dimen/hotel_search_results_filter_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/brand_filter_name_label" android:maxWidth="250.0dip" android:text="@string/brand_filter_conrad" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentStart="true" style="@style/HotelSearchResultsFilterMediumValue" />
+    <TextView android:id="@id/brand_filter_name_count" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_toEndOf="@id/brand_filter_name_label" style="@style/HotelSearchResultsFilterCount" />
+    <CheckBox android:id="@id/brand_filter_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_root" android:tag="layout/activity_hotel_guide_item_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/activity_hotel_guide_item_padding" android:paddingEnd="@dimen/activity_hotel_guide_item_padding">
+        <ImageView android:id="@id/icon" android:tag="binding_1" android:layout_width="@dimen/hotel_guide_item_large" android:layout_height="@dimen/hotel_guide_item_large" android:layout_marginTop="54.0dip" android:scaleType="fitCenter" app:tint="@color/brand_accent" />
+        <TextView android:gravity="center_horizontal" android:id="@id/text" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:lineSpacingExtra="8.0dip" />
+    </LinearLayout>
+</ScrollView>

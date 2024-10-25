@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_account_favorites_menu_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/hotels_item" android:tag="binding_1" android:text="@string/hotels" style="@style/AccountFavoritesMenuItem" />
+    <com.mobileforming.module.common.view.DrawableTextView android:id="@id/apps_channels_item" android:tag="binding_2" android:text="@string/streaming_apps_and_tv_channels_menu_item" style="@style/AccountFavoritesMenuItem" />
+</LinearLayout>

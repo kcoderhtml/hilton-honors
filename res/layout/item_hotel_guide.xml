@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/card_view" android:tag="layout/item_hotel_guide_0" style="@style/HotelGuideCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon" android:tag="binding_1" android:layout_width="@dimen/hotel_guide_item_small" android:layout_height="@dimen/hotel_guide_item_small" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_favorite_border" app:tint="@color/brand_accent" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/text_view" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

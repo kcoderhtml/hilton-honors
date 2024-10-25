@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dk_module_view_nationality_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/primary_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="49.0dip">
+        <TextView android:tag="binding_1" android:layout_marginBottom="22.0dip" style="@style/TravelDocsPrimaryNameText" />
+        <Spinner android:id="@id/primary_natl_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/secondary_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="49.0dip">
+        <TextView android:tag="binding_2" android:layout_marginBottom="22.0dip" style="@style/TravelDocsNonPrimaryNameText" />
+        <com.mobileforming.module.common.view.DrawableTextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:tag="binding_3" android:background="@drawable/dk_module_add_contact_button" android:paddingTop="9.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:text="@string/dk_module_add_from_contacts" android:drawableLeft="@drawable/dk_module_ic_contacts" android:drawablePadding="14.0dip" android:textAllCaps="false" android:paddingStart="12.0dip" android:paddingEnd="19.0dip" app:drawableColor="@color/white" app:drawableHeight="20.0dip" app:drawableWidth="20.0dip" />
+        <EditText android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="45.0dip" android:hint="@string/dk_module_first_name_hint" android:maxLength="30" android:inputType="textCapSentences" android:imeOptions="actionNext" />
+        <EditText android:id="@id/secondary_last_name" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="49.0dip" android:hint="@string/dk_module_last_name_hint" android:maxLength="30" android:inputType="textCapSentences" android:imeOptions="actionNext" />
+        <Spinner android:id="@id/secondary_natl_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    </LinearLayout>
+</LinearLayout>

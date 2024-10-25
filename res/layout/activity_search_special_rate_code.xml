@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_search_special_rate_code_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_rates_side_margin" android:layout_marginTop="@dimen/special_rates_row_side_margin" android:layout_marginRight="@dimen/special_rates_side_margin">
+        <TextView android:id="@id/tvCodes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="8.0dip" android:text="@string/shop_special_rate_code_codes" style="@style/SpecialRates_Header" />
+        <EditText android:id="@id/etOfferCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/shop_special_rate_code_promooffer" android:singleLine="true" android:inputType="textVisiblePassword" />
+        <EditText android:id="@id/etGroupCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/shop_special_rate_code_groupcode" android:singleLine="true" android:inputType="textVisiblePassword" />
+        <EditText android:id="@id/etCorpAccount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:hint="@string/shop_special_rate_code_corpaccount" android:singleLine="true" android:inputType="textVisiblePassword" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tvRates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/shop_special_rate_code_rates" style="@style/SpecialRates_Header" />
+            <TextView android:id="@id/tvIdRequired" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/shop_special_rate_code_id_required" android:layout_alignParentRight="true" style="@style/SpecialRates_Label" />
+        </RelativeLayout>
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkAAARate" android:text="@string/shop_special_rate_code_aaarate" style="@style/SpecialRates_Label_CheckBox" />
+        <View style="@style/Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkAARPRate" android:text="@string/shop_special_rate_code_aarprate" style="@style/SpecialRates_Label_CheckBox" />
+        <View style="@style/Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkSrRate" android:text="@string/shop_special_rate_code_seniorrate" style="@style/SpecialRates_Label_CheckBox" />
+        <View style="@style/Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkGovtMilRates" android:text="@string/shop_special_rate_code_govtrate" style="@style/SpecialRates_Label_CheckBox" />
+        <View style="@style/Divider" />
+        <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkTravelAgent" android:text="@string/shop_special_rate_code_travelagent" style="@style/SpecialRates_Label_CheckBox" />
+        <View style="@style/Divider" />
+        <LinearLayout android:orientation="vertical" android:id="@id/hiltonForBusinessRateLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.CheckBoxFlipped android:id="@id/checkHiltonForBusiness" android:text="@string/shop_special_rate_code_for_business" style="@style/SpecialRates_Label_CheckBox" />
+            <TextView android:id="@id/tvSMBMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="" android:layout_marginStart="12.0dip" style="@style/HotelSearchConfidentialRate" />
+            <View style="@style/Divider" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

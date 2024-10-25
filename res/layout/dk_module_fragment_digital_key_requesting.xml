@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/dk_module_fragment_digital_key_requesting_0" android:background="@color/dk_module_dkey_requesting_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mobileforming.module.common.view.WaveAnimatedLayout android:id="@id/layout_wave_animated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:wal_color="@color/dark_gray" app:wal_numCircle="3" app:wal_radius="60.0dip" app:wal_scale="2.2" />
+    <ImageView android:id="@id/iv_dkey" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/dk_module_ic_digital_key_outline" android:tint="@color/white" android:layout_centerInParent="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/dk_module_request_digital_key_dots" android:layout_below="@id/iv_dkey" android:layout_centerHorizontal="true" />
+</RelativeLayout>

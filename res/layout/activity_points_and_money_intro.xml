@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/root" android:tag="layout/activity_points_and_money_intro_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/pamOnBoardImage" android:layout_width="fill_parent" android:layout_height="280.0dip" android:src="@drawable/pam_onboard_screen" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/nero" android:layout_gravity="center" android:id="@id/tv_title" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:text="@string/pay_with_points_amp_money" android:fontFamily="sans-serif-black" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/tv_description" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:lineSpacingExtra="8.0sp" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/btn_first" android:tag="binding_2" android:layout_marginTop="8.0dip" style="@style/StandardActionButton" />
+        <Button android:textColor="@color/standard_action_button_bgcolor" android:layout_gravity="center" android:id="@id/btn_ok" android:tag="binding_3" android:layout_marginTop="8.0dip" android:text="@string/ok" style="@style/StandardActionButton.Borderless" />
+    </LinearLayout>
+</ScrollView>

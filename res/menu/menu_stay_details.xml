@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_call_us" android:id="@id/action_phone" android:title="@string/menu_item_call_us" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_location" android:id="@id/action_map" android:title="@string/ic_map" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share_white_24dp" android:title="@string/action_share" android:iconTint="@color/white" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@id/action_share_email" android:title="@string/ic_share_email" />
+            <item android:id="@id/action_share_calendar" android:title="@string/ic_share_calendar" />
+        </menu>
+    </item>
+</menu>

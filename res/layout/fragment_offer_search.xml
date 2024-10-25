@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:tag="layout/fragment_offer_search_0" android:background="@color/semi_transparent_bg" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+            <EditText android:id="@id/search_bar" android:focusable="false" android:transitionName="@string/location_search_edit_text_transition" style="@style/Find_A_Hotel_Search_Bar" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <RelativeLayout android:id="@id/arrival_container" android:layout_toLeftOf="@id/moon_container" android:layout_alignParentLeft="true" style="@style/Find_A_Hotel_Date_Button">
+                    <View android:layout_below="@id/arrival" style="@style/Find_A_Hotel_Date_Underline" />
+                    <RelativeLayout android:id="@id/arrival" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:id="@id/arrival_date" style="@style/Find_A_Hotel_Date_Date" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/arrival_date" android:layout_centerVertical="true">
+                            <TextView android:id="@id/arrival_day_of_week" style="@style/Find_A_Hotel_Date_Day_Of_Week" />
+                            <TextView android:id="@id/arrival_month" style="@style/Find_A_Hotel_Date_Month" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/moon_container" android:layout_width="84.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/moon_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/ic_moon" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/night_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/moon_image" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/departure_container" android:layout_toRightOf="@id/moon_container" android:layout_alignParentRight="true" style="@style/Find_A_Hotel_Date_Button">
+                    <View android:layout_below="@id/departure" style="@style/Find_A_Hotel_Date_Underline" />
+                    <RelativeLayout android:id="@id/departure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:id="@id/departure_date" style="@style/Find_A_Hotel_Date_Date" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/departure_date" android:layout_centerVertical="true">
+                            <TextView android:id="@id/departure_day_of_week" style="@style/Find_A_Hotel_Date_Day_Of_Week" />
+                            <TextView android:id="@id/departure_month" style="@style/Find_A_Hotel_Date_Month" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.hilton.android.module.shop.view.RequestRoomConfigurationView android:id="@id/requestedRoomsView" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:stretchColumns="*" app:theme="@style/FindHotelRoomConfigThemeOverlay" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="42.0dip">
+                <Button android:layout_gravity="center_horizontal" android:id="@id/searchButton" android:layout_marginTop="12.0dip" android:text="@string/find_offers_btn" style="@style/StandardActionButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

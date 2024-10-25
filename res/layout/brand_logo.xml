@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.adyen.checkout.ui.core.internal.ui.view.RoundCornerImageView android:id="@id/imageView_brandLogo" android:layout_width="@dimen/brand_logo_width" android:layout_height="@dimen/brand_logo_height" android:layout_marginStart="@dimen/standard_quarter_margin" app:adyenStrokeColor="@color/stroke_color" style="@style/AdyenCheckout.Image.CardLogo" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</FrameLayout>

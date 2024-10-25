@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_hotel_search_results_map_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/btn_search_this_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_this_area" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading_embedded" />
+</androidx.constraintlayout.widget.ConstraintLayout>

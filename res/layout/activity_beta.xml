@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/container" android:tag="layout/activity_beta_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="42.0dip" android:layout_marginBottom="34.0dip">
+            <Button android:id="@id/feedbackbutton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/beta_give_feedback_button" android:layout_weight="1.0" android:layout_marginEnd="8.0dip" style="@style/FlatDefaultButton" />
+            <Button android:id="@id/refreshGlobalPrefsButton" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/beta_refresh_global_prefs_button" android:layout_weight="1.0" style="@style/FlatDefaultButton" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/nero" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/nero" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/beta_description" android:fontFamily="sans-serif" android:layout_marginStart="16.0dip" android:layout_marginEnd="17.0dip" />
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/nero" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/beta_hilton_honors_title" android:fontFamily="sans-serif" android:layout_marginStart="16.0dip" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/beta_compose_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:background="@color/beta_grey_background" android:paddingTop="13.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/beta_enable_beta_features_sub_title" android:fontFamily="sans-serif" android:paddingStart="16.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/beta_features_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:nestedScrollingEnabled="false" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

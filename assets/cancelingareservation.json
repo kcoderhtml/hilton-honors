@@ -1,0 +1,34 @@
+{
+    "existingSession": null,
+    "title": "Canceling A Reservation",
+    "description": "To cancel your reservation, head over to the **Stays** tab and tap the **My stay** card to change or cancel your upcoming stay.\n\nA couple of things to note:\n\n- Cancellation policies may vary depending on the rate of your reservation.\n- Most hotels typically can change or cancel your reservation up to 24 hours before check-in.\n- You'll want to double check your hotel's confirmation details and communication policy.",
+    "relatedTopics": [
+      {
+        "name": "Report Missing Points ",
+        "navLink": "reportmissingpoints.json"
+      },
+      {
+        "name": "Change an upcoming stay",
+        "navLink": "upcomingstayMenu.json"
+      },
+      {
+        "name": "Booking with points",
+        "navLink": "bookingwithpointsMenu.json"
+      }
+    ],
+    "feedback": {
+      "header": "Was this helpful?",
+      "options": [
+        {
+          "label": "Yes",
+          "navLink": "yes.json"
+        },
+        {
+          "label": "No",
+          "navLink": "no.json"
+        }
+      ]
+    },
+    "errors": null
+  }
+  

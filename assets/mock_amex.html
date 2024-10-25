@@ -1,0 +1,37 @@
+<!-- This is only a temporary mock html page for amex passback testing -->
+<html>
+<head>
+    <meta name='viewport' content='width=device-width,
+            initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+</head>
+<script>
+        function testMessage(status, passback) {
+            let amexStatusIndicator = status;
+
+            if (passback == true) {
+                let ianPassback = {
+                    "aesKey": "PlaceholderAesKeyValue",
+                    "applicationInfo": "PlaceholderApplicationInfoValue",
+                    "signature": "PlaceholderSignatureValue"
+                };
+                let returnData = {
+                    "IANPassback": ianPassback,
+                    "amexStatusIndicator": amexStatusIndicator
+                };
+                window.parent.postMessage(returnData, "*");
+            } else {
+                let returnData = {
+                    "amexStatusIndicator": amexStatusIndicator
+                };
+                window.parent.postMessage(returnData, "*");
+            }
+        }
+    </script>
+<body>
+Mock Application
+<br />
+<button onclick="testMessage('G', true)">Approved Application w/ Passback</button><br />
+<button onclick="testMessage('G', false)">Approved Application w/o Passback</button><br />
+<button onclick="testMessage('P', false)">Pending Application</button><br />
+</body>
+</html>

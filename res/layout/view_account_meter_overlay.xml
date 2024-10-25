@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/account_overlay_root" android:tag="layout/view_account_meter_overlay_0" android:background="@color/meter_dark_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/space" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/account_cancel_button" android:padding="12.0dip" android:focusable="true" android:layout_width="50.0dip" android:layout_height="56.0dip" android:src="@drawable/account_overlay_cancel_x" android:contentDescription="@string/ada_hhonors_meter_modal_close_button" android:layout_marginStart="12.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/space" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/account_cancel_button">
+        <com.mofo.android.hilton.feature.bottomnav.account.mystatus.TierMeterView android:layout_gravity="center" android:id="@id/tier_meter" android:layout_width="@dimen/arc_progress_diameter" android:layout_height="@dimen/arc_progress_diameter" />
+        <com.mofo.android.hilton.feature.bottomnav.account.mystatus.MeterMarkersView android:layout_gravity="center" android:id="@id/meter_markers_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/ada_hhonors_meter_modal_name" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

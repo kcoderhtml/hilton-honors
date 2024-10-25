@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/fragment_hotel_search_results_filter_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/num_available_hotels" style="@style/HotelSearchResultsFilterAvailableHotels" />
+        <LinearLayout android:orientation="vertical" android:tag="binding_1" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/sort_by_lbl_tv" android:text="@string/fragment_hotel_search_results_filter_sort" android:paddingEnd="8.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                <TextView android:id="@id/tv_popup_menu_sort" android:background="?selectableItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:text="@string/menu_item_sort_distance" android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp" android:drawablePadding="4.0dip" style="@style/HotelSearchResultsFilterLargeValue" />
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="112.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:labelFor="@id/distance_seekbar">
+                    <TextView android:id="@id/distance_lbl_tv" android:text="@string/fragment_hotel_search_results_filter_distance" android:paddingEnd="8.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                    <TextView android:id="@id/distance_tv" android:paddingEnd="4.0dip" style="@style/HotelSearchResultsFilterLargeValue" />
+                    <TextView android:id="@id/distance_seekbar_miles" android:text="@string/miles" style="@style/HotelSearchResultsFilterMediumValue" />
+                </LinearLayout>
+                <com.hilton.android.module.shop.view.CustomRangeSlider android:id="@id/distance_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:single_thumb="true" app:thumb_radius="42" app:track_height="13" />
+                <TextView android:id="@id/seekbar_min_distance_tv" android:layout_marginBottom="8.0dip" android:text="@string/one_mile" android:layout_alignParentBottom="true" android:importantForAccessibility="no" android:layout_alignStart="@id/distance_seekbar" style="@style/HotelSearchResultsFilterSmallValue" />
+                <TextView android:id="@id/seekbar_max_distance_tv" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:importantForAccessibility="no" android:layout_alignEnd="@id/distance_seekbar" style="@style/HotelSearchResultsFilterSmallValue" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/price_selection" android:layout_width="fill_parent" android:layout_height="129.0dip">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:labelFor="@id/price_seekbar">
+                    <TextView android:id="@id/price_lbl_tv" android:text="@string/fragment_hotel_search_results_filter_price" android:paddingEnd="8.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                    <TextView android:id="@id/price_min_currency" style="@style/HotelSearchResultsFilterMediumValue" />
+                    <TextView android:id="@id/price_min_value" android:paddingEnd="6.0dip" style="@style/HotelSearchResultsFilterLargeValue" />
+                    <TextView android:text="@string/dash" android:paddingEnd="6.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                    <TextView android:id="@id/price_max_currency" style="@style/HotelSearchResultsFilterMediumValue" />
+                    <TextView android:id="@id/price_max_value" style="@style/HotelSearchResultsFilterLargeValue" />
+                </LinearLayout>
+                <com.hilton.android.module.shop.view.CustomRangeSlider android:id="@id/price_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginRight="28.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:thumb_radius="42" app:track_height="13" />
+                <TextView android:id="@id/price_min" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:importantForAccessibility="no" android:layout_alignStart="@id/price_seekbar" style="@style/HotelSearchResultsFilterSmallValue" />
+                <TextView android:id="@id/price_max" android:layout_marginBottom="8.0dip" android:layout_alignRight="@id/price_seekbar" android:layout_alignParentBottom="true" android:importantForAccessibility="no" style="@style/HotelSearchResultsFilterSmallValue" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_amenities" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                    <TextView android:id="@id/amenities_lbl_tv" android:text="@string/fragment_hotel_search_results_filter_amenities" android:importantForAccessibility="no" android:paddingEnd="8.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                    <TextView android:id="@id/selected_amenities" android:text="@string/amenities_brands_default_filters_selected" android:importantForAccessibility="no" android:paddingEnd="4.0dip" style="@style/HotelSearchResultsFilterLargeValue" />
+                    <TextView android:id="@id/hotel_amenities_selected_tv" android:text="@string/hotel_amenities_selected" android:importantForAccessibility="no" style="@style/HotelSearchResultsFilterSmallValue" />
+                </LinearLayout>
+                <ImageButton android:id="@id/amenities_expand_button" android:src="@drawable/ic_action_expand" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" style="@style/RoomsAndRates_Details_Toggle" />
+            </RelativeLayout>
+            <include android:id="@id/amenities_filter" layout="@layout/fragment_hotel_search_results_filters_amenities_filters" />
+            <RelativeLayout android:id="@id/rl_brands" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                    <TextView android:id="@id/brands_lbl_tv" android:text="@string/fragment_hotel_search_results_filter_brands" android:importantForAccessibility="no" android:paddingEnd="8.0dip" style="@style/HotelSearchResultsFilterSectionLabel" />
+                    <TextView android:id="@id/selected_brands" android:text="@string/amenities_brands_default_filters_selected" android:importantForAccessibility="no" android:paddingEnd="4.0dip" style="@style/HotelSearchResultsFilterLargeValue" />
+                    <TextView android:id="@id/hotel_brands_selected_tv" android:text="@string/hotel_brands_selected" android:importantForAccessibility="no" style="@style/HotelSearchResultsFilterSmallValue" />
+                </LinearLayout>
+                <ImageButton android:id="@id/brands_expand_button" android:src="@drawable/ic_action_expand" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentEnd="true" style="@style/RoomsAndRates_Details_Toggle" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/brands_filter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hotel_search_results_filter_item_padding" android:layout_marginBottom="@dimen/hotel_search_results_filter_item_padding">
+                    <TextView android:id="@id/no_brand_filtering_label" android:text="@string/brand_filter_no_brand_filtering" android:layout_centerVertical="true" android:importantForAccessibility="no" android:layout_alignParentStart="true" style="@style/HotelSearchResultsFilterMediumValue" />
+                    <CheckBox android:id="@id/no_brand_filtering_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerVertical="true" android:contentDescription="@string/brand_filter_no_brand_filtering" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <Switch android:layout_gravity="center_vertical" android:id="@id/show_available_switch" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_hotel_search_results_filter_show_available_only" style="@style/HotelSearchResultsFilterSectionLabel" />
+            <Switch android:layout_gravity="center_vertical" android:id="@id/show_favorite_switch" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_hotel_search_results_filter_show_favorite_only" style="@style/HotelSearchResultsFilterSectionLabel" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

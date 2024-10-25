@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_quick_hits_location_sheet_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bottom_sheet_grabber" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_grabber" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/location_name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/hilton_suggest" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_explore_filled" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:id="@id/location_address" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:tag="binding_4" android:background="@color/background_white" style="@style/Divider" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/common_going_somewhere" android:drawablePadding="8.0dip" android:drawableStart="@drawable/ic_logo_lyft" android:layout_marginStart="16.0dip" />
+        <com.google.android.material.button.MaterialButton android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/common_request_a_ride" android:textAllCaps="false" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/Widget.MaterialComponents.Button" />
+    </LinearLayout>
+    <View android:background="@color/background_white" style="@style/Divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <com.google.android.material.button.MaterialButton android:textColor="@color/dark_gray" android:id="@id/copy_address" android:tag="binding_8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/common_hotel_map_copy_address" android:layout_weight="1.0" android:textAllCaps="false" app:icon="@drawable/ic_copy" app:iconTint="@color/dark_gray" style="@style/TextButton" />
+        <View android:background="#fff4f4f4" style="@style/VerticalDivider" />
+        <com.google.android.material.button.MaterialButton android:textColor="@color/dark_gray" android:id="@id/directions" android:tag="binding_9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/common_hotel_map_directions" android:layout_weight="1.0" android:textAllCaps="false" app:icon="@drawable/maps_icon_direction" app:iconTint="@color/dark_gray" style="@style/TextButton" />
+    </LinearLayout>
+</LinearLayout>

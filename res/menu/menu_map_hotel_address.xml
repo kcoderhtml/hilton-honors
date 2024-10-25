@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/copy_hotel_addr" android:title="@string/label_copy_address" />
+    <item android:id="@id/open_hotel_addr_in_map" android:title="@string/label_open_in_map" />
+</menu>

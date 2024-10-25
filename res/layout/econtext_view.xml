@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_firstName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.TextInputLayout">
+        <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_firstName" style="@style/AdyenCheckout.EContext.FirstNameInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_lastName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.TextInputLayout">
+        <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_lastName" style="@style/AdyenCheckout.EContext.LastNameInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_emailAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.TextInputLayout">
+        <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_emailAddress" style="@style/AdyenCheckout.EContext.ShopperEmailInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/standard_half_margin" style="@style/AdyenCheckout.DropdownTextInputLayout">
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:id="@id/autoCompleteTextView_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minEms="7" android:dropDownAnchor="@id/layout_container" style="@style/AdyenCheckout.DropdownTextInputEditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_mobileNumber" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdyenCheckout.TextInputLayout">
+            <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_mobileNumber" android:autofillHints="phoneNational" style="@style/AdyenCheckout.EContext.PhoneNumberInput" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</merge>

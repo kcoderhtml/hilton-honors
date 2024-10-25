@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background_reservation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_large" android:scaleType="centerCrop" android:contentDescription="@string/background_image_content_description" />
+    <ImageView android:id="@id/background_fade_effect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fade_large" android:scaleType="centerCrop" android:contentDescription="@string/background_image_content_description" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/reservation_layout" android:background="@drawable/widget_selector" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/hotel_name_lbl" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="2" android:layout_weight="1.0" style="@style/WidgetTitleFont14" />
+        </LinearLayout>
+        <ImageView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:contentDescription="@string/dividing_line_content_description" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:id="@id/date_section" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/reservation_date_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" style="@style/WidgetDateTitleFont28" />
+                <TextView android:id="@id/reservation_day_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_toEndOf="@id/reservation_date_lbl" style="@style/WidgetTitleFont10" />
+                <TextView android:id="@id/reservation_month_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/reservation_day_lbl" android:layout_toEndOf="@id/reservation_date_lbl" style="@style/WidgetDateTitleFont10" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/current_stay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/present_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/present_lbl" style="@style/WidgetTitleFont12" />
+                <TextView android:id="@id/stay_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stay_lbl" style="@style/WidgetDateTitleFont12" />
+            </LinearLayout>
+            <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/direction_btn" android:background="@drawable/widget_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_widget_directions" android:contentDescription="@string/directions_content_description" android:layout_marginEnd="8.0dip" />
+                <ImageView android:id="@id/check_in_btn" android:background="@drawable/widget_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_widget_checkin" android:contentDescription="@string/check_in_content_description" android:layout_marginEnd="8.0dip" />
+                <ImageView android:id="@id/call_btn" android:background="@drawable/widget_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_widget_phone" android:contentDescription="@string/call_content_description" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

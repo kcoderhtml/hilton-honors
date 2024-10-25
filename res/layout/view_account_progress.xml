@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_points_number_root" android:tag="layout/view_account_progress_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/lbl_year_progress" android:tag="binding_1" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.mofo.android.hilton.feature.bottomnav.account.mystatus.MeterProgressButtonBar android:orientation="horizontal" android:id="@id/meter_progress_button_bar" android:tag="binding_2" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/nights_selection" android:tag="binding_3" style="@style/MyStatusMeterProgressButtonText" />
+        <TextView android:id="@id/stays_selection" android:tag="binding_4" style="@style/MyStatusMeterProgressButtonText" />
+        <TextView android:id="@id/points_selection" android:tag="binding_5" style="@style/MyStatusMeterProgressButtonText" />
+    </com.mofo.android.hilton.feature.bottomnav.account.mystatus.MeterProgressButtonBar>
+</LinearLayout>

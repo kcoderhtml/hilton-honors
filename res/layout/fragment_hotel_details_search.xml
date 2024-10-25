@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/hotel_details_root" android:tag="layout/fragment_hotel_details_search_0" android:background="@color/grey_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/headerImageContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/headerNoImage" android:background="@drawable/choose_room_noimage_gradient" android:paddingTop="125.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/imgBrandLogo" style="@style/RoomsAndRates_HeaderLogo" />
+                    <TextView android:id="@id/tvHotelName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" style="@style/RoomsAndRates_HeaderTitle" />
+                </LinearLayout>
+                <com.mobileforming.module.common.view.ImageCarouselView android:id="@id/imageCarousel" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/rooms_rates_carousel_height" />
+            </FrameLayout>
+            <LinearLayout android:id="@id/hotelDetailsController" android:layout_below="@id/headerImageContainer" style="@style/HotelDetailsContainer">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/tvHotelDetails" android:paddingRight="8.0dip" android:text="@string/choose_room_hotel_details" android:importantForAccessibility="no" style="@style/RoomsAndRates_HotelDetails" />
+                <ImageButton android:layout_gravity="center_vertical" android:id="@id/btnDetailToggle" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:src="@drawable/ic_action_expand" style="@style/RoomsAndRates_Details_Toggle" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llHotelDetailsAmenitiesLayout" android:layout_below="@id/hotelDetailsController" style="@style/AmenitiesHeader">
+                <TextView android:id="@id/tvHotelDetailsDescription" android:text="@string/loading" style="@style/HotelDetailsDescription" />
+                <TextView android:id="@id/tvAmenityHeader" android:text="@string/amenities" style="@style/AmenitiesHeaderText" />
+                <androidx.gridlayout.widget.GridLayout android:id="@id/gridViewAmenities" android:tag="binding_1" app:columnCount="2" app:orientation="horizontal" style="@style/AmenitiesGrid" />
+            </LinearLayout>
+            <ImageButton android:id="@id/btnPhone" android:tag="binding_2" android:src="@drawable/ic_call_us" android:layout_alignTop="@id/hotelDetailsController" android:layout_toStartOf="@id/btnMap" style="@style/RoomsAndRates_Details_Buttons" />
+            <ImageButton android:id="@id/btnMap" android:tag="binding_3" android:src="@drawable/ic_location" android:layout_alignTop="@id/hotelDetailsController" android:layout_alignParentRight="true" style="@style/RoomsAndRates_Details_Buttons" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/selectDatesAndRooms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/select_dates_and_rooms" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                <RelativeLayout android:id="@id/arrival_container" android:layout_toLeftOf="@id/moon_container" android:layout_alignParentLeft="true" style="@style/Find_A_Hotel_Date_Button">
+                    <View android:background="@color/nero" android:layout_below="@id/arrival" style="@style/Find_A_Hotel_Date_Underline" />
+                    <RelativeLayout android:id="@id/arrival" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:textColor="@color/nero" android:id="@id/arrival_date" style="@style/Find_A_Hotel_Date_Date" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/arrival_date" android:layout_centerVertical="true">
+                            <TextView android:textColor="@color/nero" android:id="@id/arrival_day_of_week" style="@style/Find_A_Hotel_Date_Day_Of_Week" />
+                            <TextView android:textStyle="normal" android:textColor="@color/nero" android:id="@id/arrival_month" style="@style/Find_A_Hotel_Date_Month" />
+                            <TextView android:textStyle="normal" android:textColor="@color/nero" android:id="@id/arrival_year" android:layout_height="wrap_content" style="@style/Find_A_Hotel_Date_Month" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/moon_container" android:layout_width="84.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@id/moon_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/ic_moon_full_bk" android:layout_centerHorizontal="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/nero" android:id="@id/night_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/moon_image" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/departure_container" android:layout_toRightOf="@id/moon_container" android:layout_alignParentRight="true" style="@style/Find_A_Hotel_Date_Button">
+                    <View android:background="@color/nero" android:layout_below="@id/departure" style="@style/Find_A_Hotel_Date_Underline" />
+                    <RelativeLayout android:id="@id/departure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:textColor="@color/nero" android:id="@id/departure_date" style="@style/Find_A_Hotel_Date_Date" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toRightOf="@id/departure_date" android:layout_centerVertical="true">
+                            <TextView android:textColor="@color/nero" android:id="@id/departure_day_of_week" style="@style/Find_A_Hotel_Date_Day_Of_Week" />
+                            <TextView android:textStyle="normal" android:textColor="@color/nero" android:id="@id/departure_month" style="@style/Find_A_Hotel_Date_Month" />
+                            <TextView android:textStyle="normal" android:textColor="@color/nero" android:id="@id/departure_year" android:layout_height="wrap_content" style="@style/Find_A_Hotel_Date_Month" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <com.hilton.android.module.shop.view.RequestRoomConfigurationView android:textColor="?android:textColorPrimary" android:id="@id/requestedRoomsView" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:stretchColumns="*" app:theme="@style/UpdateBookAgainRoomConfigThemeOverlay" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="42.0dip">
+                <CheckBox android:layout_gravity="left" android:id="@id/cbHhonorsPoints" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hotel_search_use_honors_label" style="@style/HotelSearch.CheckBox" />
+                <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:id="@id/specialRateContainer" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Button.Borderless.Small">
+                    <ImageView android:padding="0.0dip" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_special_rate_black" android:scaleType="centerInside" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hotel_search_add_rate_code" style="@style/HotelSearch" />
+                </LinearLayout>
+                <Button android:layout_gravity="center_horizontal" android:id="@id/findRoomsButton" android:layout_marginTop="12.0dip" android:text="@string/hotel_find_rooms" style="@style/StandardActionButton" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

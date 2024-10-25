@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button_app" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ThreeDS2.Button.Borderless.OutOfBand" />
+    <Button android:id="@id/button_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ThreeDS2.Button.Colored.Continue" />
+    <Button android:id="@id/button_resend" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ThreeDS2.Button.Borderless.Resend" />
+</merge>

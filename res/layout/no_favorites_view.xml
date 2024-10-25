@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/no_favorites" android:tag="layout/no_favorites_view_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="90.0dip" android:src="@drawable/ic_no_fav_illustration" android:contentDescription="@string/no_favorites_icon_content_desc" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:gravity="center_horizontal" android:id="@id/tv_no_favorites_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="34.0dip" android:text="@string/no_favorites_yet" android:layout_marginStart="54.0dip" android:layout_marginEnd="54.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:id="@id/tv_no_favorites_subheader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/no_favorites_yet_detail" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" />
+</LinearLayout>

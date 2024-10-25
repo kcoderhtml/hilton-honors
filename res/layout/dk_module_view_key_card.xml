@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/KeyCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="65.0dip">
+        <FrameLayout android:background="@color/background_white" android:layout_width="102.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:background="@drawable/dk_module_key_manager_item_bg" android:padding="16.0dip" android:layout_width="65.0dip" android:layout_height="65.0dip" android:src="@drawable/dk_module_ic_fab_digital_key_outline" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="24.0dip">
+            <TextView android:textSize="20.0sp" android:textColor="@color/nero" android:ellipsize="end" android:id="@id/key_card_room_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-light" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/key_card_building_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-light" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/key_card_floor_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-light" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="12.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/key_card_status_title_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="sans-serif-light" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:ellipsize="end" android:id="@id/key_card_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/alert_red" android:ellipsize="end" android:id="@id/key_card_revoke_requested_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/dk_module_key_share_s2r_key_manager_key_card_revoke_failed" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <ImageView android:id="@id/overflow_indicator" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_overflow_off" android:paddingStart="14.0dip" android:paddingEnd="2.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

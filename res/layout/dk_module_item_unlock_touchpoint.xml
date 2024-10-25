@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/dk_module_item_unlock_touchpoint_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/touchpoint" android:tag="binding_1" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/dk_module_unlock_touchpoint_diameter" android:layout_height="@dimen/dk_module_unlock_touchpoint_diameter">
+        <TextView android:textSize="20.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/textView" android:tag="binding_2" android:layout_width="100.0dip" android:layout_height="50.0dip" android:lines="2" />
+        <ImageView android:id="@id/dk_image" android:tag="binding_3" android:layout_width="@dimen/dk_module_small_lock" android:layout_height="@dimen/dk_module_small_lock" android:src="@drawable/dk_module_ic_door_found" android:tint="@color/green" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/nero" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/iv_spinner" android:tag="binding_5" android:layout_width="170.0dip" android:layout_height="170.0dip" android:src="@drawable/dk_module_ic_gradient_loading_digital_key_updated" />
+</FrameLayout>

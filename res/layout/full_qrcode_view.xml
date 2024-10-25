@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView_logo" style="@style/AdyenCheckout.QrCode.Logo" />
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/textView_top_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_margin" android:textIsSelectable="false" style="@style/AdyenCheckout.TextAppearance.Primary" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView_qrcode" android:contentDescription="@null" style="@style/AdyenCheckout.QrCode.Image" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/textview_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/AdyenCheckout.TextAppearance.Primary" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:layout_gravity="center_horizontal" android:id="@id/progress_indicator" android:layout_marginTop="@dimen/standard_margin" style="@style/AdyenCheckout.QrCode.ProgressIndicator" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/textView_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/standard_three_quarters_margin" android:layout_marginBottom="@dimen/standard_margin" android:textIsSelectable="false" style="@style/AdyenCheckout.QrCode.TimerTextAppearance" />
+    <com.google.android.material.button.MaterialButton android:id="@id/button_saveImage" android:layout_marginStart="@null" android:layout_marginEnd="@null" style="@style/AdyenCheckout.QrCode.SaveButton" />
+</merge>

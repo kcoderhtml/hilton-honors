@@ -1,0 +1,41 @@
+{
+  "existingSession": null,
+  "title": "Member benefits and status",
+  "description": "Find info about your Hilton Honors benefits on the [Find Your Stay](hhonors://app/stays/findyourstay\n)",
+  "relatedTopics": [
+    {
+      "name": "Fifth night free",
+      "navLink": "fifthnightfree.json"
+    },
+    {
+      "name": "MyWay benefits",
+      "navLink": "mywaybenefits.json"
+    },
+    {
+      "name": "Status Match",
+      "navLink": "statusmatch.json"
+    },
+    {
+      "name": "Status upgrades and benefits",
+      "navLink": "statusupgradesandbenefits.json"
+    },
+    {
+      "name": "Stays versus nights",
+      "navLink": "staysversusnights.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

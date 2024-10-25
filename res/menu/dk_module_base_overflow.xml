@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_call_us" android:id="@id/overflow_item_call_us" android:title="@string/dk_module_menu_item_call_us" app:showAsAction="always" />
+</menu>

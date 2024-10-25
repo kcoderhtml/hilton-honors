@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/fragment_speed_bump_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_login_hhonors" android:tag="binding_1" android:layout_marginTop="40.0dip" android:text="@string/hhonors_sign_in" style="@style/StandardActionButton" />
+        <Button android:id="@id/btn_guest" android:tag="binding_2" android:layout_marginTop="@dimen/speed_bump_buttons_top" android:text="@string/speed_bump_guest" style="@style/StandardActionButton.White" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/pam_rate_label" android:id="@id/pam_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/speed_bump_pam_info" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

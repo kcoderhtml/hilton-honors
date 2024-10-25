@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="#40000000" android:importantForAccessibility="yes" android:accessibilityTraversalBefore="@id/tv_title" />
+    <ImageView android:id="@id/cover_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="#40000000" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:background="@drawable/view_carousel_title_overlay_gradient" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+        <com.mobileforming.module.common.view.FavoriteHeart android:id="@id/favorite_heart" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:importantForAccessibility="yes" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/tv_title" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:accessibilityTraversalAfter="@id/viewpager" app:layout_constraintStart_toEndOf="@id/favorite_heart" app:layout_constraintTop_toTopOf="parent" style="@style/Carousel_Title" />
+        <ImageView android:id="@id/adjoining_room_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_connecting_rooms_icon" android:tint="@color/white" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

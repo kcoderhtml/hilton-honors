@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/dci_module_fragment_hotel_map_building_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <FrameLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/building_details_container" android:background="@color/white" android:paddingLeft="@dimen/dci_module_echeckin_card_left_right_margin" android:paddingRight="@dimen/dci_module_echeckin_card_left_right_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_alignParentBottom="true" android:translationY="100.0dip">
+        <View style="@style/Divider" />
+        <TextView android:textSize="23.0sp" android:textColor="@color/nero" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_building_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:lines="2" android:fontFamily="sans-serif-regular" />
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab_building_details" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dci_module_fab_compat_negative_half_radius_small" android:layout_marginRight="24.0dip" android:src="@drawable/dci_module_ic_arrow_forward" android:tint="@color/white" android:layout_alignTop="@id/building_details_container" android:layout_alignParentRight="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" app:fabSize="mini" app:useCompatPadding="true" />
+</RelativeLayout>

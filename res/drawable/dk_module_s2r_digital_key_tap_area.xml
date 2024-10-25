@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/dk_module_tap_area_drop_shadow_gray" />
+    <item>
+        <shape android:shape="oval" android:innerRadius="108.0dip">
+            <gradient android:startColor="#ffefefef" android:endColor="#ffdddddd" android:angle="360.0" />
+            <stroke android:width="8.0dip" android:color="#ffbbbbbb" />
+        </shape>
+    </item>
+</layer-list>

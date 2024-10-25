@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/dk_module_tap_area_drop_shadow_green" />
+    </item>
+    <item android:left="6.0dip" android:top="6.0dip" android:right="6.0dip" android:bottom="6.0dip">
+        <shape android:shape="oval" android:innerRadius="208.0dip">
+            <solid android:color="#ff469200" />
+            <stroke android:width="8.0dip" android:color="#ff428801" />
+        </shape>
+    </item>
+</layer-list>

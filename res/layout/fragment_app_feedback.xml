@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mofo.android.hilton.core.view.FeedbackCategoriesView android:id="@id/feedback_categories_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:id="@id/feedback_comments_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="16.0dip" android:text="@string/feedback_edit_text_title" style="@style/Feedback_Form_Title" />
+        <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/feedback_hint" android:id="@id/feedback_text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/feedback_edit_text_hint" app:errorEnabled="true" app:hintTextColor="@color/feedback_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/feedback_comments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="1850" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

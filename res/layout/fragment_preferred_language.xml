@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_preferred_language_0" android:background="@color/white" android:paddingLeft="@dimen/preferred_language_margin_left_right" android:paddingRight="@dimen/preferred_language_margin_left_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/preferred_language_instruction_text" android:layout_width="wrap_content" android:layout_height="@dimen/preferred_language_header_height" android:text="@string/preferred_language_instruction_text" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/language_list" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

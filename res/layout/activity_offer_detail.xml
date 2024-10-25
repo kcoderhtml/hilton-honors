@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:tag="layout/activity_offer_detail_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/nivOfferImage" android:layout_width="fill_parent" android:layout_height="@dimen/offer_detail_image_height" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxHeight="@dimen/offer_detail_image_height" />
+            <TextView android:id="@id/tvOfferName" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Offer_Detail_Title" />
+            <TextView android:id="@id/tvStartFrom" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Offer_Detail_Valid" />
+            <TextView android:id="@id/tvOfferDescription" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="16.0dip" style="@style/Offer_Detail_Info" />
+            <TextView android:id="@id/tcLayout" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms_and_conditions" android:drawableLeft="@drawable/ic_info_outline" android:drawablePadding="8.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:drawableTint="@color/brand_accent" android:layout_marginHorizontal="16.0dip" style="@style/Offer_Detail_Terms_And_Cnditions" />
+            <View android:layout_width="fill_parent" android:layout_height="96.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_gravity="bottom|center" android:background="@drawable/gradient_offers" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="bottom|center" android:id="@id/btn_find_hotel" android:layout_width="256.0dip" android:layout_marginBottom="24.0dip" android:text="@string/dialog_btn_find_hotels" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="false" style="@style/DefaultButton" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:tag="layout/activity_optin_anytime_message_0" android:background="@color/white" android:focusable="true" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="24.0sp" android:textStyle="bold" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="75.0dip" android:layout_marginRight="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="44.0dip" android:layout_marginRight="16.0dip" android:drawablePadding="8.0dip" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_digital_key" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" style="@style/StandardActionButton" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/brand_accent" android:layout_gravity="center_horizontal" android:id="@id/btn_maybe_later" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_marginBottom="64.0dip" android:text="@string/maybe_later" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:tag="layout/view_rate_details_pam_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:tag="binding_1" android:visibility="gone" style="@style/PamRateDetailsRow">
+        <TextView android:textSize="@dimen/PamLineItemTextSize" android:id="@id/tv_price_label" android:text="@string/price" />
+        <TextView android:id="@id/tv_price_value" android:tag="binding_2" style="@style/PamLineItemValue" />
+    </TableRow>
+    <View style="@style/PamRateDetailsDivider" />
+    <TableRow style="@style/PamRateDetailsRow">
+        <TextView android:textSize="@dimen/PamLineItemTextSize" android:id="@id/tv_points_label" android:text="@string/points_label" />
+        <TextView android:id="@id/tv_points_value" android:tag="binding_3" style="@style/PamLineItemValue" />
+    </TableRow>
+    <View style="@style/PamRateDetailsDivider" />
+    <TableRow android:tag="binding_4" android:visibility="gone" style="@style/PamRateDetailsRow">
+        <TextView android:textSize="@dimen/PamLineItemTextSize" android:id="@id/tv_charges_label" android:tag="binding_5" />
+        <TextView android:id="@id/tv_charges_value" android:tag="binding_6" style="@style/PamLineItemValue" />
+    </TableRow>
+    <View style="@style/PamRateDetailsDivider" />
+    <TableRow android:tag="binding_7" android:visibility="gone" style="@style/PamRateDetailsRow">
+        <TextView android:textSize="@dimen/PamLineItemTextSize" android:id="@id/tv_tax_label" android:text="@string/taxes" />
+        <TextView android:id="@id/tv_tax_value" android:tag="binding_8" style="@style/PamLineItemValue" />
+    </TableRow>
+    <View style="@style/PamRateDetailsDivider.Blue" />
+    <TableRow android:background="@color/transparent" style="@style/PamRateDetailsRow">
+        <TextView android:textSize="@dimen/PamLineItemTextSize" android:textColor="@color/brand_accent" android:id="@id/tv_total_for_stay_label" android:tag="binding_9" android:fontFamily="sans-serif-medium" />
+        <TextView android:id="@id/total_for_stay_pam_tv" android:tag="binding_10" style="@style/PamLineItemValue.Total" />
+    </TableRow>
+    <View style="@style/PamRateDetailsDivider.Blue" />
+</TableLayout>

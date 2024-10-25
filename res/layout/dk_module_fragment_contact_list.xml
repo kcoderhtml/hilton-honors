@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fragment_root" android:tag="layout/dk_module_fragment_contact_list_0" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/shade_overlay" android:background="@color/dk_module_dark_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/dk_module_contact_list_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <LinearLayout android:orientation="horizontal" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="1.0dip">
+            <ImageView android:id="@id/close_button" android:padding="8.0dip" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_close" style="@style/TextButton" />
+            <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dk_module_contact_list_fragment_title" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <View android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

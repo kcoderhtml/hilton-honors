@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/toolbar_layout" android:tag="layout/cr_toolbar_wrapper_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cr_toolbar" />
+    <ViewStub android:id="@id/content_stub" android:inflatedId="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    <include android:id="@id/overlay_layout" layout="@layout/connecting_overlay" />
+</RelativeLayout>

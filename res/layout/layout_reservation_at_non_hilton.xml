@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:tag="layout/layout_reservation_at_non_hilton_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_stay_ota_prompt" />
+    <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/button_find_stay_with_confirmation" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/find_stay_ota_confirmation_number" style="@style/TextButton" />
+</LinearLayout>

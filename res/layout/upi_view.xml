@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textView_modeSelection" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.UPI.ModeSelectionTextView" />
+    <com.google.android.material.button.MaterialButtonToggleGroup android:id="@id/toggleButton_choice" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.UPI.ButtonToggleGroup">
+        <com.google.android.material.button.MaterialButton android:id="@id/button_vpa" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdyenCheckout.UPI.VPAButton" />
+        <com.google.android.material.button.MaterialButton android:id="@id/button_qrCode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/AdyenCheckout.UPI.QRButton" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_vpa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/AdyenCheckout.TextInputLayout">
+        <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_vpa" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.UPI.VPAEditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/textView_qrCodeDescription" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/AdyenCheckout.UPI.QRGenerationTextView" />
+</merge>

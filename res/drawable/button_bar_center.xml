@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/primary_light_blue"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:left="@dimen/stay_mode_selector_inset">
+                <inset android:insetLeft="@dimen/stay_mode_selector_inset">
+                    <shape android:shape="rectangle">
+                        <stroke android:width="@dimen/stay_mode_selector_line_width" android:color="@color/white" />
+                        <solid android:color="@color/white" />
+                    </shape>
+                </inset>
+            </item>
+            <item android:state_selected="false" android:left="@dimen/stay_mode_selector_inset">
+                <inset android:insetLeft="@dimen/stay_mode_selector_inset">
+                    <shape android:shape="rectangle">
+                        <stroke android:width="@dimen/stay_mode_selector_line_width" android:color="@color/white" />
+                        <solid android:color="@color/transparent" />
+                    </shape>
+                </inset>
+            </item>
+        </selector>
+    </item>
+</ripple>

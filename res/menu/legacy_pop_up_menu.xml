@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/copy_address" android:title="@string/legacy_common_hotel_map_copy_address" />
+    <item android:id="@id/open_in_map" android:title="@string/legacy_common_hotel_map_open_in_map" />
+</menu>

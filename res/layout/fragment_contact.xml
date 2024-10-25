@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_contact_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/fullscreen_scroll_view" android:background="@color/contact_grey_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/top_hero_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/contact_screen_hero_image" android:scaleType="fitStart" android:importantForAccessibility="no" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView android:id="@id/how_can_we_help_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_content_top_margin" style="@style/ContactCardView">
+                    <LinearLayout android:orientation="vertical" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                        <TextView android:textSize="24.0sp" android:textColor="@color/black" android:id="@id/how_can_we_help_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.1" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/how_can_we_help_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/contact_how_can_we_help_subtitle" android:layout_marginEnd="24.0dip" />
+                        <com.google.android.material.button.MaterialButton android:textSize="14.0sp" android:layout_gravity="center" android:tag="binding_2" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/contact_search_help_article" android:textAllCaps="false" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" android:elevation="4.0dip" style="@style/DefaultButton" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/call_us_section" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContactCardView">
+                    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/call_us_title" android:paddingTop="18.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_call_us_title" android:drawablePadding="8.0dip" android:drawableStart="@drawable/ic_phone_outlined" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                        <LinearLayout android:id="@id/fl_make_reservation" android:tag="binding_3" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:id="@id/tv_book_or_modify_reservation" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/book_or_modify_reservation" android:layout_weight="1.0" />
+                            <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right" android:tint="@color/light_gray" android:importantForAccessibility="no" />
+                        </LinearLayout>
+                        <View android:background="@color/contact_grey_background" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/ListDivider" />
+                        <LinearLayout android:id="@id/fl_call_hilton" android:tag="binding_4" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:id="@id/tv_call_hilton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/contact_talk_to_customer_care" android:layout_weight="1.0" />
+                            <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right" android:tint="@color/light_gray" android:importantForAccessibility="no" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/give_us_feedback_section" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ContactCardView">
+                    <LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/give_us_feedback_title" android:paddingTop="18.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_give_us_feedback" android:drawablePadding="8.0dip" android:drawableStart="@drawable/ic_fractal_feedback" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+                        <LinearLayout android:id="@id/fl_tell_about_stay" android:tag="binding_6" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:id="@id/tv_comment_on_stay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/contact_comment_on_stay" android:layout_weight="1.0" />
+                            <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right" android:tint="@color/light_gray" android:importantForAccessibility="no" />
+                        </LinearLayout>
+                        <View android:background="@color/contact_grey_background" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/ListDivider" />
+                        <LinearLayout android:id="@id/fl_app_feedback" android:tag="binding_7" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:layout_gravity="center_vertical" android:id="@id/tv_app_feedback" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/contact_logged_in_app_feedback" android:layout_weight="1.0" />
+                            <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right" android:tint="@color/light_gray" android:importantForAccessibility="no" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <View android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="230.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" android:accessibilityTraversalBefore="@id/fullscreen_scroll_view" app:layout_collapseMode="pin" app:title="@string/join_hhonors_contact" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="10.0sp" android:textColor="@color/dark_gray" android:gravity="center" android:id="@id/date_header" android:tag="layout/view_message_date_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

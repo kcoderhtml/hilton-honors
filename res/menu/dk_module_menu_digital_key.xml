@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/dk_module_ic_help" android:id="@id/digital_key_faq" android:title="@string/dk_module_dkey_faq" app:showAsAction="always" />
+    <item android:icon="@drawable/dk_module_ic_key_manager" android:id="@id/key_manager" android:title="@string/dk_module_activity_s2r_key_manager" app:showAsAction="always" />
+</menu>

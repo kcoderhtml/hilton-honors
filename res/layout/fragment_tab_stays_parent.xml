@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_overlay" android:tag="layout/fragment_tab_stays_parent_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/stays_parent_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" android:accessibilityTraversalAfter="@id/stay_button_group" />
+        <com.mofo.android.hilton.feature.stays.StaysButtonBar android:orientation="horizontal" android:id="@id/stay_button_group" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:importantForAccessibility="yes" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/upcoming_selection" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/upcoming" android:layout_weight="1.0" android:textAllCaps="false" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/past_selection" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/past" android:layout_weight="1.0" android:textAllCaps="false" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/canceled_selection" android:padding="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/canceled" android:layout_weight="1.0" android:textAllCaps="false" />
+        </com.mofo.android.hilton.feature.stays.StaysButtonBar>
+    </FrameLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

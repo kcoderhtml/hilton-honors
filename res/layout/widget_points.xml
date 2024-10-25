@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/points_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/points_layout" android:background="@drawable/widget_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="32.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+        <TextView android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/WidgetPointsTierStatus" />
+        <TextView android:id="@id/points_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/WidgetPoints" />
+        <TextView android:id="@id/points_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhonors_points_lbl" style="@style/WidgetPointsSubtitle" />
+        <TextView android:id="@id/points_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/hhonors_points_lbl" style="@style/WidgetBottomText" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:tag="layout/activity_reservation_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/app_bar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:contentScrim="@color/white" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:statusBarScrim="@color/white" app:titleEnabled="false">
+            <com.mobileforming.module.common.view.ReservationSummaryHeaderWithImageView android:id="@id/header" android:tag="binding_1" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/transparent" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:navigationIcon="?homeAsUpIndicator" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium" app:titleTextColor="@color/white" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/scroll_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <Button android:textColor="@color/white" android:id="@id/book_now_btn" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="48.0dip" android:contentDescription="@string/book_now_cont_desc" app:layout_anchor="@id/scroll_container" app:layout_anchorGravity="bottom" style="@style/FlatDefaultButton" />
+    <FrameLayout android:id="@id/google_pay_fragment_container_auth" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/scroll_container" app:layout_anchorGravity="bottom" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

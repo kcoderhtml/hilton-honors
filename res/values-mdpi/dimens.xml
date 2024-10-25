@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_appboy_card_background_border_bottom">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_left">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_right">1.5dip</dimen>
+    <dimen name="com_appboy_card_background_border_top">1.0dip</dimen>
+    <dimen name="com_braze_content_card_background_border_bottom">1.5dip</dimen>
+    <dimen name="com_braze_content_card_background_border_left">1.5dip</dimen>
+    <dimen name="com_braze_content_card_background_border_right">1.5dip</dimen>
+    <dimen name="com_braze_content_card_background_border_top">1.0dip</dimen>
+    <dimen name="com_braze_content_card_background_shadow_bottom">1.0dip</dimen>
+    <dimen name="arc_diameter">207.0dip</dimen>
+    <dimen name="arc_marker_radius">102.0dip</dimen>
+    <dimen name="arc_progress_diameter">215.0dip</dimen>
+    <dimen name="arc_progress_width">14.0dip</dimen>
+    <dimen name="arc_width">9.0dip</dimen>
+    <dimen name="benefit_circle_height">98.75998dip</dimen>
+    <dimen name="circle_background_width">189.0dip</dimen>
+    <dimen name="circle_bar_margin">6.0dip</dimen>
+    <dimen name="circle_bar_width">120.0dip</dimen>
+    <dimen name="circle_pattern_width">205.0dip</dimen>
+    <dimen name="circle_text_large">22.0dip</dimen>
+    <dimen name="circle_text_medium">14.0dip</dimen>
+    <dimen name="circle_text_small">12.0dip</dimen>
+    <dimen name="circle_text_title">30.0dip</dimen>
+    <dimen name="circle_text_title_lifetime">24.0dip</dimen>
+    <dimen name="circle_text_title_lifetime_team_member">20.0dip</dimen>
+    <dimen name="circle_title_height">85.0dip</dimen>
+    <dimen name="circle_title_lifetime_diamond_height">100.0dip</dimen>
+    <dimen name="info_marker_interior_radius_adjust">22.0dip</dimen>
+    <dimen name="info_marker_interior_size">13.0dip</dimen>
+    <dimen name="info_marker_size">80.0dip</dimen>
+    <dimen name="marker_container_height">285.0dip</dimen>
+    <dimen name="overlay_text">16.0sp</dimen>
+    <dimen name="tier_circle_size">150.0dip</dimen>
+    <dimen name="tier_marker_size">125.0dip</dimen>
+</resources>

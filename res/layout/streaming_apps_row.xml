@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/streaming_apps_root" android:tag="layout/streaming_apps_row_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/channel_icon" android:tag="binding_1" android:background="@drawable/channel_icon_bg" android:layout_width="100.0dip" android:layout_height="55.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerVertical="true" android:layout_marginStart="20.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:ellipsize="end" android:id="@id/channelName" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_toStartOf="@id/favorite_icon" android:layout_toEndOf="@id/channel_icon" />
+    <com.mobileforming.module.common.view.FavoriteHeart android:id="@id/favorite_icon" android:tag="binding_3" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

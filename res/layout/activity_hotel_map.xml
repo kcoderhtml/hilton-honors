@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/parent_container" android:tag="layout/activity_hotel_map_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_container" android:background="@color/brand_accent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/up_btn" android:layout_marginTop="16.0dip" android:src="@drawable/ic_arrow_back_black_24dp" android:contentDescription="@string/navigation_up" android:layout_marginStart="16.0dip" app:fabSize="mini" style="@style/HiltonFloatingActionButton.Black.Inverse" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end" android:id="@id/hotel_btn" android:visibility="invisible" android:layout_marginTop="38.0dip" android:src="@drawable/ic_hotel" android:layout_marginEnd="16.0dip" app:fabSize="mini" style="@style/HiltonFloatingActionButton.Black.Inverse" />
+    <View android:id="@id/shadow" android:background="@drawable/shape_gradient_top_shadow" android:layout_width="fill_parent" android:layout_height="12.0dip" app:layout_anchor="@id/list_container" />
+    <com.google.android.material.card.MaterialCardView android:id="@id/list_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="10.0dip" app:behavior_peekHeight="32.0dip" app:cardCornerRadius="8.0dip" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

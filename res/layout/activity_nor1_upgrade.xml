@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/activity_nor1_upgrade_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/nor1_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:minHeight="64.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+            <TextView android:textColor="@color/alert_messaging" android:background="@color/alert_message_bkg" android:padding="16.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/nor1_header_message" />
+        </com.google.android.material.card.MaterialCardView>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="2" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

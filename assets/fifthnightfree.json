@@ -1,0 +1,32 @@
+{
+  "title": "Fifth night free",
+  "description": "Something, something, dark side.",
+  "relatedTopics": [
+    {
+      "name": "Subject 1",
+      "navLink": "subject1.json"
+    },
+    {
+      "name": "Subject 2",
+      "navLink": "subject2.json"
+    },
+    {
+      "name": "Subject 3",
+      "navLink": "subject3.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

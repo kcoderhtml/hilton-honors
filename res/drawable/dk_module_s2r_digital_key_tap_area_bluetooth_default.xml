@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/dk_module_digital_key_drop_shadow_red" />
+    <item>
+        <shape android:shape="oval" android:innerRadius="108.0dip">
+            <gradient android:startColor="@color/error_magenta" android:endColor="@color/error_magenta" android:angle="360.0" />
+            <stroke android:width="8.0dip" android:color="@color/dk_module_bluetooth_disabled_pressed" />
+        </shape>
+    </item>
+</layer-list>

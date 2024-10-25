@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cr_channels_root" android:tag="layout/fragment_cr_channels_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/cr_channels_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/refresh_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="60.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/channels_not_downloaded_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fail_to_download_channels" android:layout_marginStart="29.0dip" android:layout_marginEnd="29.0dip" />
+        <com.mobileforming.module.common.view.DrawableTextView android:textColor="@color/primary_light_blue" android:layout_gravity="center_horizontal" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/refresh" android:drawableLeft="@drawable/ic_refresh" android:drawablePadding="10.0dip" android:drawableTint="@color/primary_light_blue" />
+    </LinearLayout>
+</LinearLayout>

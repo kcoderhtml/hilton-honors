@@ -1,0 +1,109 @@
+{
+  "blue-fill": {
+    "height": 128,
+    "pixelRatio": 2,
+    "width": 128,
+    "x": 0,
+    "y": 0
+  },
+  "green-fill": {
+    "height": 128,
+    "pixelRatio": 2,
+    "width": 128,
+    "x": 128,
+    "y": 0
+  },
+
+  "elevator-icon": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 256,
+    "y": 0
+  },
+  "icon-elevator": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 256,
+    "y": 0
+  },
+
+  "icon-restroom": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 304,
+    "y": 0
+  },
+  "restroom-icon": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 304,
+    "y": 0
+  },
+  "icon-restroom-style_default-disabled": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 352,
+    "y": 0
+  },
+  "icon-restroommen": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 400,
+    "y": 0
+  },
+  "icon-restroomwomen": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 448,
+    "y": 0
+  },
+  "restroommen-icon": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 400,
+    "y": 0
+  },
+  "restroomwomen-icon": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 448,
+    "y": 0
+  },
+  "icon-stairwell": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 256,
+    "y": 128
+  },
+  "stairwell-icon": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 256,
+    "y": 128
+  },
+  "restrooms-fill": {
+    "height": 64,
+    "pixelRatio": 2,
+    "width": 128,
+    "x": 128,
+    "y": 128
+  },
+  "tan-fill": {
+    "height": 128,
+    "pixelRatio": 2,
+    "width": 128,
+    "x": 0,
+    "y": 128
+  }
+}

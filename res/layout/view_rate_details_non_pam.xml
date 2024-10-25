@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_rate_details_non_pam_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout style="@style/RateDetails_DailyInfo">
+        <TextView android:id="@id/date_header_tv" android:text="@string/rate_details_daily_info_header_date" android:layout_alignParentLeft="true" style="@style/RateDetails_DailyInfo_Header" />
+        <TextView android:id="@id/price_per_night_header_tv" android:tag="binding_1" android:layout_alignParentRight="true" style="@style/RateDetails_DailyInfo_Header" />
+    </RelativeLayout>
+    <View android:layout_marginTop="0.0dip" style="@style/RateDetails_Spacer" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rates_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:id="@id/confidential_rate_disclaimer" android:visibility="gone" style="@style/RateDetails_Confidential_Rate_Disclaimer" />
+    <View android:background="@color/brand_accent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="@color/brand_accent" android:id="@id/total_for_stay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/total_for_stay" android:drawablePadding="16.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/nero" android:id="@id/vatCharge" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/total_for_stay" />
+        <com.hilton.android.module.book.feature.ratedetails.TotalForStayView android:id="@id/totalForStayView" android:tag="binding_3" android:paddingTop="6.0dip" android:paddingRight="4.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/total_for_stay" app:displayTextColor="@color/brand_accent" app:textLabelSize="10.0sp" />
+    </RelativeLayout>
+    <View android:background="@color/brand_accent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

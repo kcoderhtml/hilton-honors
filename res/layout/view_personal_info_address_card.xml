@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="layout/view_personal_info_address_card_0" android:layout_width="fill_parent" android:layout_height="144.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="8.0dip" card:contentPadding="0.0dip" style="@style/HiltonCardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/layout_address" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/user_address" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="34.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/address" />
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/user_address_type" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="34.0dip" android:layout_alignTop="@id/preferred_star" android:layout_alignBottom="@id/preferred_star" />
+        <android.widget.Button android:id="@id/overflow" android:tag="binding_3" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/PersonalInformation_Overflow" />
+        <CheckBox android:id="@id/preferred_star" android:tag="binding_4" android:layout_marginRight="10.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/PersonalInformation_PreferredCheckBox" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

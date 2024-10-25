@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/language_item_0" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/nero" android:id="@id/language_label" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <CheckBox android:id="@id/preferred_star" android:tag="binding_2" android:background="@drawable/preferred_language_item_preferred_star_selector" android:layout_width="@dimen/preferred_language_item_preferred_star_size" android:layout_height="@dimen/preferred_language_item_preferred_star_size" android:layout_marginRight="@dimen/preferred_language_item_padding_right" android:button="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

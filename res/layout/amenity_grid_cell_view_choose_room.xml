@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/amenity_grid_cell_view_choose_room_0" android:layout_width="0.0dip" android:layout_height="wrap_content" grid:layout_columnWeight="1.0" grid:layout_gravity="fill_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:grid="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/ivAmenity" android:tag="binding_1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/nero" />
+    <TextView android:textColor="@color/nero" android:layout_gravity="center_vertical" android:id="@id/tvAmenity" android:tag="binding_2" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" android:singleLine="false" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:breakStrategy="high_quality" android:hyphenationFrequency="full" />
+</LinearLayout>

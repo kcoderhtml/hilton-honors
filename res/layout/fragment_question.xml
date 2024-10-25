@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_question_0" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/black" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/answers" android:background="@drawable/rounded_background" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="5.0dip" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pay_button_view" android:background="?payButtonGenericBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/pay_button_generic_min_width" android:minHeight="@dimen/pay_button_generic_min_height" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pay_button_logo" android:layout_width="@dimen/pay_image_generic_width" android:layout_height="@dimen/pay_image_generic_height" android:src="?payButtonGenericLogoImage" android:importantForAccessibility="no" />
+</LinearLayout>

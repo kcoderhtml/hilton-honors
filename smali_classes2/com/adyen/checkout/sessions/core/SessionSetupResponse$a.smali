@@ -1,0 +1,509 @@
+.class public final Lcom/adyen/checkout/sessions/core/SessionSetupResponse$a;
+.super Ljava/lang/Object;
+.source "SessionSetupResponse.kt"
+
+# interfaces
+.implements Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/adyen/checkout/core/internal/data/model/ModelObject$a<",
+        "Lcom/adyen/checkout/sessions/core/SessionSetupResponse;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0017\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004*\u0001\u0000\u0008\n\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001J\u0010\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016J\u0010\u0010\u0007\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0004H\u0016\u00a8\u0006\u0008"
+    }
+    d2 = {
+        "com/adyen/checkout/sessions/core/SessionSetupResponse$a",
+        "Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;",
+        "Lcom/adyen/checkout/sessions/core/SessionSetupResponse;",
+        "modelObject",
+        "Lorg/json/JSONObject;",
+        "d",
+        "jsonObject",
+        "c",
+        "sessions-core_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic a(Lcom/adyen/checkout/core/internal/data/model/ModelObject;)Lorg/json/JSONObject;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse$a;->d(Lcom/adyen/checkout/sessions/core/SessionSetupResponse;)Lorg/json/JSONObject;
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-object p1
+
+    .line 7
+    return-object p1
+.end method
+
+.method public bridge synthetic b(Lorg/json/JSONObject;)Lcom/adyen/checkout/core/internal/data/model/ModelObject;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse$a;->c(Lorg/json/JSONObject;)Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p1
+
+    .line 5
+    return-object p1
+.end method
+
+.method public c(Lorg/json/JSONObject;)Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+    .locals 10
+
+    .line 1
+    const-string v0, "optString(...)"
+
+    .line 2
+    .line 3
+    const-string v1, "jsonObject"
+
+    .line 4
+    .line 5
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/s;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    :try_start_0
+    new-instance v1, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+
+    .line 9
+    .line 10
+    const-string v2, "id"
+
+    .line 11
+    .line 12
+    invoke-virtual {p1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 13
+    .line 14
+    .line 15
+    move-result-object v3
+
+    .line 16
+    invoke-static {v3, v0}, Lkotlin/jvm/internal/s;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 17
+    .line 18
+    .line 19
+    const-string v2, "sessionData"
+
+    .line 20
+    .line 21
+    invoke-virtual {p1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 22
+    .line 23
+    .line 24
+    move-result-object v4
+
+    .line 25
+    invoke-static {v4, v0}, Lkotlin/jvm/internal/s;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 26
+    .line 27
+    .line 28
+    const-string v2, "amount"
+
+    .line 29
+    .line 30
+    invoke-virtual {p1, v2}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+
+    .line 31
+    .line 32
+    .line 33
+    move-result-object v2
+
+    .line 34
+    sget-object v5, Lcom/adyen/checkout/components/core/Amount;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 35
+    .line 36
+    invoke-static {v2, v5}, Lcom/adyen/checkout/core/internal/data/model/b;->a(Lorg/json/JSONObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lcom/adyen/checkout/core/internal/data/model/ModelObject;
+
+    .line 37
+    .line 38
+    .line 39
+    move-result-object v2
+
+    .line 40
+    move-object v5, v2
+
+    .line 41
+    check-cast v5, Lcom/adyen/checkout/components/core/Amount;
+
+    .line 42
+    .line 43
+    const-string v2, "expiresAt"
+
+    .line 44
+    .line 45
+    invoke-virtual {p1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 46
+    .line 47
+    .line 48
+    move-result-object v6
+
+    .line 49
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/s;->i(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 50
+    .line 51
+    .line 52
+    const-string v0, "paymentMethods"
+
+    .line 53
+    .line 54
+    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v0
+
+    .line 58
+    sget-object v2, Lcom/adyen/checkout/components/core/PaymentMethodsApiResponse;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 59
+    .line 60
+    invoke-static {v0, v2}, Lcom/adyen/checkout/core/internal/data/model/b;->a(Lorg/json/JSONObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lcom/adyen/checkout/core/internal/data/model/ModelObject;
+
+    .line 61
+    .line 62
+    .line 63
+    move-result-object v0
+
+    .line 64
+    move-object v7, v0
+
+    .line 65
+    check-cast v7, Lcom/adyen/checkout/components/core/PaymentMethodsApiResponse;
+
+    .line 66
+    .line 67
+    const-string v0, "returnUrl"
+
+    .line 68
+    .line 69
+    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+
+    .line 70
+    .line 71
+    .line 72
+    move-result-object v8
+
+    .line 73
+    const-string v0, "configuration"
+
+    .line 74
+    .line 75
+    invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+
+    .line 76
+    .line 77
+    .line 78
+    move-result-object p1
+
+    .line 79
+    sget-object v0, Lcom/adyen/checkout/sessions/core/SessionSetupConfiguration;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 80
+    .line 81
+    invoke-static {p1, v0}, Lcom/adyen/checkout/core/internal/data/model/b;->a(Lorg/json/JSONObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lcom/adyen/checkout/core/internal/data/model/ModelObject;
+
+    .line 82
+    .line 83
+    .line 84
+    move-result-object p1
+
+    .line 85
+    move-object v9, p1
+
+    .line 86
+    check-cast v9, Lcom/adyen/checkout/sessions/core/SessionSetupConfiguration;
+
+    .line 87
+    .line 88
+    move-object v2, v1
+
+    .line 89
+    invoke-direct/range {v2 .. v9}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;-><init>(Ljava/lang/String;Ljava/lang/String;Lcom/adyen/checkout/components/core/Amount;Ljava/lang/String;Lcom/adyen/checkout/components/core/PaymentMethodsApiResponse;Ljava/lang/String;Lcom/adyen/checkout/sessions/core/SessionSetupConfiguration;)V
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 90
+    .line 91
+    .line 92
+    return-object v1
+
+    .line 93
+    :catch_0
+    move-exception p1
+
+    .line 94
+    new-instance v0, Lf9/f;
+
+    .line 95
+    .line 96
+    const-class v1, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+
+    .line 97
+    .line 98
+    invoke-direct {v0, v1, p1}, Lf9/f;-><init>(Ljava/lang/Class;Lorg/json/JSONException;)V
+
+    .line 99
+    .line 100
+    .line 101
+    throw v0
+.end method
+
+.method public d(Lcom/adyen/checkout/sessions/core/SessionSetupResponse;)Lorg/json/JSONObject;
+    .locals 4
+
+    .line 1
+    const-string v0, "modelObject"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->j(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, Lorg/json/JSONObject;
+
+    .line 7
+    .line 8
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
+
+    .line 9
+    .line 10
+    .line 11
+    :try_start_0
+    const-string v1, "id"
+
+    .line 12
+    .line 13
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getId()Ljava/lang/String;
+
+    .line 14
+    .line 15
+    .line 16
+    move-result-object v2
+
+    .line 17
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 18
+    .line 19
+    .line 20
+    const-string v1, "sessionData"
+
+    .line 21
+    .line 22
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getSessionData()Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v2
+
+    .line 26
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 27
+    .line 28
+    .line 29
+    const-string v1, "amount"
+
+    .line 30
+    .line 31
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getAmount()Lcom/adyen/checkout/components/core/Amount;
+
+    .line 32
+    .line 33
+    .line 34
+    move-result-object v2
+
+    .line 35
+    sget-object v3, Lcom/adyen/checkout/components/core/Amount;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 36
+    .line 37
+    invoke-static {v2, v3}, Lcom/adyen/checkout/core/internal/data/model/b;->c(Lcom/adyen/checkout/core/internal/data/model/ModelObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lorg/json/JSONObject;
+
+    .line 38
+    .line 39
+    .line 40
+    move-result-object v2
+
+    .line 41
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 42
+    .line 43
+    .line 44
+    const-string v1, "expiresAt"
+
+    .line 45
+    .line 46
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getExpiresAt()Ljava/lang/String;
+
+    .line 47
+    .line 48
+    .line 49
+    move-result-object v2
+
+    .line 50
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 51
+    .line 52
+    .line 53
+    const-string v1, "paymentMethods"
+
+    .line 54
+    .line 55
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getPaymentMethodsApiResponse()Lcom/adyen/checkout/components/core/PaymentMethodsApiResponse;
+
+    .line 56
+    .line 57
+    .line 58
+    move-result-object v2
+
+    .line 59
+    sget-object v3, Lcom/adyen/checkout/components/core/PaymentMethodsApiResponse;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 60
+    .line 61
+    invoke-static {v2, v3}, Lcom/adyen/checkout/core/internal/data/model/b;->c(Lcom/adyen/checkout/core/internal/data/model/ModelObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lorg/json/JSONObject;
+
+    .line 62
+    .line 63
+    .line 64
+    move-result-object v2
+
+    .line 65
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 66
+    .line 67
+    .line 68
+    const-string v1, "returnUrl"
+
+    .line 69
+    .line 70
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getReturnUrl()Ljava/lang/String;
+
+    .line 71
+    .line 72
+    .line 73
+    move-result-object v2
+
+    .line 74
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+
+    .line 75
+    .line 76
+    .line 77
+    const-string v1, "configuration"
+
+    .line 78
+    .line 79
+    invoke-virtual {p1}, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;->getConfiguration()Lcom/adyen/checkout/sessions/core/SessionSetupConfiguration;
+
+    .line 80
+    .line 81
+    .line 82
+    move-result-object p1
+
+    .line 83
+    sget-object v2, Lcom/adyen/checkout/sessions/core/SessionSetupConfiguration;->SERIALIZER:Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;
+
+    .line 84
+    .line 85
+    invoke-static {p1, v2}, Lcom/adyen/checkout/core/internal/data/model/b;->c(Lcom/adyen/checkout/core/internal/data/model/ModelObject;Lcom/adyen/checkout/core/internal/data/model/ModelObject$a;)Lorg/json/JSONObject;
+
+    .line 86
+    .line 87
+    .line 88
+    move-result-object p1
+
+    .line 89
+    invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->putOpt(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    :try_end_0
+    .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 90
+    .line 91
+    .line 92
+    return-object v0
+
+    .line 93
+    :catch_0
+    move-exception p1
+
+    .line 94
+    new-instance v0, Lf9/f;
+
+    .line 95
+    .line 96
+    const-class v1, Lcom/adyen/checkout/sessions/core/SessionSetupResponse;
+
+    .line 97
+    .line 98
+    invoke-direct {v0, v1, p1}, Lf9/f;-><init>(Ljava/lang/Class;Lorg/json/JSONException;)V
+
+    .line 99
+    .line 100
+    .line 101
+    throw v0
+.end method

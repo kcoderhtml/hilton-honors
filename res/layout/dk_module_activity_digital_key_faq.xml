@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dk_module_activity_digital_key_faq_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:scrollbarStyle="insideInset" android:id="@id/elv_digital_key_exp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

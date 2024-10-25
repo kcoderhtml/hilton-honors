@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/overlay_root" android:background="@color/connecting_overlay" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:onClick="dismissOverlay" android:layout_marginStart="16.0dip" app:icon="@drawable/ic_close" app:iconTint="@color/white" style="@style/IconOnly" />
+    <ImageView android:id="@id/wifi_animation" android:background="@drawable/overlay_animation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/remote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/ic_remote" android:layout_below="@id/wifi_animation" android:layout_centerInParent="true" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:text="@string/connecting" android:layout_below="@id/remote" android:layout_centerHorizontal="true" />
+</RelativeLayout>

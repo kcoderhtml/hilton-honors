@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_photo_list_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="112.0dip">
+        <TextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="@color/nero" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/common_photo_list_empty_title" android:fontFamily="sans-serif-black" android:textAlignment="center" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/common_photo_list_empty_message" android:textAlignment="center" />
+    </LinearLayout>
+</FrameLayout>

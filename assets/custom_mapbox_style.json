@@ -1,0 +1,7 @@
+{
+  "version": 8,
+  "name": "Aegir Base Style",
+  "sprite": "https://d151udzxoy7i6b.cloudfront.net/vm-sdk-sample-user/icons/icons",
+  "glyphs": "https://d151udzxoy7i6b.cloudfront.net/vm-sdk-sample-user/fonts/{fontstack}/{range}.pbf",
+  "layers": []
+}

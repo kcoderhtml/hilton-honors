@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_dateless_browsing_disclaimer_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.SwitchCompat android:textSize="16.0sp" android:layout_gravity="end" android:id="@id/switch_lead_rates" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_points" android:importantForAccessibility="yes" android:layout_marginEnd="6.0dip" app:switchPadding="4.0dip" />
+    <TextView android:id="@id/tv_lead_rates_info" android:tag="binding_2" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

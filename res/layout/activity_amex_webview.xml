@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_amex_webview_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.hilton.android.library.shimpl.ui.webview.AmexWebViewFragment" android:id="@id/amex_web_view_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/iv_dkey_bg" android:background="@drawable/brand_accent_circle" android:layout_width="24.0dip" android:layout_height="24.0dip" android:transitionName="@string/dkey_circle_transition" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_dkey_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/dk_module_ic_dk_search_icon" android:transitionName="@string/dkey_transition" />
+</FrameLayout>

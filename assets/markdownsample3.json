@@ -1,0 +1,21 @@
+{
+    "existingSession": null,
+    "title": "Markdown Text",
+    "description": "### Supported Text Modifiers:\nThis is **bold** text.\nThis is _italic_ text.\nThis is ~~strikethrough~~ text.\nThis is **bold _with_ italtic**.\nThis is a [hyperlink](https://www.hilton.com).",
+    "relatedTopics": [],
+    "feedback": {
+      "header": "Was this helpful?",
+      "options": [
+        {
+          "label": "Yes",
+          "navLink": "yes.json"
+        },
+        {
+          "label": "No",
+          "navLink": "no.json"
+        }
+      ]
+    },
+    "errors": null
+  }
+  

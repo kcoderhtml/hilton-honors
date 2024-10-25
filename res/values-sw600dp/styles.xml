@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Braze.InAppMessage.Full" parent="@style/Braze.InAppMessage">
+        <item name="android:background">@color/com_braze_inappmessage_background_light</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">450.0dip</item>
+        <item name="android:layout_height">720.0dip</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

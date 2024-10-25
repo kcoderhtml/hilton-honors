@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/hhonors_benefit_pager_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_root" android:tag="binding_1" android:layout_width="@dimen/tier_circle_size" android:layout_height="@dimen/tier_circle_size" android:layout_margin="3.0dip" android:elevation="3.0dip">
+        <TextView android:textSize="24.0dip" android:id="@id/tv_tier_level" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+        <View android:id="@id/meter_bar" android:tag="binding_3" android:layout_width="100.0dip" android:layout_height="1.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="8.0dip" />
+        <TextView android:textSize="14.0dip" android:id="@id/tv_tier_subtitle" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

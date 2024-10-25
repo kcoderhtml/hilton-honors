@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_res_form_special_rates_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/aarp_layout" android:tag="binding_1" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_aarp_number" android:tag="binding_2" android:layout_marginBottom="8.0dip" android:maxLength="10" style="@style/GuestFormTextInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tv_aarp_disclaimer" android:tag="binding_3" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:id="@id/tv_aarp_disclaimer_text" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/aaa_layout" android:tag="binding_5" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_aaa_number" android:tag="binding_6" android:maxLength="16" style="@style/GuestFormTextInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/aaa_intl_layout" android:tag="binding_7" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_aaa_int_number" android:tag="binding_8" android:layout_marginBottom="8.0dip" android:maxLength="4" style="@style/GuestFormTextInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RelativeLayout android:tag="binding_9" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/res_form_body" android:id="@id/tv_aaa_disclaimer" android:tag="binding_10" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/aaa_card_image" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/aaa_card_image" android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/aaa_card" android:adjustViewBounds="true" android:layout_alignParentRight="true" />
+        <TextView android:gravity="center_vertical" android:id="@id/example_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/example" android:layout_below="@id/aaa_card_image" android:layout_alignLeft="@id/aaa_card_image" android:layout_alignRight="@id/aaa_card_image" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/tv_gov_disclaimer_text" android:tag="binding_11" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gov_disclaimer_rate" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/tv_senior_disclaimer" android:tag="binding_12" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/senior_disclaimer" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/travel_agent_layout" android:tag="binding_13" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_agent_number" android:tag="binding_14" android:maxLength="8" style="@style/GuestFormTextInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:tag="binding_15" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/et_agent_unlimited_budget" android:tag="binding_16" android:maxLength="11" style="@style/GuestFormTextInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:tag="layout/activity_multi_room_rate_details_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar_top_divider">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_card_container" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <View android:id="@id/bottom_bar_top_divider" android:background="@color/gray_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_above="@id/bottom_bar" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_bar" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/total_for_stay_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_total_for_stay" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/brand_accent" android:gravity="end" android:id="@id/stay_total_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+{
+  "existingSession": null,
+  "title": "Go Hilton Program",
+  "description": "Family & Friends rates are part of the Go Hilton Team Member travel program. They are exclusively available to authorized family and friends of Hilton Team Members.\n\nTo book a Family & Friends rate, you'll need to create an Honors account. After you've created an account, a Hilton Team member can add you to their authorized family and friends list. Once added to their list, head over to the Go Hilton site to plan your next getaway.",
+  "relatedTopics": [
+    {
+      "name": "Markdown Sample 1",
+      "navLink": "markdownsample1.json"
+    },
+    {
+      "name": "Markdown Sample 2",
+      "navLink": "markdownsample2.json"
+    },
+    {
+      "name": "Markdown Sample 3",
+      "navLink": "markdownsample3.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

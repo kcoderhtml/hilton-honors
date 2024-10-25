@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_hotel_search_results_list_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/loading" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading_embedded" />
+    <com.hilton.android.module.shop.view.ProfileSwitchToggle android:id="@id/profile_switch_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textStyle="bold" android:id="@id/feeTransparencyBanner" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/fee_transparency_banner_text" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintTop_toBottomOf="@id/profile_switch_layout" />
+    <ListView android:id="@id/list" android:paddingTop="4.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/feeTransparencyBanner" />
+</androidx.constraintlayout.widget.ConstraintLayout>

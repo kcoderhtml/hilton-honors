@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="E0">
+        <item>http://localhost:3000/partner/static/banner/Checkout_amexBannerStyles.css</item>
+        <item>http://localhost:3000/partner/static/banner/jquery-1.7.2.min.js</item>
+        <item>http://localhost:3000/partner/static/banner/axp-fab.js</item>
+    </string-array>
+    <string-array name="E1">
+        <item>https://dicm.intra.aexp.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/CSS/CheckOut/V2/Checkout_amexBannerStyles.css</item>
+        <item>https://dicm.intra.aexp.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/JS/jquery-1.7.2.min.js</item>
+        <item>https://dicm.intra.aexp.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/FAB/V1/js/axp-fab.js</item>
+    </string-array>
+    <string-array name="E2">
+        <item>https://qicm.americanexpress.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/CSS/CheckOut/V3/Checkout_amexBannerStyles.css</item>
+        <item>https://qicm.americanexpress.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/JS/jquery-1.7.2.min.js</item>
+        <item>https://qicm.americanexpress.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/FAB/V1/js/axp-fab.js</item>
+    </string-array>
+    <string-array name="E3">
+        <item>https://icm.aexp-static.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/CSS/CheckOut/V2/Checkout_amexBannerStyles.css</item>
+        <item>https://icm.aexp-static.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/JS/jquery-1.7.2.min.js</item>
+        <item>https://icm.aexp-static.com/Internet/Acquisition/US_en/AppContent/ContentConfiguration/DApply/CCSG/FAB/V1/js/axp-fab.js</item>
+    </string-array>
+    <string-array name="add_ons_quantity_selector_stepper_developer_notes">
+        <item>When enabled, quantity selector will be displayed.</item>
+        <item>When disabled, quantity selector will be hidden.</item>
+    </string-array>
+    <string-array name="auth_required_domains">
+        <item>hamptoninn3-stg.hilton.com</item>
+        <item>embassysuites3-stg.hilton.com</item>
+        <item>doubletree3-stg.hilton.com</item>
+        <item>www3-stg.hilton.com</item>
+        <item>hiltongardeninn3-stg.hilton.com</item>
+        <item>homewoodsuites3-stg.hilton.com</item>
+        <item>hhonors3-stg.hilton.com</item>
+        <item>waldorfastoria3-stg.hilton.com</item>
+        <item>conradhotels3-stg.hilton.com</item>
+        <item>home2suites3-stg.hilton.com</item>
+        <item>curiocollection3-stg.hilton.com</item>
+        <item>secure3-stg.hilton.com</item>
+    </string-array>
+    <string-array name="book_google_pay_feature_description_developer_notes">
+        <item>When enabled, the Google Pay option will be displayed in booking flow.</item>
+        <item>When disabled, the Google Pay option will be hidden in booking flow.</item>
+    </string-array>
+    <string-array name="book_points_rates_taxes_messaging_developer_notes">
+        <item>When enabled, the taxes messaging for points rates will be shown.</item>
+        <item>When disabled, the taxes messaging for points rates will be hidden.</item>
+    </string-array>
+    <string-array name="dci_flexible_arrival_time_description_developer_notes">
+        <item></item>
+    </string-array>
+    <string-array name="dci_show_free_available_rooms_description_developer_notes">
+        <item>When enabled, the Pick a Building and Pick a Floor screens will use the Show Free Available Rooms Flow.</item>
+    </string-array>
+    <string-array name="dci_vmsdk_floor_plan_description_developer_notes">
+        <item>If the toggle is on, DCI uses VMSDK logic.</item>
+        <item>If the toggle is off, DCI runs like it always has.</item>
+    </string-array>
+    <string-array name="dco_description_developer_notes">
+        <item></item>
+    </string-array>
+    <string-array name="explore_filter_sort_by">
+        <item>Distance</item>
+        <item>Rating</item>
+        <item>Price (highest)</item>
+        <item>Price (lowest)</item>
+        <item>Name (A-Z)</item>
+    </string-array>
+    <string-array name="feature_description_developer_notes_digital_key_audio_feedback">
+        <item>If this feature is toggled on or off, the app must be restarted for the changes to take effect.</item>
+        <item>Currently only used for private doors on unlock success</item>
+    </string-array>
+    <string-array name="feature_description_developer_notes_digital_key_beacon_logging">
+        <item>Restart app once the above value is updated to allow TRFramework to re-initialize.</item>
+    </string-array>
+    <string-array name="feature_description_developer_notes_new_stay_view">
+        <item>No developer notes available</item>
+    </string-array>
+    <string-array name="feature_description_developer_notes_use_lock_framework">
+        <item>If this feature is toggled on or off, the app must be restarted for the changes to take effect.</item>
+    </string-array>
+    <string-array name="fee_transparency_feature_description_developer_notes">
+        <item>https://jira.hilton.com/browse/HHANDSB-3536</item>
+    </string-array>
+    <string-array name="global_references_localization_dev_notes">
+        <item>Provides capability to consume localized content from global preferences.</item>
+    </string-array>
+    <string-array name="global_references_refactor_dev_notes">
+        <item>An overhaul of global preferences that allows consumption of a JSONObject instead of strongly typed classes.</item>
+        <item>Required to consume any properties added to global preferences added after this refactor.</item>
+    </string-array>
+    <string-array name="honors_meter_suppression_dev_notes">
+        <item>When enabled the Honors Meter will be hidden, when disabled it will be visible</item>
+        <item>Removed dependency on Core+ for this toggle</item>
+    </string-array>
+    <string-array name="legacy_months">
+        <item>01 Jan</item>
+        <item>02 Feb</item>
+        <item>03 Mar</item>
+        <item>04 Apr</item>
+        <item>05 May</item>
+        <item>06 Jun</item>
+        <item>07 Jul</item>
+        <item>08 Aug</item>
+        <item>09 Sep</item>
+        <item>10 Oct</item>
+        <item>11 Nov</item>
+        <item>12 Dec</item>
+    </string-array>
+    <string-array name="legacy_time24hour">
+        <item>12:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+        <item>11:59 PM</item>
+    </string-array>
+    <string-array name="legacy_uifn_country_array">
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hong Kong</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Philippines</item>
+        <item>Portugal</item>
+        <item>Singapore</item>
+        <item>Spain</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+    </string-array>
+    <string-array name="lokion_floor_plan_description_developer_notes">
+        <item>if enabled, user can view the new floor plan using VMSDK also called Lokion Floor plan</item>
+    </string-array>
+    <string-array name="m3_account_tab_feature_dev_notes">
+        <item>When enabled the account tab will display the M3 account screen</item>
+        <item>When disabled the account tab will display the M2 account screen</item>
+    </string-array>
+    <array name="m3_guest_support_feature_description_developer_notes" />
+    <string-array name="m3_help_feature_description_developer_notes">
+        <item>Our objective is to introduce a guided contact/customer support experience in the app, so that we can:</item>
+        <item>Help guests find the answers and actions they need help with easily</item>
+        <item>Include a bot first approach to answer quick questions and help guests with easy self-service tasks</item>
+        <item>Provide a seamless contact experience to chat or voice agents based on customer issues</item>
+    </string-array>
+    <string-array name="month_index">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="months">
+        <item>01 Jan</item>
+        <item>02 Feb</item>
+        <item>03 Mar</item>
+        <item>04 Apr</item>
+        <item>05 May</item>
+        <item>06 Jun</item>
+        <item>07 Jul</item>
+        <item>08 Aug</item>
+        <item>09 Sep</item>
+        <item>10 Oct</item>
+        <item>11 Nov</item>
+        <item>12 Dec</item>
+    </string-array>
+    <string-array name="monthsTextOnly">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="my_account_tier_based_list">
+        <item>@string/header_hilton_honors_info</item>
+        <item>@string/points_activity</item>
+        <item>@string/personal_information</item>
+        <item>@string/hhonors_benefits</item>
+        <item>@string/hhonors_card</item>
+        <item>@string/hotel_benefits</item>
+        <item>@string/hhonors_delete_account</item>
+        <item>@string/header_preferences</item>
+        <item>@string/favorites</item>
+        <item>@string/room_preferences</item>
+        <item>@string/preferred_travel_partners</item>
+        <item>@string/push_notifications</item>
+        <item>@string/email_subscriptions</item>
+        <item>@string/pref_category_security</item>
+        <item>@string/header_about</item>
+        <item>@string/legal</item>
+    </string-array>
+    <string-array name="open_sources_file_name_array">
+        <item>gson_apache_v2_license</item>
+        <item>android_svg_apache_v2_license</item>
+        <item>hashids_mit_license</item>
+        <item>glide_multi_licenses</item>
+        <item>rxandroidble_apache_v2_license</item>
+        <item>calendarview_mit_license</item>
+    </string-array>
+    <string-array name="open_sources_license_summary_array">
+        <item>Apache 2.0 requirements</item>
+        <item>Apache 2.0 requirements</item>
+        <item>MIT License</item>
+        <item>Multi Licensed</item>
+        <item>Apache 2.0 requirements</item>
+        <item>MIT License</item>
+    </string-array>
+    <string-array name="open_sources_name_array">
+        <item>GSON</item>
+        <item>Android SVG</item>
+        <item>Hashids</item>
+        <item>Glide</item>
+        <item>RxAndroidBle</item>
+        <item>CalendarView</item>
+    </string-array>
+    <string-array name="oridinal_suffixes">
+        <item>%dth</item>
+        <item>%dst</item>
+        <item>%dnd</item>
+        <item>%drd</item>
+        <item>%dth</item>
+        <item>%dth</item>
+        <item>%dth</item>
+        <item>%dth</item>
+        <item>%dth</item>
+        <item>%dth</item>
+    </string-array>
+    <string-array name="password_recommend">
+        <item>@string/personal_info_username_password_suggestion_complex</item>
+        <item>@string/personal_info_username_password_suggestion_different_credentials</item>
+        <item>@string/personal_info_username_password_suggestion_check_account</item>
+        <item>@string/personal_info_username_password_suggestion_suspicious_activity</item>
+    </string-array>
+    <string-array name="phone_type">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+        <item>Type</item>
+    </string-array>
+    <string-array name="qualtrics_enablement_dev_notes">
+        <item>When enabled the Qualtrics SDK features will be enabled</item>
+        <item>When disabled the Qualtrics SDK features will be disabled</item>
+    </string-array>
+    <string-array name="relationship_types_array">
+        <item>Spouse</item>
+        <item>Friend</item>
+        <item>Colleague</item>
+        <item>Parent</item>
+        <item>Sibling</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Other (please specify)</item>
+    </string-array>
+    <string-array name="res_form_cancellation_messaging_developer_notes">
+        <item>When enabled, displays the cancellation messaging in the M2 reservation form</item>
+        <item>When disabled, hides the cancellation messaging in the M2 reservation form</item>
+    </string-array>
+    <array name="reservation_form_analytics_products_toggle_developer_notes" />
+    <string-array name="room_preferences_bed_count_spinner">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="shopfeature_add_ons_description_developer_notes">
+        <item>When enabled, users will see an option to select add-ons for certain hotels in the booking flow</item>
+        <item>When disabled, add-ons will not be shown in the booking flow</item>
+    </string-array>
+    <string-array name="shopfeature_confirmed_connecting_rooms_description_developer_notes">
+        <item>When enabled, the user will be able to filter by adjoining rooms when choosing an available room in a multi-room booking.</item>
+        <item>When disabled, the connecting rooms filter should not show and only non-connecting rooms should show as available rooms</item>
+    </string-array>
+    <string-array name="shopfeature_dateless_description_developer_notes">
+        <item>When enabled, the user will be able to use Dateless in the M3 Shop &amp; Book flow.</item>
+    </string-array>
+    <string-array name="shopfeature_fee_transparency_feature_description_developer_notes">
+        <item>When enabled, users will see the updated UI displaying service charges for each rate and disclosure text</item>
+        <item>When disabled, users will not see disclosure text and service charges will not be under each rate</item>
+    </string-array>
+    <string-array name="shopfeature_google_pay_developer_notes">
+        <item>When enabled, Google Pay will be an available payment option for certain properties.</item>
+        <item>When disabled, Google Pay will be hidden.</item>
+    </string-array>
+    <string-array name="shopfeature_hilton_for_business_developer_notes">
+        <item>When enabled, the user will be able to switch from personal to business profiles and shop and book with business rates in the M3 Shop &amp; Book flow.</item>
+        <item>When disabled, the Hilton for Business toggle will be hidden and users will not be able to see business rates</item>
+    </string-array>
+    <string-array name="shopfeature_honors_one_click_enrollment_feature_description_developer_notes">
+        <item>When enabled, one click enrollment appears on booking summary for unauthenticated users</item>
+        <item>When disabled, one click enrollment will not appear on booking summary for unauthenticated users</item>
+    </string-array>
+    <string-array name="shopfeature_honors_rate_room_login_feature_description_developer_notes">
+        <item>When enabled, honors rate room selection will prompt a login dialog for unauthenticated users</item>
+        <item>When disabled, honors rate room selection will not prompt a login dialog for unauthenticated users</item>
+    </string-array>
+    <string-array name="shopfeature_kids_ages">
+        <item>Select</item>
+        <item>Under 1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="shopfeature_login_and_enrollment_description_developer_notes">
+        <item>When enabled, the user can access the M3 Login and Enrollment screens.</item>
+        <item>When disabled, users will only have access to the M2 Login and Enrollment screens</item>
+    </string-array>
+    <string-array name="shopfeature_m3_arabic_language_support_developer_notes">
+        <item>When enabled, the Home Screen Redesign will be displayed in Arabic.</item>
+        <item>When disabled, the Home Screen Redesign will be displayed in English.</item>
+    </string-array>
+    <string-array name="shopfeature_points_and_money_description_developer_notes">
+        <item>When enabled, the user will be able to use Points &amp; Money in the M3 Shop &amp; Book flow.</item>
+    </string-array>
+    <string-array name="shopfeature_points_rates_taxes_messaging_developer_notes">
+        <item>When enabled, the taxes messaging for points rates will be shown.</item>
+        <item>When disabled, the taxes messaging for points rates will be hidden.</item>
+    </string-array>
+    <string-array name="shopfeature_res_summary_query_migration_description_developer_notes">
+        <item>When enabled, calls for the fetching reservation forms and creating reservations will use legacy data</item>
+        <item>When disabled, calls for the fetching reservation forms and creating reservations will use shop-feature classes</item>
+    </string-array>
+    <string-array name="shopfeature_room_title_tabs">
+        <item>All beds</item>
+        <item>1 bed</item>
+        <item>2 beds+</item>
+    </string-array>
+    <string-array name="shopfeature_room_type_list">
+        <item>1 bed</item>
+        <item>2 beds</item>
+        <item>No Preference</item>
+    </string-array>
+    <string-array name="shopfeature_sb_mapview_feature_description_developer_notes">
+        <item>When enabled, tabs inside the Search Results in M3 should show for both List and Map View.</item>
+        <item>Selecting the Map Tab will navigate to the Map View.</item>
+        <item>When disabled, only the ListView for Search Results should show - tabs should not be visible or interactive.</item>
+    </string-array>
+    <string-array name="shopfeature_sb_onelink_feature_description_developer_notes">
+        <item>When enabled, translations will be requested from OneLink service.</item>
+        <item>When default or disabled, OneLink implementation will be ignored.</item>
+    </string-array>
+    <string-array name="shopfeature_sb_search_results_availability_filter_description_developer_notes">
+        <item>When enabled, the filter chip row found on the search results screen will have a new chip labeled \"More\"</item>
+        <item>Selecting the \"More\" chip will open a modal bottom sheet which will display the availability filter</item>
+        <item>When disabled, the \"More\" chip will not be found on the search results screen</item>
+    </string-array>
+    <string-array name="shopfeature_sb_search_results_favorite_hotels_description_developer_notes">
+        <item>When enabled and logged in, the search results list view cards will have a heart icon</item>
+        <item>"Tapping on the heart icon will add the hotel to the user's favorite hotel list"</item>
+        <item>Filtering by favorite hotel will be available in the \"More Filters\" sheet</item>
+    </string-array>
+    <string-array name="shopfeature_smokingPreferenceList">
+        <item>Smoking</item>
+        <item>Non-Smoking</item>
+        <item>No Preference</item>
+    </string-array>
+    <string-array name="shopfeature_special_rates">
+        <item>AAA rate*</item>
+        <item>AARP rate*</item>
+        <item>Senior rate*</item>
+        <item>Government/military rate*</item>
+        <item>Travel agent</item>
+    </string-array>
+    <string-array name="shopfeature_special_rates_a11y">
+        <item>AAA rate. ID required at check-in</item>
+        <item>AARP rate. ID required at check-in</item>
+        <item>Senior rate. ID required at check-in</item>
+        <item>Government/military rate. ID required at check-in</item>
+        <item>Travel agent</item>
+    </string-array>
+    <array name="smb_feature_description_developer_notes" />
+    <array name="smb_multi_business_feature_description_developer_notes" />
+    <string-array name="time24hour">
+        <item>12:00 AM</item>
+        <item>01:00 AM</item>
+        <item>02:00 AM</item>
+        <item>03:00 AM</item>
+        <item>04:00 AM</item>
+        <item>05:00 AM</item>
+        <item>06:00 AM</item>
+        <item>07:00 AM</item>
+        <item>08:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>01:00 PM</item>
+        <item>02:00 PM</item>
+        <item>03:00 PM</item>
+        <item>04:00 PM</item>
+        <item>05:00 PM</item>
+        <item>06:00 PM</item>
+        <item>07:00 PM</item>
+        <item>08:00 PM</item>
+        <item>09:00 PM</item>
+        <item>10:00 PM</item>
+        <item>11:00 PM</item>
+        <item>11:59 PM</item>
+    </string-array>
+    <string-array name="time24hourhhmm">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>23:59</item>
+    </string-array>
+    <string-array name="travel_docs_id_types_keys">
+        <item>passport</item>
+        <item>enic</item>
+    </string-array>
+    <string-array name="travel_docs_id_types_values">
+        <item>Passport</item>
+        <item>European National Identity Card</item>
+    </string-array>
+    <string-array name="uifn_country_array">
+        <item>Austria</item>
+        <item>Belgium</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Hong Kong</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>South Korea</item>
+        <item>Luxembourg</item>
+        <item>Malaysia</item>
+        <item>Netherlands</item>
+        <item>New Zealand</item>
+        <item>Norway</item>
+        <item>Philippines</item>
+        <item>Portugal</item>
+        <item>Singapore</item>
+        <item>Spain</item>
+        <item>Switzerland</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+        <item>United Kingdom</item>
+    </string-array>
+    <string-array name="username_recommend">
+        <item>@string/personal_info_username_password_suggestion_no_email</item>
+        <item>@string/personal_info_username_password_suggestion_different_credentials</item>
+        <item>@string/personal_info_username_password_suggestion_check_account</item>
+        <item>@string/personal_info_username_password_suggestion_suspicious_activity</item>
+    </string-array>
+</resources>

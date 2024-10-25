@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/legendLayout" android:tag="layout/calendar_day_legend_0" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_sun" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_mon" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_tue" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_wed" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_thu" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_fri" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/legendText7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cal_sat" android:layout_weight="1.0" />
+</LinearLayout>

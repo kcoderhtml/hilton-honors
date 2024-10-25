@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#18104c97" />
+    <corners android:radius="@dimen/choose_room_card_radius" />
+    <stroke android:width="3.0dip" android:color="@color/secondary_action_blue" />
+</shape>

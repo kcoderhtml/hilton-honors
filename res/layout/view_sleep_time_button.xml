@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/sleep_time_button" android:tag="layout/view_sleep_time_button_0" android:background="@drawable/sleep_timer_button_bg" android:layout_width="100.0dip" android:layout_height="32.0dip" android:layout_margin="8.0dip" android:textAllCaps="false" style="@style/SleepTimerButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

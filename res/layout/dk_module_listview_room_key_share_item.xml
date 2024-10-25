@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:tag="layout/dk_module_listview_room_key_share_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:columnOrderPreserved="false" android:useDefaultMargins="true" android:alignmentMode="alignBounds"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/nero" android:layout_gravity="end|fill_horizontal|start" android:id="@id/tvRoomNumber" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:fontFamily="sans-serif" android:layout_columnWeight="1.0" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/dark_gray" android:layout_gravity="end|fill_horizontal|start" android:id="@id/tvKeysSharedDescription" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_columnWeight="1.0" />
+    <RadioButton android:layout_gravity="end" android:id="@id/rbShare" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_columnWeight="1.0" />
+</GridLayout>

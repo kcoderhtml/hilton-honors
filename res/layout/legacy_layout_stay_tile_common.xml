@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/card_root" android:tag="layout/legacy_layout_stay_tile_common_0" card_view:cardCornerRadius="@dimen/legacy_stay_card_corner_radius" card_view:cardElevation="@dimen/legacy_stay_card_elevation" card_view:cardPreventCornerOverlap="true" card_view:cardUseCompatPadding="true" style="@style/StayCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_tile_icon" android:tag="binding_2" android:importantForAccessibility="no" style="@style/StayCardImageStyle" />
+        <TextView android:id="@id/tv_tile_title" android:tag="binding_3" style="@style/StayCardTitleStyle" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

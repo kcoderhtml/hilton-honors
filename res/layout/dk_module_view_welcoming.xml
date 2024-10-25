@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/dk_module_view_welcoming_0" android:background="@color/brand_accent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/dk_module_account_overlay_cancel_x" android:contentDescription="@string/dk_module_close" />
+        <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/white" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginRight="@dimen/dk_module_welcoming_horizontal_margin" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/dk_module_welcoming_horizontal_margin" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="20.0dip">
+            <ImageView android:gravity="center" android:id="@id/iv_key" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/dk_module_ic_key_ready" android:tint="@color/white" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/keyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/dk_module_welcoming_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" />
+                <RelativeLayout android:id="@id/layout_location_help" android:tag="binding_5" android:background="?android:selectableItemBackground" android:paddingTop="20.0dip" android:paddingRight="@dimen/dk_module_welcoming_horizontal_margin" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/location_help_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dk_module_welcoming_location_help_title" android:layout_toLeftOf="@id/location_carrot" android:layout_alignParentLeft="true" />
+                    <ImageView android:layout_gravity="right" android:id="@id/location_carrot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dk_module_ic_action_expand" android:tint="@color/white" android:layout_alignParentRight="true" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/location_info_text" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="48.0dip" android:text="@string/dk_module_welcoming_location_help" android:layout_below="@id/location_help_prompt" />
+                </RelativeLayout>
+                <View android:background="@color/dk_module_welcoming_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="vertical" android:tag="binding_7" android:paddingTop="20.0dip" android:paddingRight="@dimen/dk_module_welcoming_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/special_doors_prompt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/dk_module_welcoming_key_for_special_doors" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:layout_width="wrap_content" android:layout_height="35.0dip" android:src="@drawable/dk_module_ic_parking_key" android:tint="@color/white" />
+                                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dk_module_parking" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="35.0dip" android:src="@drawable/dk_module_ic_elevator_key" android:tint="@color/white" />
+                            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dk_module_elevator" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="binding_10" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="35.0dip" android:src="@drawable/dk_module_ic_lounge_key" android:tint="@color/white" />
+                            <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dk_module_welcoming_executive_lounge" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:tag="binding_11" android:background="@color/dk_module_welcoming_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:tag="binding_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/dk_module_welcoming_horizontal_margin" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="20.0dip">
+            <ImageView android:gravity="center" android:id="@id/iv_key_failed" android:layout_width="27.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/dk_module_ic_dk_error" android:tint="@color/white" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/failedKeyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:tag="binding_14" android:background="@color/dk_module_welcoming_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="16.0sp" android:textStyle="italic" android:textColor="@color/white" android:tag="binding_15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="@dimen/dk_module_welcoming_horizontal_large_margin" />
+                <Button android:textSize="14.0sp" android:textColor="@color/white" android:tag="binding_16" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/dk_module_verify_payment" android:elevation="2.0dip" android:backgroundTint="@color/secondary_action_blue" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dk_module_welcoming_horizontal_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/dk_module_welcoming_horizontal_margin">
+            <ImageView android:id="@id/iv_cookie" android:layout_width="27.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/ic_cookie" android:tint="@color/white" />
+            <TextView android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dk_module_welcoming_chocolate_chip_cookie" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

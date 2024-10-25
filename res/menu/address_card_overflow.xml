@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/overflow_edit" android:visible="true" android:title="@string/view_payment_card_overflow_edit" app:showAsAction="always|withText" />
+    <item android:id="@id/overflow_delete" android:visible="true" android:title="@string/view_payment_card_overflow_delete" app:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,33 @@
+{
+  "existingSession": null,
+  "title": "Updating your personal info",
+  "description": "You can update most of your personal info in your [account profile settings](hhonors://account).\n\nIf you've recently changed your name, [contact us](https://help.hilton.com/s/contactsupport). You'll need to provide documenation showing proof of a legal name change.",
+  "relatedTopics": [
+    {
+      "name": "Two-Factor Authentication",
+      "navLink": "twofactorauthentication.json"
+    },
+    {
+      "name": "Travel or communication preferences",
+      "navLink": "travelorcommunicationpreferences.json"
+    },
+    {
+      "name": "Forgot username or password?",
+      "navLink": "forgotusernameorpassword.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

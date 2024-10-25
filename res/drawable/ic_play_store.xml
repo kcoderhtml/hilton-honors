@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="53.0dip" android:width="53.0dip" android:viewportWidth="53.0" android:viewportHeight="53.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_play_store__0" android:pathData="M7.703,4.577C7.176,5.104 7,5.983 7,7.037v38.817c0,1.054 0.351,1.932 0.878,2.459l0.176,0.175 21.78,-21.78v-0.35L7.703,4.577z" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$ic_play_store__1" android:pathData="M36.86,34.086l-7.202,-7.202v-0.527l7.201,-7.201 0.176,0.175 8.607,4.919c2.459,1.405 2.459,3.688 0,5.093l-8.783,4.743z" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$ic_play_store__2" android:pathData="M37.035,33.91l-7.377,-7.377L7.703,48.488c0.878,0.879 2.107,0.879 3.688,0.176L37.035,33.91" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$ic_play_store__3" android:pathData="M37.035,19.156L11.391,4.577C9.811,3.7 8.581,3.875 7.703,4.753l21.955,21.78 7.377,-7.377z" android:fillType="nonZero" />
+</vector>

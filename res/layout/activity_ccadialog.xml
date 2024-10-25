@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialogActivity_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/default_dialog_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/DialogTitle" />
+    <TextView android:id="@id/dialogActivity_dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/default_dialog_message" android:layout_below="@id/dialogActivity_dialog_title" style="@style/DialogMessage" />
+    <com.cyberfend.cyfsecurity.CircleProgressBar android:id="@id/dialogActivity_dialog_progressBar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="30.0dip" android:layout_below="@id/dialogActivity_dialog_message" android:layout_centerHorizontal="true" />
+    <Button android:id="@id/dialogActivity_dialog_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_below="@id/dialogActivity_dialog_progressBar" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:textAllCaps="true" style="@style/DialogButton" />
+</RelativeLayout>

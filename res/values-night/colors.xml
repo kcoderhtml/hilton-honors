@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="account_tab_widget_color">@color/primary_light_blue</color>
+    <color name="akamaiCCAcolorDialogBackground">#ff313030</color>
+    <color name="akamaiCCAcolorDialogMessage">#99ffffff</color>
+    <color name="akamaiCCAcolorDialogTitle">#deffffff</color>
+    <color name="akamaiCCAcolorPrimary">#ffffffff</color>
+    <color name="akamaiCCAcolorProgressBackground">#ff424242</color>
+    <color name="alert_dialog_message_note">#ffc8c8c8</color>
+    <color name="brand_accent">@color/primary_light_blue</color>
+    <color name="button_colorPrimary">@color/primary_light_blue</color>
+    <color name="com_braze_content_card_background">#ff555555</color>
+    <color name="com_braze_content_card_background_border">#ff555555</color>
+    <color name="com_braze_content_card_background_shadow">#ff555555</color>
+    <color name="com_braze_content_card_empty_text_color">@android:color/white</color>
+    <color name="com_braze_content_cards_action_hint_text_color">#ff8ac7ff</color>
+    <color name="com_braze_content_cards_description">@android:color/white</color>
+    <color name="com_braze_content_cards_display_background_color">#ff1e1e1e</color>
+    <color name="com_braze_content_cards_title">@android:color/white</color>
+    <color name="com_braze_content_cards_unread_bar_color">#ff8ac7ff</color>
+    <color name="dialog_background">#ff424242</color>
+    <color name="dialog_body_color">@color/white</color>
+    <color name="dialog_title_color">@color/white</color>
+    <color name="grey_high_contrast">#ffcccccc</color>
+    <color name="legacy_brand_accent">@color/legacy_primary_light_blue</color>
+    <color name="legacy_button_colorPrimary">@color/legacy_primary_light_blue</color>
+    <color name="legacy_dialog_background">#ff424242</color>
+    <color name="legacy_dialog_body_color">@color/legacy_white</color>
+    <color name="legacy_dialog_title_color">@color/legacy_white</color>
+    <color name="legacy_progress_dialog_text_color">@color/legacy_white</color>
+    <color name="legacy_progress_dialog_text_color_primary">@color/legacy_white</color>
+    <color name="milestone_highlight_ring">#33339ae8</color>
+    <color name="pam_processing_cover">#ec339ae8</color>
+    <color name="progress_dialog_text_color">@color/white</color>
+    <color name="progress_dialog_text_color_primary">@color/white</color>
+    <color name="selected_tab_widget_color">@color/primary_light_blue</color>
+</resources>

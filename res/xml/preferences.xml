@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:layout="@layout/preference_divider_empty" android:title="@string/pref_category_notifications">
+        <android.support.v7.preference.PreferenceScreen android:layout="@layout/preference_field" android:title="@string/pref_title_push_notifications" android:key="@string/preference_key_push_notifications" android:summary="@string/pref_summary_push_notifications">
+            <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_stay_alerts" android:key="@string/preference_key_pn_stay_alerts" android:summary="@string/pref_summary_stay_alerts" android:defaultValue="true" />
+            <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_stay_reminders" android:key="@string/preference_key_pn_stay_reminders" android:summary="@string/pref_summary_stay_reminders" android:defaultValue="true" />
+            <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_in_stay_offers" android:key="@string/preference_key_pn_in_stay_offers" android:summary="@string/pref_summary_in_stay_offers" android:defaultValue="true" />
+            <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_hilton_honors_account" android:key="@string/preference_key_pn_hilton_honors_account" android:summary="@string/pref_summary_hilton_honors_account" android:defaultValue="true" />
+            <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_hilton_offers" android:key="@string/preference_key_pn_hilton_offers" android:summary="@string/pref_summary_hilton_offers" android:defaultValue="true" />
+        </android.support.v7.preference.PreferenceScreen>
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:layout="@layout/preference_divider" android:title="@string/pref_category_security" android:key="@string/preference_key_category_finger_print">
+        <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_finger_print" android:key="@string/preference_key_finger_print" android:summary="@string/pref_summary_finger_print" android:defaultValue="false" />
+        <android.support.v7.preference.SwitchPreferenceCompat android:layout="@layout/preference_field" android:title="@string/pref_title_extra_security" android:key="@string/preference_key_extra_security" android:summary="@string/pref_summary_extra_security" android:defaultValue="false" />
+        <com.mofo.android.hilton.core.view.preference.FingerprintExtraSecurityTimePreference android:title="@string/pref_title_finger_print_extra_security_time" android:key="@string/preference_key_finger_print_extra_security_time" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:layout="@layout/preference_divider" android:title="@string/pref_category_documentation">
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_privacy_statement" android:key="@string/preference_key_privacy_statement" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_cookie_statement" android:key="@string/preference_key_cookie_statement" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_dk_terms_of_use" android:key="@string/preference_key_dk_terms_of_use" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_dci_terms_of_use" android:key="@string/preference_key_dci_terms_of_use" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_usage_agreement" android:key="@string/preference_key_usage_agreement" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_open_source" android:key="@string/preference_key_open_source" />
+        <android.support.v7.preference.Preference android:layout="@layout/preference_field" android:title="@string/title_preference_version" android:key="@string/preference_key_version" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

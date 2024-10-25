@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/preference_shadow" />
+    <View android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:id="@android:id/title" style="@style/PreferenceCategoryDivider" />
+</LinearLayout>

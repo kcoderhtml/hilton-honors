@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout-sw600dp/calendar_day_priced_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_cal_day_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/text_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="10.0">
+        <TextView android:textSize="12.0dip" android:textColor="@color/special_requests_info" android:gravity="bottom|center" android:id="@id/tv_cal_day" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="4.0dip" android:layout_weight="5.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/brand_accent" android:ellipsize="end" android:gravity="center|top" android:id="@id/tv_cal_price" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" android:fontFamily="sans-serif-medium" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <ProgressBar android:theme="@style/progressBarGrey" android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

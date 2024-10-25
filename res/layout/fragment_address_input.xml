@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobileforming.module.common.view.FullscreenFrameLayout android:id="@id/fullscreen_layout" android:tag="layout/fragment_address_input_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/address_header_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/personal_info_address_input_header_1" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/address_header_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="8.0dip" android:text="@string/personal_info_address_input_header_2" />
+            <TextView android:id="@id/address_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/address" style="@style/AddressTitleStyle" />
+            <com.mobileforming.module.common.view.AddressBoundView android:id="@id/address_form_view" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.mobileforming.module.common.view.FullscreenFrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/tv_policy_descriptor" style="@style/RateDetailsRulesAndRestrictionsDescriptor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

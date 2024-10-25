@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout_searchQuery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/standard_margin" android:paddingEnd="@dimen/standard_margin" style="@style/AdyenCheckout.TextInputLayout">
+        <com.adyen.checkout.ui.core.internal.ui.view.AdyenTextInputEditText android:id="@id/editText_searchQuery" style="@style/AdyenCheckout.PayByBank.SearchQueryInput" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_issuers" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:id="@id/textView_noMatchingIssuers" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AdyenCheckout.PayByBank.NoMatchingIssuers" />
+</merge>

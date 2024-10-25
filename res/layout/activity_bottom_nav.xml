@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_content_view" android:tag="layout/activity_bottom_nav_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/fab_dkeys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="6.0dip" app:layout_dodgeInsetEdges="bottom" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="start|bottom|center" android:id="@id/fab_beta_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:src="@drawable/ic_fab_beta_feedback" android:elevation="6.0dip" app:backgroundTint="@color/white" app:layout_dodgeInsetEdges="bottom" app:maxImageSize="56.0dip" app:tint="@color/primary_dark_blue" />
+        <androidx.fragment.app.FragmentContainerView android:id="@id/tray_fragment_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:elevation="@dimen/tray_elevation" app:behavior_peekHeight="@dimen/tray_peek_height" app:layout_behavior="@string/bottom_sheet_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/navigation" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="16.0dip" app:itemIconTint="@color/bottom_nav_color_selector" app:itemTextColor="@color/bottom_nav_color_selector" app:labelVisibilityMode="labeled" app:menu="@menu/navigation" />
+</LinearLayout>

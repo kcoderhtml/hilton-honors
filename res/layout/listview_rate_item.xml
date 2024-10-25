@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_root" android:tag="layout/listview_rate_item_0" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/current_selection_text" android:text="@string/change_rate_header_text" style="@style/MultiRoom_ChangeRate_Header_Text" />
+        <RelativeLayout android:id="@id/root_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/special_offer_container" android:background="@color/alert_message_bkg" android:visibility="gone" android:text="@string/select_room_special_offer" android:drawableLeft="@drawable/ic_special_rate_black" android:drawablePadding="8.0dip" android:layout_alignParentTop="true" android:paddingStart="20.0dip" android:paddingEnd="8.0dip" android:layout_alignParentStart="true" app:drawableHeight="16.0dip" app:drawableWidth="16.0dip" style="@style/RoomsAndRates_List_SpecialOffer_Title" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/right_container" android:layout_below="@id/special_offer_container" android:layout_alignParentLeft="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <ImageView android:id="@id/rate_info_icon" android:tag="binding_1" android:padding="4.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/ic_information_black" />
+                    <TextView android:id="@id/rate_plan_name" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" style="@style/RoomsAndRates_List_Title_No_Padding" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/rate_plan_service_charge_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+                    <TextView android:id="@id/rate_plan_service_charge" android:layout_marginLeft="36.0dip" android:layout_marginTop="4.0dip" style="@style/Rates_List_Charges" />
+                </LinearLayout>
+                <com.mobileforming.module.common.view.DrawableTextView android:textSize="10.0sp" android:textColor="@color/pam_rate_label" android:id="@id/pam_rate_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/pay_with_points_amp_money" android:drawableLeft="@drawable/ic_points_and_money" android:drawablePadding="8.0dip" android:layout_marginStart="32.0dip" app:drawableHeight="14.0dip" app:drawableWidth="25.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/right_container" android:paddingLeft="4.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="14.0sp" android:textColor="@color/brand_accent" android:id="@id/tv_call_us" android:background="@drawable/call_button" android:padding="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_caps" android:fontFamily="sans-serif-medium" />
+                <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/ll_cash_only_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_strike_thru_price" android:visibility="gone" android:layout_marginRight="10.0dip" style="@style/RoomsAndRates_Strike_Thru_Price" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_cash_only_currency_symbol" style="@style/RoomsAndRates_List_PriceUnit" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_cash_only_amount" style="@style/RoomsAndRates_List_Price" />
+                </LinearLayout>
+                <TextView android:layout_gravity="right" android:id="@id/per_night_currency" android:visibility="gone" style="@style/RoomsAndRates_List_Price_PerNight" />
+                <TextView android:textSize="20.0sp" android:layout_gravity="right" android:id="@id/tv_confidential_rate" android:visibility="gone" android:text="@string/confidential_price_text" style="@style/RoomsAndRates_HHonors_Points" />
+                <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/ll_cash_plus_points_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_plus_currency_symbol" style="@style/RoomsAndRates_List_PriceUnit" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_plus_cash_amount" android:visibility="gone" style="@style/RoomsAndRates_HHonors_Points" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_plus_symbol" android:visibility="gone" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/plus" style="@style/RoomsAndRates_HHonors_Points" />
+                    <TextView android:layout_gravity="center_vertical" android:id="@id/tv_hhonors_points" android:visibility="visible" style="@style/RoomsAndRates_HHonors_Points" />
+                </LinearLayout>
+                <TextView android:layout_gravity="right" android:id="@id/hhonors_points_label" android:visibility="gone" android:text="@string/hhonors_pts" style="@style/RoomsAndRates_HHonors_Points_Label" />
+                <TextView android:layout_gravity="right" android:id="@id/commissionable" android:visibility="gone" style="@style/RoomsAndRates_Commissionable" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@id/current_selection_divider" android:background="@color/selected_room_highlight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <View android:id="@id/divider" android:visibility="visible" style="@style/RoomRateDivider" />
+    </LinearLayout>
+</FrameLayout>

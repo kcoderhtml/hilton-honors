@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:tag="layout/list_item_hilton_suggest_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/explore_hilton_suggest_background" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/hilton_suggest_team_member_image_container" android:tag="binding_1" android:layout_width="40.0dip" android:layout_height="40.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/hilton_suggest_team_member_image" android:tag="binding_2" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="8.0dip" />
+            <ImageView android:layout_gravity="end|bottom|center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_hs_white_outline" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:layout_toEndOf="@id/hilton_suggest_team_member_image_container">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/explore_module_blue_text_color" android:id="@id/hilton_suggest_team_member_name" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/explore_module_blue_text_color" android:id="@id/hilton_suggest_team_member_review" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:lineSpacingExtra="6.0sp" />
+            <com.google.android.material.card.MaterialCardView android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" app:cardCornerRadius="8.0dip">
+                <ImageView android:id="@id/hilton_suggest_photo" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

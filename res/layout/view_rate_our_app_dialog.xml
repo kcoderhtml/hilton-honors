@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/status_bar_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <ImageView android:id="@id/rate_app_close" android:background="@drawable/rate_app_prompt_button_selector" android:padding="16.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_marginTop="@dimen/rate_our_app_dialog_close_button_margin_top" android:src="@drawable/ic_arrow_back_white" />
+        <TextView android:textSize="@dimen/rate_our_app_dialog_prompt_title_font_size" android:id="@id/rate_app_prompt_title" style="@style/RateOurAppPromptText" />
+        <TextView android:textSize="@dimen/rate_our_app_dialog_prompt_body_font_size" android:id="@id/rate_app_prompt_body" style="@style/RateOurAppPromptText" />
+        <LinearLayout android:id="@id/rate_app_rate_now" style="@style/RateOurAppButton_Container">
+            <ImageView style="@style/RateOurAppButton_Arrow" />
+            <TextView android:text="@string/rate_our_app_dialog_rate_option_button_rate_now" style="@style/RateOurAppButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/rate_app_remind_me_later" style="@style/RateOurAppButton_Container">
+            <ImageView style="@style/RateOurAppButton_Arrow" />
+            <TextView android:text="@string/rate_our_app_dialog_rate_option_button_remind_me_later" style="@style/RateOurAppButton_Text" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/rate_app_no_thanks" style="@style/RateOurAppButton_Container">
+            <ImageView style="@style/RateOurAppButton_Arrow" />
+            <TextView android:text="@string/rate_our_app_dialog_rate_option_button_no_thanks" style="@style/RateOurAppButton_Text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

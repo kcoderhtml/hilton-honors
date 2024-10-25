@@ -1,0 +1,37 @@
+{
+  "existingSession": null,
+  "title": "",
+  "description": null,
+  "relatedTopics": [
+    {
+      "name": "Canceling a reservation",
+      "navLink": "cancelingareservation.json"
+    },
+    {
+      "name": "Go Hilton Program",
+      "navLink": "gohiltonprogram.json"
+    },
+    {
+      "name": "Report missing Points",
+      "navLink": "reportmissingpoints.json"
+    },
+    {
+      "name": "Updating your personal info",
+      "navLink": "updatepersonalinfo.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

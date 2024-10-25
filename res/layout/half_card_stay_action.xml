@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mofo.android.hilton.core.view.HalfStayActionView android:id="@id/rl_action_layout" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/TextButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:tag="layout/custom_view_google_pay_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.gms.wallet.button.PayButton android:id="@id/google_pay_button" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <com.adyen.checkout.ui.core.AdyenComponentView android:id="@id/component_view" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <ProgressBar android:id="@id/progress_indicator" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/standard_margin" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/error_view" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/standard_margin" bind:layout_constraintEnd_toEndOf="parent" bind:layout_constraintStart_toStartOf="parent" bind:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

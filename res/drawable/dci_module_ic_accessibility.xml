@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="14.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="wrapper_4">
+        <clip-path android:name="clip_ic_accessible" android:pathData="M 0 0 L 14 0 L 14 14 L 0 14 Z" />
+        <group android:name="group_5">
+            <path android:name="path" android:fillColor="#ff009cde" android:pathData="M 7 0 C 5.144 0 3.363 0.738 2.05 2.05 C 0.738 3.363 0 5.144 0 7 C 0 8.856 0.738 10.637 2.05 11.95 C 3.363 13.262 5.144 14 7 14 C 8.856 14 10.637 13.262 11.95 11.95 C 13.262 10.637 14 8.856 14 7 C 14 5.144 13.262 3.363 11.95 2.05 C 10.637 0.738 8.856 0 7 0 Z" android:strokeWidth="1.0" />
+            <group android:name="wrapper_3">
+                <clip-path android:name="clip_path" android:pathData="M 7 2.864 C 7.222 2.862 7.436 2.948 7.594 3.103 C 7.753 3.258 7.844 3.469 7.848 3.691 C 7.844 3.913 7.753 4.124 7.594 4.279 C 7.436 4.434 7.222 4.52 7 4.518 C 6.778 4.52 6.564 4.434 6.406 4.279 C 6.247 4.124 6.156 3.913 6.152 3.691 C 6.156 3.469 6.247 3.258 6.406 3.103 C 6.564 2.948 6.778 2.862 7 2.864 Z M 10.818 5.764 L 8.273 5.764 L 8.273 11.141 L 7.424 11.141 L 7.424 8.659 L 6.576 8.659 L 6.576 11.141 L 5.727 11.141 L 5.727 5.764 L 3.182 5.764 L 3.182 4.937 L 10.818 4.937 Z" />
+                <group android:name="group_4">
+                    <group android:name="wrapper_2">
+                        <clip-path android:name="clip_path_2" android:pathData="M -28 561.909 L 244.364 561.909 L 244.364 -27.364 L -28 -27.364 Z" />
+                        <group android:name="group_3">
+                            <group android:name="group_2">
+                                <group android:name="wrapper_1">
+                                    <clip-path android:name="clip_path_3" android:pathData="M 0.001 0 L 14.001 0 L 14.001 14 L 0.001 14 Z" />
+                                    <group android:name="group_1">
+                                        <group android:name="wrapper">
+                                            <clip-path android:name="clip_path_4" android:pathData="M 0.001 14 L 14.001 14 L 14.001 0 L 0.001 0 Z" />
+                                            <group android:name="group">
+                                                <path android:name="path_1" android:fillColor="#ffffffff" android:pathData="M -0.635 -0.636 L 14.638 -0.636 L 14.638 14.637 L -0.635 14.637 Z" android:strokeWidth="1.0" />
+                                            </group>
+                                        </group>
+                                    </group>
+                                </group>
+                            </group>
+                        </group>
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

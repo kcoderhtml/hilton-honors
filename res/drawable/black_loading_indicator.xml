@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="200" android:drawable="@drawable/ic_dot_01_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_02_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_03_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_04_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_05_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_06_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_07_blk" />
+    <item android:duration="200" android:drawable="@drawable/ic_dot_08_blk" />
+</animation-list>

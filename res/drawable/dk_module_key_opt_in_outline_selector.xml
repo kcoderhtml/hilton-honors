@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/standard_action_button_white_ripple" />
+    <item android:drawable="@drawable/dk_module_key_opt_in_outline_button_ripple" />
+</selector>

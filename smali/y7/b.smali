@@ -1,0 +1,46 @@
+.class public final synthetic Ly7/b;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Landroid/view/View$OnFocusChangeListener;
+
+
+# instance fields
+.field public final synthetic b:Ly7/c;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ly7/c;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ly7/b;->b:Ly7/c;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onFocusChange(Landroid/view/View;Z)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ly7/b;->b:Ly7/c;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1, p2}, Ly7/c;->c(Ly7/c;Landroid/view/View;Z)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

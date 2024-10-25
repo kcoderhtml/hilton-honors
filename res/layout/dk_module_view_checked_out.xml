@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/dk_module_view_checked_out_0" android:background="@color/brand_accent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dk_module_account_overlay_cancel_x" />
+        <ImageView android:layout_width="73.0dip" android:layout_height="73.0dip" android:layout_marginTop="55.0dip" android:src="@drawable/dk_module_ic_learn_more" android:tint="@color/white" />
+        <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/dk_module_key_deactivated" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/dk_module_checked_out_message" />
+    </LinearLayout>
+</ScrollView>

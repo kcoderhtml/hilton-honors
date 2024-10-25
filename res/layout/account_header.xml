@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/tv_account_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="16.0dip" android:accessibilityHeading="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

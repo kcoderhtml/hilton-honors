@@ -1,0 +1,3132 @@
+{
+  "entries": [
+    {
+      "config": {
+        "CBPpropsMapi": {
+          "ctyhocn": [
+            "MBJRHHF",
+            "LRMFMHH",
+            "CUNQRHH"
+          ],
+          "enabled": true
+        },
+        "CRKeys": {
+          "CRBlacklist": [
+
+          ],
+          "CRCopy": {
+            "CRLearnMoreBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRLearnMoreBullet2": "See what's on - or binge your favorites.",
+            "CRLearnMoreBullet3": "Control the lights without getting up.",
+            "CRLearnMoreBullet4": "Set the perfect temperature from your bed.",
+            "CRLearnMoreBulletTitle1": "Easy setup",
+            "CRLearnMoreBulletTitle2": "TV",
+            "CRLearnMoreBulletTitle3": "Lighting",
+            "CRLearnMoreBulletTitle4": "Climate",
+            "CRLearnMoreSubtitle1": "Check your room for connected features once you arrive. We're upgrading more rooms every day.",
+            "CRLearnMoreTitle": "Kick back. Make yourself comfortable.",
+            "CRWelcomeBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRWelcomeBullet2": "See what's on - or binge your favorites.",
+            "CRWelcomeBullet3": "Control the lights without getting up.",
+            "CRWelcomeBullet4": "Set the perfect temperature from your bed.",
+            "CRWelcomeBulletTitle1": "Easy setup",
+            "CRWelcomeBulletTitle2": "TV",
+            "CRWelcomeBulletTitle3": "Lighting",
+            "CRWelcomeBulletTitle4": "Climate",
+            "CRWelcomeTitle": "Kick back. Make yourself comfortable."
+          },
+          "CRIOTWhitelist": [
+            "MEMCWGI",
+            "MEMGEHX",
+            "DCACUPY",
+            "OLVCLHT",
+            "WASUAUA",
+            "SNSCAHX",
+            "HRLNOGI",
+            "LASVEHX",
+            "FLLRURU",
+            "FLLHTHT",
+            "DFWMMRU",
+            "PRCDTGI",
+            "DALNLRU",
+            "FWANHGI",
+            "FWANTHT",
+            "SCKTYHT",
+            "DAYRMHT",
+            "MSYORGI",
+            "MAFGSHT",
+            "SJCMSHX",
+            "GEGSVRU",
+            "RSWFTHT",
+            "CODEYHX",
+            "DSMDUHT",
+            "LBBLUHX",
+            "WVIWBHX",
+            "ICTDDHT",
+            "JAXJFRU",
+            "BOSBBGI",
+            "SMFSAQQ",
+            "SPSPPHT",
+            "SPSTXRU",
+            "MKESORU",
+            "MKESUHT",
+            "FLLAVHH",
+            "RFDDKHT",
+            "GRRGRPY",
+            "ATLRRHT",
+            "MRBMBHT",
+            "SRWJAHT",
+            "INDFRHX",
+            "INDCRHT",
+            "CLTPYPY",
+            "BOSBAHX",
+            "BOSSYHW",
+            "DENLLHT",
+            "PDXLLHT",
+            "CODEYHX",
+            "GRRRRRU",
+            "ROARVRU",
+            "MLBSKUP",
+            "AZONEGI",
+            "AZOKDHT",
+            "HOUEBHX",
+            "TUSCHTA",
+            "TUSCBHX",
+            "ORDCPHX",
+            "DFWFCRU",
+            "AUSPNHX",
+            "MFEWSHX",
+            "FNTHTHT",
+            "PDXSMHT",
+            "HVNORHW",
+            "PWMOPPY",
+            "NYCDLUA"
+          ],
+          "CRPresentKeyboard": true,
+          "CRProperties": [
+
+          ],
+          "CRSurvey": {
+            "Prompt": "Help us improve!",
+            "PromptTriggerPoints": 9.0,
+            "QuestionsAnswers": [
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using Digital Key to unlock your door?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your TV?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your room's lighting and climate?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No"
+                ],
+                "question": "Would you recommend staying in a smart room to a friend?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your Digital Key with a travel companion?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your app's TV or room controls with a travel companion?"
+              }
+            ],
+            "Status": false,
+            "Version": 1.0
+          },
+          "CRTVRemote": {
+            "ConnectRetryDelaySeconds": 0.1,
+            "ConnectionDelayMessage": "We're having trouble talking to your Connected Room. Give us a moment, then please try again.",
+            "ConnectionTimeout": 8.0,
+            "InstantStart": false,
+            "MaxConnectRetryCount": 2.0,
+            "NowPlayingRefreshTime": 1200.0,
+            "NumberEntryDelay": 2.0,
+            "ScanTimeout": 5.0,
+            "ScanTimeoutMessage": "This technology works while you are in your room. You may be out of range or in a room that hasn't been upgraded yet.",
+            "ScanTimeoutMessageTitle": "No Connected Room found"
+          }
+        },
+        "DCOStaySurvey2022": {
+          "ctyhocn": [
+
+          ],
+          "enabled": false
+        },
+        "DCOSurvey": {
+          "properties": {
+            "BOSHLH": {
+              "endTime": "",
+              "startTime": ""
+            }
+          },
+          "surveyEnabled": false,
+          "url": "http://survey.usabilla.com/live/s/5b7da1bcd5cedc20745df685?reset"
+        },
+        "DKOIAMessaging": {
+          "DKP2IDNeededMessage": "Stop by the front desk with a photo ID. We'll set you up for Digital Key.",
+          "DKP2IDNeededMessageTitle": "Let's make sure it's yours",
+          "DKP2IDNeededNotificationsMessage": "If your notifications are on, we'll let you know when your key arrives.",
+          "DKP2IDNeededNotificationsTitle": "Notifications",
+          "DKP2IDNeededTitle": "This device is new to us"
+        },
+        "DKParkingMessages": {
+          "Options": [
+            {
+              "Id": "Self1",
+              "Self1_Description": "Add parking access to my Digital Key.",
+              "Self1_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1",
+              "Valet1_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_Name": "Valet Parking"
+            },
+            {
+              "Id": "Self1_3rdParty",
+              "Self1_3rdParty_Description": "Self parking at this hotel doesn't offer Digital Key access at this time.",
+              "Self1_3rdParty_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1_3rdParty",
+              "Valet1_3rdParty_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_3rdParty_Name": "Valet Parking"
+            }
+          ]
+        },
+        "DKShakeToAccess": {
+          "minShakesToActivate": 3.0,
+          "shakeDKSwitch": true,
+          "shakeDiscardWindow": 250.0,
+          "shakeResetWindow": 1500.0,
+          "shakingThreshold": 2.3
+        },
+        "RUAConfirmationMessage": "If you'd like to make changes or cancel this order, you must do so prior to 24 hours before the hotel's standard check-in time.",
+        "akamaiPixelThreshold": 64.0,
+        "androidSmartLock": true,
+        "appFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "WC"
+          },
+          {
+            "Option": "Request",
+            "Value": "WQ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "WR"
+          },
+          {
+            "Option": "Digital Check-in",
+            "Value": "WD"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          },
+          {
+            "Option": "Defects",
+            "Value": "WF"
+          },
+          {
+            "Option": "Crashes",
+            "Value": "WX"
+          }
+        ],
+        "appInBackGroundDurationThreshold": "3600000",
+        "assetBundleURL": "https://hms.hiltonapi.com/akm/gp/android/android_assets_v2024.3.28.zip",
+        "blueKeyRequestAlertMessage": "For this visit, please stop by the front desk so we can verify your identity and enable your Digital Key.",
+        "bookUsingMAPI": false,
+        "brandAlertsNotificationLimit": "2",
+        "brandCodeOffersSearch": "HH",
+        "brandedContent": {
+          "CH": {
+            "callToBook_USandCanada": "1-800-266-7237",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "DT": {
+            "callToBook_USandCanada": "1-800-222-8733",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "ES": {
+            "callToBook_USandCanada": "1-800-362-2779",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "GI": {
+            "callToBook_USandCanada": "1-877-782-9444",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HI": {
+            "callToBook_USandCanada": "1-800-445-8667",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HP": {
+            "callToBook_USandCanada": "1-800-426-7866",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HT": {
+            "callToBook_USandCanada": "1-877-646-6302",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HW": {
+            "callToBook_USandCanada": "1-800-225-5466",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "WA": {
+            "callToBook_USandCanada": "1-800-925-3673",
+            "callToBook_World": "+44 8705 466677"
+          }
+        },
+        "ccpa": {
+          "ccpaDisclaimer": "California consumers, click here to learn about Hilton's collection and use of your personal information.",
+          "doNotSellUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/",
+          "personalDataRequestsUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/"
+        },
+        "cleanStayDetailsURL": "https://www.hilton.com/en/p/what-to-expect/",
+        "conciergeCTYHOCN": {
+        },
+        "contentBundle": {
+          "AdditionalRoomPreferences": "Please indicate your preferences below (don't worry, this won't limit the room options we show you). We can't guarantee availability, but we'll try our best!",
+          "AddressInstruction": "Update your address below. * - Required fields",
+          "CheckInAvailableNotificationMessage": "It's time to choose your room and check-in for your stay on %s at the %s.",
+          "CheckInPaymentDisclaimer": "Add a card to pay for any in-room extras (WiFi, room service, etc.)",
+          "CombinedTermsExpPolicyPrivacyandCookie": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Expiration Policy, our Global Privacy Statement and our Cookies Statement.",
+          "CreditCardHoldDisclaimer": "If you use a debit/credit card to check in, a hold may be placed on your card account for the full, anticipated amount to be owed to the hotel, including estimated incidentals, through your date of check-out. This hold may not be released for 72 hours from the date of check-out or longer at the discretion of your card issuer.",
+          "EmailInstruction": "We'll store up to 3 email addresses. Confirmations will always be sent to your preferred email (indicated by the star).",
+          "FullPrepaymentDisclaimer": "To secure this reservation, you'll need to pay in advance, so we'll charge your credit card immediately. Payment is non-refundable if you cancel, change the reservation, or don't show up on your check-in date.",
+          "GDPR": {
+            "China": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive news, special offers and promotions from Hilton Domestic Operating Company Inc. via email, direct mail, telephone, text message, push notifications, in-app alerts, and other means as further described in the Hilton Global Privacy Statement. I understand that my personal data will be transferred to Hilton Domestic Operating Company Inc. in the United States for the foresaid purpose.",
+                "checkboxTitle": "Hilton Marketing"
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "USA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Data Protection Clause, our Global Privacy Statement, and our Cookies Statement.",
+              "generalOCEDisclaimer": "By joining Hilton Honors, I agree to the Hilton Honors Program Terms and Conditions and I agree to the collection, use, sharing and transfer of information as set out in the Global Privacy Statement and the Data Protection Clause. I also agree to receive special offers and promotions from Hilton via email and direct mail. I understand that I can unsubscribe from offers and promotions by changing my subscription preferences in my Hilton Honors profile.",
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties."
+              }
+            },
+            "makesAutomatedDecisions": "Automated decision making is the process by which a decision is made automatically, meaning without human interference, to offer certain benefits to certain consumers based on segmentation.",
+            "notUSA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hgvMarketing": {
+                "checkboxMessage": "I want marketing messages and offers from Hilton Grand Vacations via email, direct mail, and telephone."
+              },
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive marketing and offers from Hilton via SMS, email, and direct mail.",
+                "checkboxTitle": "Hilton marketing"
+              },
+              "personalisedOffers": {
+                "checkboxMessage": "I want Hilton to perform segmentation to make automated decisions to deliver me personalised offers and marketing.",
+                "checkboxTitle": "Personalised offers and content",
+                "confirmPersonalisedOffersAndContent": "By confirming, you agree to segmentation and automated decisions, so that Hilton can choose the best offers for you. Note: You'll only get personalised communications if you selected the Hilton Marketing box."
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "optOutMessage": "I understand that if I provided my consent above to join Hilton's contact list or allow Hilton to make automated decisions I can withdraw that consent at any time by following instructions Hilton provides in each marketing message or, if I am a Hilton Honors member, by changing settings in my account. If I provided my consent to join HGV's contact list I can withdraw that consent at any time by following instructions HGV provides in each marketing message.",
+            "segmentation": "Segmentation (also referred to as profiling) is the process of dividing a large group of consumers into sub-groups of consumers (known as segments) based on some type of shared characteristics such as geography, behavior, or demographics."
+          },
+          "JIGSDataProtectionStatement": "Data Protection: Hilton, as data controller, will collect, process, and use your enrollment and participation data in the USA in order to administer the Hilton Honors program, analyze your travel and accommodation preferences within Hilton, and inform you as mentioned above. In order to credit you with mileage and other benefits earned through your participation in the Hilton Honors Program your personal data has to be shared with the business partners detailed on Hiltonhonors.com. You may obtain a copy of the Privacy Statement anytime from reception or at Hiltonhonors.com. Because Hilton Honors is a worldwide Hilton bonus program, your data may also be transferred to and processed by other participating Hilton companies, owners and operators of our franchised and managed hotels and service providers. This includes companies from countries where data protection laws may differ from the laws of your home country. You may object at any time to the processing and use of your personal data for advertisement purposes and as detailed in the Privacy Policy.",
+          "JoinEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "JoinPreconfirmationDisclaimer": "Click Join Hilton Honors to view your Hilton Honors account number and create a username. We'll also send your Hilton Honors account number via email.",
+          "JoinPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement.",
+          "MarketingOptIn": "I agree to Hilton companies, owners and operators of its franchised and managed hotels contacting me with information about special offers and promotions via e-mail and direct mail, as detailed in the Privacy Statement.",
+          "MarketingOptInGermany": "As part of the Hilton Honors Program, I would like to receive special offers, promotions, surveys and other Marketing information by email or postal mail and consent to this use of my personal data by Hilton companies, owners and operators of its franchised and managed hotels, and service providers.",
+          "MembershipForGermany": "Membership: Hilton Honors is the worldwide loyalty program of the HILTON group operated by Hilton at 7930 Jones Branch Drive, Suite 1100, McLean, Virginia 22102, USA ('Hilton'). Enrollment is subject to the Hilton Honors Terms & Conditions, which are available at the front desk and at Hiltonhonors.com. After your Hilton Honors account is created, we'll send you your Hilton Honors account number via email. You may then choose what information you receive from us by logging onto your account online and managing your subscriptions, or by contacting us in the manner described in the Global Privacy Statement which is available at the front desk and at Hiltonhonors.com. As part of the Hilton Honors program, we inform members via email and, occasionally, via post about special and, possibly, personalized individual offers, promotions, and surveys.",
+          "NoCancelledStays": "Recent cancellations may take up to 2 hours to appear.",
+          "NoPastStays": "You have no completed stays at this time. Hilton Honors Points and Miles information may take up to 48 hours to appear. Also, stays at hotels that don't participate in Hilton Honors will not show rewards listed.",
+          "NoPoints": "You currently have no point activity. Base Points, Bonus Points, and Miles Information may take 48 hours to appear. Also, stays at Hotels that don't participate in Hilton Honors will not show rewards listed",
+          "NoUpcomingStays": "You have no reservations at this time. New reservations may take up to 2 hours to appear.",
+          "Over18years": "I am at least 18 years old.",
+          "Over20Years": "I am at least 20 years old.",
+          "PaymentMethodsInstruction": "Save your credit card information and indicate your preferred method for easy booking.",
+          "PhoneInstruction": "We'll store up to 3 phone numbers. The star indicates your preferred number.",
+          "PrivacyTermsConditionsDisclaimer": "I agree to the Global Privacy Statement and Booking Terms and Conditions. (required)",
+          "ReservationCommentsDisclaimer": "Additional Comments (Optional)",
+          "ReservationEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "ReservationPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement, and our Cookies Statement. All fields are required unless otherwise indicated.",
+          "SearchResultsBrandDivider": "In addition to your search, here are some nearby hotels from our other brands...",
+          "SeparateExp": "By creating this Hilton Honors account, you agree to our Expiration Policy.",
+          "SeparatePrivacy": "By creating this Hilton Honors account, you agree to our Global Privacy Statement and our Cookies Statement.",
+          "SeparateTerms": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions.",
+          "ThirdPartyOptIn": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptInGermany": "As part of the Hilton Honors program, I'd like to receive special offers, promotions, surveys and other marketing information by email or postal mail and consent to this use of my personal data by business partners in the Hilton Honors Program.",
+          "ThirdPartyOptInItaly": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptOut": "I don't want to receive information from select third parties about complimentary products and services.",
+          "oneClickEnrollmentPromoText": {
+            "promotionHeader": "FREE Wi-Fi* + Digital check-In + other exclusive member benefits",
+            "promotionPerksMessage": "Instantly join Hilton Honors and enjoy the perks with each stay.",
+            "promotionWifiResortMessage": "*In-Room Wi-Fi Internet access may not be complimentary at properties with a resort charge."
+          }
+        },
+        "cookiesStatement": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "customerCareDiamondNumber": "855-292-2765",
+        "customerCareGlobalDiamondNumber": "+800 44 46 66 77",
+        "customerCareGlobalNumber": "+800 44 46 66 77",
+        "customerCareLifetimeDiamond": "844-543-3342",
+        "customerCareNumber": "855-271-3617",
+        "dataProtectionClause": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "datelessSearchControls": {
+          "calendarScrollStopWait": 500.0,
+          "concurrentCalendarQueries": 1.0,
+          "waitBetweenCalendarQueries": 3000.0
+        },
+        "datelessSearchText": {
+          "30dayCalendarLimit": "Staying a while? Our calendar can only show prices for up to 30-night stays, so we updated your results.",
+          "datelessFeeTransparencyText": "Price includes fees.",
+          "leadRatesDisclaimer": "*Prices are based on current availability over the next 30 days and are subject to change. Please select a hotel for specific pricing and availability."
+        },
+        "decorateStrings": [
+          "create",
+          "request",
+          "guests/login",
+          "reservationLogin",
+          "updateGuest",
+          "hotelSummaryOptions_flexibleDate",
+          "shopCalendarPropAvail"
+        ],
+        "deleteAccountURL": "https://www.hilton.com/en/hilton-honors/guest/delete-account",
+        "digitalKeyErrorPhoneCTYHOCN": [
+          {
+            "ctyhocn": "SINHITW",
+            "tel": "+65 6730 3207"
+          },
+          {
+            "ctyhocn": "SINCICI",
+            "tel": "+65 6432 7339"
+          },
+          {
+            "ctyhocn": "LONHPHN",
+            "tel": "+44 207 221 2217"
+          },
+          {
+            "ctyhocn": "LONEXDI",
+            "tel": "+44 207 540 4820"
+          },
+          {
+            "ctyhocn": "EXTAPHX",
+            "tel": "+44 1392 348348"
+          },
+          {
+            "ctyhocn": "OSAHITW",
+            "tel": "+81 6 6347 7111"
+          },
+          {
+            "ctyhocn": "ZQNHQHI",
+            "tel": "+64 3 450 9400"
+          },
+          {
+            "ctyhocn": "SINGIGI",
+            "tel": "+65 6737 2233"
+          },
+          {
+            "ctyhocn": "CANYD",
+            "tel": "0763-6408888"
+          }
+        ],
+        "disablePaMFlag": false,
+        "displayEFPFlag": true,
+        "dkOptInCutoffTime": "11:00",
+        "dkScanTimeMinutes": 10.0,
+        "emsgChat": {
+          "chatUrlTemplate": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile&contentSource=stayTile&channelType=mobile&stayId={stayId}&ctyhocn={ctyhocn}",
+          "postResWindow": 8760.0,
+          "preResWindow": 0.0
+        },
+        "expirationPolicy": "https://www.hilton.com/en/hilton-honors/terms/",
+        "featureModifiers": {
+          "AccountScreenLegalOptionFirst": {
+            "agentCode": "a-IxmhSQPuWP",
+            "relevance": "1.0"
+          },
+          "AmexOfferBanner": {
+            "CompletionTextVariants": {
+              "CompletionWithError": {
+                "bodyText": "Something went wrong...",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithPassback": {
+                "bodyText": "You're booking with your new credit card.",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithoutPassback": {
+                "bodyText": "You can update your payment details to pay with your new Card.",
+                "headlineText": "Congratulations on your new Card!"
+              }
+            },
+            "displayLocations": [
+              "ReservationSummaryBanner"
+            ],
+            "relevance": "1.0"
+          },
+          "ArabicLanguageSupport": {
+          },
+          "BookNowPayLaterBothPlacements": {
+            "relevance": "1.0"
+          },
+          "BookNowPayLaterTopPlacement": {
+            "relevance": "0.0"
+          },
+          "DigitalKeyAudioFeedbackToggle": {
+            "relevance": "1.0"
+          },
+          "EnhancedHelpExperience": {
+            "relevance": "1.0"
+          },
+          "FlexibleArrivalTime": {
+          },
+          "GooglePayFeatureToggle": {
+            "relevance": "1.0"
+          },
+          "H4BMultipleBusinesses": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabBrowseByView": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabFlow": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabHighlight": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSearchedProperties": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSpecialOffers": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookFavorites": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookHotelsNearMe": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookMapView": {
+            "relevance": "1.0"
+          },
+          "M3ShopFlow": {
+          },
+          "M3ShopFlowGuestSupport": {
+            "relevance": "1.0"
+          },
+          "NewStayView": {
+            "relevance": "0.0"
+          },
+          "PointsRatesTaxesMessaging": {
+            "relevance": "0.0"
+          },
+          "ResFormCancellationMessaging": {
+          },
+          "ReservationFormAnalyticsProductsToggle": {
+            "relevance": "1.0"
+          },
+          "ShowFreeAvailableRooms": {
+            "relevance": "1.0"
+          },
+          "TravelDocsDefaultOptIn": {
+            "relevance": "1.0"
+          },
+          "UseLockFramework": {
+            "relevance": "0.0"
+          },
+          "amexFNC": {
+            "disabled": false
+          },
+          "datelessBrowsing": {
+            "relevance": "1.0"
+          },
+          "digitalKeyBeaconLogging": {
+            "relevance": "1.0"
+          },
+          "digitalKeyShare": {
+            "disabled": false,
+            "keyShareHost": "www.hilton.com",
+            "maxInvites": 6.0,
+            "maxShares": 4.0
+          },
+          "enableCalendarRateQueries": {
+            "relevance": "0.0"
+          },
+          "enableSmbProfileSwitching": {
+            "relevance": "1.0"
+          },
+          "enableSmbShopBookMvp": {
+            "relevance": "1.0"
+          },
+          "feeTransparencyPhase2": {
+            "relevance": "1.0"
+          },
+          "globalPreferencesJSONRefactor": {
+            "relevance": "0.0"
+          },
+          "helpfeature_udfFlows": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookAddOns": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookConfirmedConnectingRooms": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookDateless": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookFilterByAvailability": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookGrayLabel": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookLoginSpeedBump": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookPAM": {
+            "relevance": "1.0"
+          },
+          "suppressHonorsMeter": {
+            "relevance": "0.0"
+          },
+          "tcaHelpRefactor": {
+            "relevance": "1.0"
+          },
+          "useEmsgMessaging": {
+            "relevance": "1.0"
+          },
+          "useLocalizedGlobalPrefs": {
+          },
+          "useOneLinkToTranslateContent": {
+            "relevance": "1.0"
+          },
+          "useOpenTableReservations": {
+            "relevance": "1.0"
+          }
+        },
+        "feedbackValidHonorsTiers": "B,S,G,D",
+        "forgotInformation": "https://www.hilton.com/en/hilton-honors/login/forgot-information/?style=hidden",
+        "freeNightsURL": {
+          "learnMore": {
+            "AX": "https://global.americanexpress.com/card-benefits/detail/earn-free-weekend-night-15k/hilton-surpass",
+            "AXAS": "https://global.americanexpress.com/card-benefits/view-all/hilton-aspire",
+            "AXBS": "https://global.americanexpress.com/card-benefits/detail/earn-two-weekend-nights/hilton-business"
+          },
+          "termsAndConditions": "https://www.hilton.com/en/hilton-honors/free-night-reward-terms/"
+        },
+        "fullCardButtonOrdering": [
+          "accountAlert",
+          "digitalKey",
+          "reservationMessage",
+          "checkIn",
+          "yourRooms",
+          "connectedRoom",
+          "checkOut",
+          "restaurantReservation",
+          "explore",
+          "messageHotel",
+          "nor1",
+          "benefits",
+          "hotelGuide",
+          "cleanStay",
+          "floorPlan",
+          "myStay",
+          "weather",
+          "map",
+          "lyft"
+        ],
+        "fullCardSuppressedButtons": [
+          "cleanStay"
+        ],
+        "fullServiceBrands": {
+          "Canopy": "PY",
+          "Conrad": "CH",
+          "Curio": "QQ",
+          "Double Tree": "DT",
+          "Embassy Suites": "ES",
+          "Hilton": "HI",
+          "Waldorf Astoria": "WA"
+        },
+        "globalSupportNumberWebsite": "https://help.hilton.com/s/article/Global-support-numbers",
+        "helpExperience": {
+          "enhancedHelpChatURL": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile",
+          "enhancedHelpRequestCallURL": "https://www.hilton.com/hrcc/click2call-canvas-prod.html?click2callType=inpage"
+        },
+        "hiltonHelpLink": "https://help.hilton.com?suppresschat=true",
+        "hotelMessaging": {
+          "hotelMessagingSwitch": true,
+          "inactiveMessageBody": "While we get everything connected, don't hesitate to call the front desk for whatever you need.",
+          "inactiveMessageTitle": "Messaging isn't available here - yet.",
+          "infoBottomText": "Responses may take longer during peak times. If it's urgent, please call. In the case of an emergency, dial 911.",
+          "infoIcon1": "https://hms.hiltonapi.com/akm/rtm/ic_local_sites.png",
+          "infoIcon1Desc": "Get advice on local favorites",
+          "infoIcon1Title": "What to do in town",
+          "infoIcon2": "https://hms.hiltonapi.com/akm/rtm/ic_event.png",
+          "infoIcon2Desc": "Ask about special events",
+          "infoIcon2Title": "Events & offers",
+          "infoIcon3": "https://hms.hiltonapi.com/akm/rtm/ic_room_supplies.png",
+          "infoIcon3Desc": "Get extra soap, towels, etc.",
+          "infoIcon3Title": "Requests",
+          "infoIcon4": "https://hms.hiltonapi.com/akm/rtm/ic_build.png",
+          "infoIcon4Desc": "Get help or report issues",
+          "infoIcon4Title": "Assistance",
+          "infoSubText": "Have questions? Ask away. Our staff will get right back to you.",
+          "infoTitle": "Message hotel",
+          "infoTitleIcon": "https://hms.hiltonapi.com/akm/rtm/ic_chat_bubble.png",
+          "outageMessageBody": "Messaging isn't available right now",
+          "outageMessageTitle": "Service unavailable",
+          "welcomeMessageBody": "We hope you have a great time - let us know if there's anything we can do to help make that happen!",
+          "welcomeMessageTitle": "Welcome to"
+        },
+        "keySyncTimeout": "30",
+        "lyftSwitch": true,
+        "milestoneBonusMeter": {
+          "suppress": false
+        },
+        "offerDetailSearchURL": "https://www.hilton.com/en/offers/",
+        "oneClickEnrollment": true,
+        "ownersGlobalOASNumber": "+1-415-905-6788",
+        "ownersGlobalODMNumber": "+1-972-726-3395",
+        "ownersUSOASNumber": "866-696-3771",
+        "ownersUSODMNumber": "866-731-1009",
+        "parkingRestrictions": {
+          "parkingRestrictionProperty": [
+            "HNLHV",
+            "KOAHW",
+            "NYCNH",
+            "CHICH",
+            "SFOFH",
+            "SFOSF",
+            "MSYNH",
+            "ORLHH",
+            "EYWCM",
+            "EYWRR",
+            "EWRSH",
+            "MIAAH",
+            "CHIOH",
+            "ORLDW",
+            "BOSLH",
+            "SJCCC",
+            "ATLAA",
+            "MSYAH",
+            "WASDN",
+            "DCAAE",
+            "JOSE",
+            "SEAAH",
+            "ATLPW",
+            "MKCWE",
+            "AUSLK",
+            "OAKHI",
+            "CTAC",
+            "SBAMC",
+            "SPCC",
+            "ONTO",
+            "SANCC",
+            "ORLOC",
+            "DCASH",
+            "SANTP",
+            "CHIWWHW",
+            "CHIWXHX"
+          ],
+          "parkingUnlockMax": 2.0,
+          "parkingUnlockWindow": 900.0
+        },
+        "partnerAccommodationsTerms": "https://www.hilton.com/en/p/partner-accommodations-terms/",
+        "partnerBrands": [
+          "LX",
+          "OU"
+        ],
+        "privacyPolicy": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "privacyPolicyHGV": "https://www.hiltongrandvacations.com/en/privacy-policy.html",
+        "pushNotifications": {
+          "CHECKOUT_AVAILABLE_DAY_BEFORE_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Checking out tomorrow?"
+          },
+          "CHECKOUT_AVAILABLE_DAY_OF_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Check-out available"
+          },
+          "CHECK_IN_AVAILABLE": {
+            "message": "It's time to choose your room & request a Digital Key for a Contactless Arrival at %s.",
+            "title": "Ready to check-in?"
+          },
+          "CHECK_IN_AVAILABLE_NON_DK": {
+            "message": "It's time to check-in and choose your room for your stay at %s.",
+            "title": "Ready to check-in?"
+          },
+          "DK_AWARENESS": {
+            "message": "For a Contactless Arrival, request a Digital Key now so you can skip the front desk and use your phone as your room key.",
+            "title": "We look forward to welcoming you!"
+          },
+          "STR_CC_AUTH_FAILED_TYPE1": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_CC_AUTH_FAILED_TYPE2": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_GENERAL_ERROR": {
+            "message": "We can't seem to get your Digital Key set up. Please see the front desk for help.",
+            "title": "Please visit front desk"
+          },
+          "STR_KEY_READY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room.",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_DUPLICATE_KEY": {
+            "message": "We updated your Digital Key to open more doors.",
+            "title": "Get your Digital Key"
+          },
+          "STR_KEY_READY_NEW_KEY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room. ",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_OPT_IN_ANY_TIME": {
+            "message": "View your Reservations screen to use it.",
+            "title": "Your Digital Key is here!"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT": {
+            "message": "We're giving you a new room - and it's ready, with a Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT_UPGRADE": {
+            "message": "Your upgraded room and Digital Key are ready for you.",
+            "title": "Here's an upgrade for you"
+          },
+          "STR_KEY_READY_ROOM_CHANGE": {
+            "message": "We're giving you a new room - and it's ready, with a new Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_CHANGE_UPGRADE": {
+            "message": "You're getting an upgraded room - and it's ready, with a new Digital Key.",
+            "title": "Here's an upgrade for you"
+          }
+        },
+        "regulationDisclaimer": "Regulations require us to collect the following personal information about each guest before issuing your Digital Key.",
+        "removingStaysCacheTime": "240",
+        "requestTime": "0001-01-01T12:01:01.001+0000",
+        "resGlobalSupportDiamondNumber": "+800 44 45 86 67",
+        "resGlobalSupportPhoneNumber": "+800 44 45 86 67",
+        "resSupportDiamondNumber": "855-292-2765",
+        "resSupportPhoneNumber": "855-292-3493",
+        "rideReminderHeading": "Get a push notification or SMS reminding you to call an Uber. The Uber trip destination will be preset to your hotel's address.",
+        "rideReminderPromo": "New to Uber? Set a reminder to get a code for a free first ride (up to $20)",
+        "rideReminderTerms": "I consent to Hilton sharing my phone number and the address of my hotel with Uber. I understand that such information will be subject to the Uber Terms & Conditions and Uber Privacy Policy.",
+        "rolloverNightsContent": {
+          "diamondLostNoRolloverBannerMsg": "Keep Diamond to get rollover nights",
+          "diamondLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainNoRolloverBannerMsg": "Keep Diamond easily with rollover nights",
+          "diamondRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostNoRolloverBannerMsg": "Keep Gold to get rollover nights",
+          "goldLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Gold",
+          "goldLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainNoRolloverBannerMsg": "Reach Diamond faster with rollover nights",
+          "goldRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Diamond",
+          "goldRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "rolloverNightsFAQURL": "https://www.hilton.com/en/hilton-honors/support-faq/#rollover-nights",
+          "silverLostNoRolloverBannerMsg": "Keep Silver to get rollover nights",
+          "silverLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Silver",
+          "silverLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainNoRolloverBannerMsg": "Reach Gold faster with rollover nights",
+          "silverRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Gold",
+          "silverRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life."
+        },
+        "s2rHelpNumber": "8554141393",
+        "searchComponents": {
+          "browsebyComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 2.0
+            }
+          },
+          "componentOrder": [
+            "SPOTLIGHT",
+            "HONORS",
+            "RECENTS",
+            "INSPIRE",
+            "OFFERS",
+            "HIGHLIGHT"
+          ],
+          "honorsComponent": {
+            "loggedIn": {
+              "messageBody": "{{totalPoints}} points",
+              "messageTitle": "Welcome\n{{firstName}}"
+            },
+            "loggedOut": {
+              "messageBody": "Get our lowest rates, plus the chance to earn free nights, and more.",
+              "messageTitle": "Join or sign in"
+            }
+          },
+          "previouslySearchedPropComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 1.0
+            },
+            "heading": "Previously viewed"
+          },
+          "specialOffersComponent": {
+            "heading": "Special offers",
+            "maxNumber": 3.0
+          },
+          "spotlight": {
+            "bundledImage": {
+              "altText": "Women in bathing suits having fun in the ocean, splashing and running."
+            }
+          }
+        },
+        "seeFrontDeskCopy": "We have a Digital Key waiting for you. Stop by the Front Desk, and we'll get that magic working for you.",
+        "shakeDkSwitch": "1",
+        "smbSpecialRatesMessaging": {
+          "minimumAppVersionForAdvancedSmb": "",
+          "unavailableSmbFeatureMessage": "Visit Hilton.com to see special rates for each of your business accounts."
+        },
+        "specialAlerts": {
+          "covid": {
+            "description": "Look for our flexible booking options with free changes and cancellations available at every hotel.",
+            "enabled": false,
+            "header": "Plans Change"
+          }
+        },
+        "startupAlerts": [
+          {
+            "enablePlayStoreLink": true,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/play-store.png",
+            "text": "Running Android 5.0 (Lollipop) or newer?\nGet new features with the updated Hilton Honors app.",
+            "title": "Update Now"
+          },
+          {
+            "enablePlayStoreLink": false,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/globe.png",
+            "link": "http://www.hilton.com",
+            "text": "Can't update?\nThe Hilton Honors website is mobile-friendly.",
+            "title": "Use the Web"
+          }
+        ],
+        "stayFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "CZ"
+          },
+          {
+            "Option": "Hilton Honors",
+            "Value": "LZ"
+          },
+          {
+            "Option": "Housekeeping",
+            "Value": "HZ"
+          },
+          {
+            "Option": "Maintenance",
+            "Value": "MZ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "RZ"
+          },
+          {
+            "Option": "Customer Service",
+            "Value": "SZ"
+          },
+          {
+            "Option": "Food & Beverage",
+            "Value": "FZ"
+          },
+          {
+            "Option": "Security & Parking",
+            "Value": "OS"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          }
+        ],
+        "suppressBrandingForProperties": [
+          "LAXMCOL"
+        ],
+        "suppressWidgetHhonorsInfo": false,
+        "termsAndConditions": "https://www.hilton.com/en/hilton-honors/terms/",
+        "twoFA": {
+          "internationalPhone": "+ 800 4445 8667",
+          "profileLink": "https://www.hilton.com/en/hilton-honors/guest/profile/",
+          "resendCodeTimeoutSeconds": 60.0,
+          "usCanadaPhone": "1-800-817-5143"
+        },
+        "unlockTimeout": 15.0,
+        "unplannedOutageCallNumber": "+1-855-672-1138",
+        "unplannedOutageMessage": "THE APP IS TEMPORARILY UNAVAILABLE",
+        "unplannedOutageType": "0",
+        "upgradeControl": {
+          "legacyOSVersionSupport": {
+          },
+          "playStoreURL": "https://play.google.com/store/apps/details?id=com.hilton.android.hhonors",
+          "upgradeForceCTA": "Update",
+          "upgradeForceCant": "Can't Update?",
+          "upgradeForceHilton": "Continue your session at Hilton.com",
+          "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+          "upgradeForceTitle": "It's time to update",
+          "upgradeHiltonURL": "http://www.hilton.com",
+          "upgradeHiltonURLMatchString": "Hilton.com",
+          "upgradeNagAppStore": "Go to the Play Store",
+          "upgradeNagCTA": "Update Now",
+          "upgradeNagContinue": "Continue to Hilton Honors app.",
+          "upgradeNagLaterCTA": "Update Later",
+          "upgradeNagMessage": "Experience something new: Update the Hilton Honors app for new features.",
+          "upgradeNagTitle": "New Version Available",
+          "upgradeNagViews": 3.0,
+          "upgradeOSCTA": "Ok",
+          "upgradeOSMessage": "In order to continue using the app, you must update your Android OS to a new version",
+          "upgradeOSTitle": "Update Required",
+          "versionRecommended": 354.0,
+          "versionRequired": 353.0
+        },
+        "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+        "upgradeForceTitle": "It's time to update",
+        "upgradeNagMsg": "Experience something new: Update the Hilton Honors app for new features.",
+        "upgradeNagTitle": "New Version Available",
+        "upgradeNagViews": "3",
+        "usageAgreement": "https://www.hilton.com/en/p/site-usage-agreement/",
+        "versionRecommended": "271",
+        "versionRequired": "271"
+      },
+      "locale": "en_US"
+    },
+    {
+      "config": {
+        "CBPpropsMapi": {
+          "ctyhocn": [
+            "MBJRHHF",
+            "LRMFMHH",
+            "CUNQRHH"
+          ],
+          "enabled": true
+        },
+        "CRKeys": {
+          "CRBlacklist": [
+
+          ],
+          "CRCopy": {
+            "CRLearnMoreBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRLearnMoreBullet2": "See what's on - or binge your favorites.",
+            "CRLearnMoreBullet3": "Control the lights without getting up.",
+            "CRLearnMoreBullet4": "Set the perfect temperature from your bed.",
+            "CRLearnMoreBulletTitle1": "Easy setup",
+            "CRLearnMoreBulletTitle2": "TV",
+            "CRLearnMoreBulletTitle3": "Lighting",
+            "CRLearnMoreBulletTitle4": "Climate",
+            "CRLearnMoreSubtitle1": "Check your room for connected features once you arrive. We're upgrading more rooms every day.",
+            "CRLearnMoreTitle": "Kick back. Make yourself comfortable.",
+            "CRWelcomeBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRWelcomeBullet2": "See what's on - or binge your favorites.",
+            "CRWelcomeBullet3": "Control the lights without getting up.",
+            "CRWelcomeBullet4": "Set the perfect temperature from your bed.",
+            "CRWelcomeBulletTitle1": "Easy setup",
+            "CRWelcomeBulletTitle2": "TV",
+            "CRWelcomeBulletTitle3": "Lighting",
+            "CRWelcomeBulletTitle4": "Climate",
+            "CRWelcomeTitle": "Kick back. Make yourself comfortable."
+          },
+          "CRIOTWhitelist": [
+            "MEMCWGI",
+            "MEMGEHX",
+            "DCACUPY",
+            "OLVCLHT",
+            "WASUAUA",
+            "SNSCAHX",
+            "HRLNOGI",
+            "LASVEHX",
+            "FLLRURU",
+            "FLLHTHT",
+            "DFWMMRU",
+            "PRCDTGI",
+            "DALNLRU",
+            "FWANHGI",
+            "FWANTHT",
+            "SCKTYHT",
+            "DAYRMHT",
+            "MSYORGI",
+            "MAFGSHT",
+            "SJCMSHX",
+            "GEGSVRU",
+            "RSWFTHT",
+            "CODEYHX",
+            "DSMDUHT",
+            "LBBLUHX",
+            "WVIWBHX",
+            "ICTDDHT",
+            "JAXJFRU",
+            "BOSBBGI",
+            "SMFSAQQ",
+            "SPSPPHT",
+            "SPSTXRU",
+            "MKESORU",
+            "MKESUHT",
+            "FLLAVHH",
+            "RFDDKHT",
+            "GRRGRPY",
+            "ATLRRHT",
+            "MRBMBHT",
+            "SRWJAHT",
+            "INDFRHX",
+            "INDCRHT",
+            "CLTPYPY",
+            "BOSBAHX",
+            "BOSSYHW",
+            "DENLLHT",
+            "PDXLLHT",
+            "CODEYHX",
+            "GRRRRRU",
+            "ROARVRU",
+            "MLBSKUP",
+            "AZONEGI",
+            "AZOKDHT",
+            "HOUEBHX",
+            "TUSCHTA",
+            "TUSCBHX",
+            "ORDCPHX",
+            "DFWFCRU",
+            "AUSPNHX",
+            "MFEWSHX",
+            "FNTHTHT",
+            "PDXSMHT",
+            "HVNORHW",
+            "PWMOPPY",
+            "NYCDLUA"
+          ],
+          "CRPresentKeyboard": true,
+          "CRProperties": [
+
+          ],
+          "CRSurvey": {
+            "Prompt": "Help us improve!",
+            "PromptTriggerPoints": 9.0,
+            "QuestionsAnswers": [
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using Digital Key to unlock your door?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your TV?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your room's lighting and climate?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No"
+                ],
+                "question": "Would you recommend staying in a smart room to a friend?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your Digital Key with a travel companion?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your app's TV or room controls with a travel companion?"
+              }
+            ],
+            "Status": false,
+            "Version": 1.0
+          },
+          "CRTVRemote": {
+            "ConnectRetryDelaySeconds": 0.1,
+            "ConnectionDelayMessage": "We're having trouble talking to your Connected Room. Give us a moment, then please try again.",
+            "ConnectionTimeout": 8.0,
+            "InstantStart": false,
+            "MaxConnectRetryCount": 2.0,
+            "NowPlayingRefreshTime": 1200.0,
+            "NumberEntryDelay": 2.0,
+            "ScanTimeout": 5.0,
+            "ScanTimeoutMessage": "This technology works while you are in your room. You may be out of range or in a room that hasn't been upgraded yet.",
+            "ScanTimeoutMessageTitle": "No Connected Room found"
+          }
+        },
+        "DCOStaySurvey2022": {
+          "ctyhocn": [
+
+          ],
+          "enabled": false
+        },
+        "DCOSurvey": {
+          "properties": {
+            "BOSHLH": {
+              "endTime": "",
+              "startTime": ""
+            }
+          },
+          "surveyEnabled": false,
+          "url": "http://survey.usabilla.com/live/s/5b7da1bcd5cedc20745df685?reset"
+        },
+        "DKOIAMessaging": {
+          "DKP2IDNeededMessage": "Stop by the front desk with a photo ID. We'll set you up for Digital Key.",
+          "DKP2IDNeededMessageTitle": "Let's make sure it's yours",
+          "DKP2IDNeededNotificationsMessage": "If your notifications are on, we'll let you know when your key arrives.",
+          "DKP2IDNeededNotificationsTitle": "Notifications",
+          "DKP2IDNeededTitle": "This device is new to us"
+        },
+        "DKParkingMessages": {
+          "Options": [
+            {
+              "Id": "Self1",
+              "Self1_Description": "Add parking access to my Digital Key.",
+              "Self1_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1",
+              "Valet1_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_Name": "Valet Parking"
+            },
+            {
+              "Id": "Self1_3rdParty",
+              "Self1_3rdParty_Description": "Self parking at this hotel doesn't offer Digital Key access at this time.",
+              "Self1_3rdParty_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1_3rdParty",
+              "Valet1_3rdParty_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_3rdParty_Name": "Valet Parking"
+            }
+          ]
+        },
+        "DKShakeToAccess": {
+          "minShakesToActivate": 3.0,
+          "shakeDKSwitch": true,
+          "shakeDiscardWindow": 250.0,
+          "shakeResetWindow": 1500.0,
+          "shakingThreshold": 2.3
+        },
+        "RUAConfirmationMessage": "If you'd like to make changes or cancel this order, you must do so prior to 24 hours before the hotel's standard check-in time.",
+        "akamaiPixelThreshold": 64.0,
+        "androidSmartLock": true,
+        "appFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "WC"
+          },
+          {
+            "Option": "Request",
+            "Value": "WQ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "WR"
+          },
+          {
+            "Option": "Digital Check-in",
+            "Value": "WD"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          },
+          {
+            "Option": "Defects",
+            "Value": "WF"
+          },
+          {
+            "Option": "Crashes",
+            "Value": "WX"
+          }
+        ],
+        "appInBackGroundDurationThreshold": "3600000",
+        "assetBundleURL": "https://hms.hiltonapi.com/akm/gp/android/android_assets_v2024.3.28.zip",
+        "blueKeyRequestAlertMessage": "For this visit, please stop by the front desk so we can verify your identity and enable your Digital Key.",
+        "bookUsingMAPI": false,
+        "brandAlertsNotificationLimit": "2",
+        "brandCodeOffersSearch": "HH",
+        "brandedContent": {
+          "CH": {
+            "callToBook_USandCanada": "1-800-266-7237",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "DT": {
+            "callToBook_USandCanada": "1-800-222-8733",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "ES": {
+            "callToBook_USandCanada": "1-800-362-2779",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "GI": {
+            "callToBook_USandCanada": "1-877-782-9444",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HI": {
+            "callToBook_USandCanada": "1-800-445-8667",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HP": {
+            "callToBook_USandCanada": "1-800-426-7866",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HT": {
+            "callToBook_USandCanada": "1-877-646-6302",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HW": {
+            "callToBook_USandCanada": "1-800-225-5466",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "WA": {
+            "callToBook_USandCanada": "1-800-925-3673",
+            "callToBook_World": "+44 8705 466677"
+          }
+        },
+        "ccpa": {
+          "ccpaDisclaimer": "California consumers, click here to learn about Hilton's collection and use of your personal information.",
+          "doNotSellUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/",
+          "personalDataRequestsUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/"
+        },
+        "cleanStayDetailsURL": "https://www.hilton.com/en/p/what-to-expect/",
+        "conciergeCTYHOCN": {
+        },
+        "contentBundle": {
+          "AdditionalRoomPreferences": "Please indicate your preferences below (don't worry, this won't limit the room options we show you). We can't guarantee availability, but we'll try our best!",
+          "AddressInstruction": "Update your address below. * - Required fields",
+          "CheckInAvailableNotificationMessage": "It's time to choose your room and check-in for your stay on %s at the %s.",
+          "CheckInPaymentDisclaimer": "Add a card to pay for any in-room extras (WiFi, room service, etc.)",
+          "CombinedTermsExpPolicyPrivacyandCookie": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Expiration Policy, our Global Privacy Statement and our Cookies Statement.",
+          "CreditCardHoldDisclaimer": "If you use a debit/credit card to check in, a hold may be placed on your card account for the full, anticipated amount to be owed to the hotel, including estimated incidentals, through your date of check-out. This hold may not be released for 72 hours from the date of check-out or longer at the discretion of your card issuer.",
+          "EmailInstruction": "We'll store up to 3 email addresses. Confirmations will always be sent to your preferred email (indicated by the star).",
+          "FullPrepaymentDisclaimer": "To secure this reservation, you'll need to pay in advance, so we'll charge your credit card immediately. Payment is non-refundable if you cancel, change the reservation, or don't show up on your check-in date.",
+          "GDPR": {
+            "China": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive news, special offers and promotions from Hilton Domestic Operating Company Inc. via email, direct mail, telephone, text message, push notifications, in-app alerts, and other means as further described in the Hilton Global Privacy Statement. I understand that my personal data will be transferred to Hilton Domestic Operating Company Inc. in the United States for the foresaid purpose.",
+                "checkboxTitle": "Hilton Marketing"
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "USA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Data Protection Clause, our Global Privacy Statement, and our Cookies Statement.",
+              "generalOCEDisclaimer": "By joining Hilton Honors, I agree to the Hilton Honors Program Terms and Conditions and I agree to the collection, use, sharing and transfer of information as set out in the Global Privacy Statement and the Data Protection Clause. I also agree to receive special offers and promotions from Hilton via email and direct mail. I understand that I can unsubscribe from offers and promotions by changing my subscription preferences in my Hilton Honors profile.",
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties."
+              }
+            },
+            "makesAutomatedDecisions": "Automated decision making is the process by which a decision is made automatically, meaning without human interference, to offer certain benefits to certain consumers based on segmentation.",
+            "notUSA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hgvMarketing": {
+                "checkboxMessage": "I want marketing messages and offers from Hilton Grand Vacations via email, direct mail, and telephone."
+              },
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive marketing and offers from Hilton via SMS, email, and direct mail.",
+                "checkboxTitle": "Hilton marketing"
+              },
+              "personalisedOffers": {
+                "checkboxMessage": "I want Hilton to perform segmentation to make automated decisions to deliver me personalised offers and marketing.",
+                "checkboxTitle": "Personalised offers and content",
+                "confirmPersonalisedOffersAndContent": "By confirming, you agree to segmentation and automated decisions, so that Hilton can choose the best offers for you. Note: You'll only get personalised communications if you selected the Hilton Marketing box."
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "optOutMessage": "I understand that if I provided my consent above to join Hilton's contact list or allow Hilton to make automated decisions I can withdraw that consent at any time by following instructions Hilton provides in each marketing message or, if I am a Hilton Honors member, by changing settings in my account. If I provided my consent to join HGV's contact list I can withdraw that consent at any time by following instructions HGV provides in each marketing message.",
+            "segmentation": "Segmentation (also referred to as profiling) is the process of dividing a large group of consumers into sub-groups of consumers (known as segments) based on some type of shared characteristics such as geography, behavior, or demographics."
+          },
+          "JIGSDataProtectionStatement": "Data Protection: Hilton, as data controller, will collect, process, and use your enrollment and participation data in the USA in order to administer the Hilton Honors program, analyze your travel and accommodation preferences within Hilton, and inform you as mentioned above. In order to credit you with mileage and other benefits earned through your participation in the Hilton Honors Program your personal data has to be shared with the business partners detailed on Hiltonhonors.com. You may obtain a copy of the Privacy Statement anytime from reception or at Hiltonhonors.com. Because Hilton Honors is a worldwide Hilton bonus program, your data may also be transferred to and processed by other participating Hilton companies, owners and operators of our franchised and managed hotels and service providers. This includes companies from countries where data protection laws may differ from the laws of your home country. You may object at any time to the processing and use of your personal data for advertisement purposes and as detailed in the Privacy Policy.",
+          "JoinEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "JoinPreconfirmationDisclaimer": "Click Join Hilton Honors to view your Hilton Honors account number and create a username. We'll also send your Hilton Honors account number via email.",
+          "JoinPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement.",
+          "MarketingOptIn": "I agree to Hilton companies, owners and operators of its franchised and managed hotels contacting me with information about special offers and promotions via e-mail and direct mail, as detailed in the Privacy Statement.",
+          "MarketingOptInGermany": "As part of the Hilton Honors Program, I would like to receive special offers, promotions, surveys and other Marketing information by email or postal mail and consent to this use of my personal data by Hilton companies, owners and operators of its franchised and managed hotels, and service providers.",
+          "MembershipForGermany": "Membership: Hilton Honors is the worldwide loyalty program of the HILTON group operated by Hilton at 7930 Jones Branch Drive, Suite 1100, McLean, Virginia 22102, USA ('Hilton'). Enrollment is subject to the Hilton Honors Terms & Conditions, which are available at the front desk and at Hiltonhonors.com. After your Hilton Honors account is created, we'll send you your Hilton Honors account number via email. You may then choose what information you receive from us by logging onto your account online and managing your subscriptions, or by contacting us in the manner described in the Global Privacy Statement which is available at the front desk and at Hiltonhonors.com. As part of the Hilton Honors program, we inform members via email and, occasionally, via post about special and, possibly, personalized individual offers, promotions, and surveys.",
+          "NoCancelledStays": "Recent cancellations may take up to 2 hours to appear.",
+          "NoPastStays": "You have no completed stays at this time. Hilton Honors Points and Miles information may take up to 48 hours to appear. Also, stays at hotels that don't participate in Hilton Honors will not show rewards listed.",
+          "NoPoints": "You currently have no point activity. Base Points, Bonus Points, and Miles Information may take 48 hours to appear. Also, stays at Hotels that don't participate in Hilton Honors will not show rewards listed",
+          "NoUpcomingStays": "You have no reservations at this time. New reservations may take up to 2 hours to appear.",
+          "Over18years": "I am at least 18 years old.",
+          "Over20Years": "I am at least 20 years old.",
+          "PaymentMethodsInstruction": "Save your credit card information and indicate your preferred method for easy booking.",
+          "PhoneInstruction": "We'll store up to 3 phone numbers. The star indicates your preferred number.",
+          "PrivacyTermsConditionsDisclaimer": "I agree to the Global Privacy Statement and Booking Terms and Conditions. (required)",
+          "ReservationCommentsDisclaimer": "Additional Comments (Optional)",
+          "ReservationEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "ReservationPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement, and our Cookies Statement. All fields are required unless otherwise indicated.",
+          "SearchResultsBrandDivider": "In addition to your search, here are some nearby hotels from our other brands...",
+          "SeparateExp": "By creating this Hilton Honors account, you agree to our Expiration Policy.",
+          "SeparatePrivacy": "By creating this Hilton Honors account, you agree to our Global Privacy Statement and our Cookies Statement.",
+          "SeparateTerms": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions.",
+          "ThirdPartyOptIn": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptInGermany": "As part of the Hilton Honors program, I'd like to receive special offers, promotions, surveys and other marketing information by email or postal mail and consent to this use of my personal data by business partners in the Hilton Honors Program.",
+          "ThirdPartyOptInItaly": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptOut": "I don't want to receive information from select third parties about complimentary products and services.",
+          "oneClickEnrollmentPromoText": {
+            "promotionHeader": "FREE Wi-Fi* + Digital check-In + other exclusive member benefits",
+            "promotionPerksMessage": "Instantly join Hilton Honors and enjoy the perks with each stay.",
+            "promotionWifiResortMessage": "*In-Room Wi-Fi Internet access may not be complimentary at properties with a resort charge."
+          }
+        },
+        "cookiesStatement": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "customerCareDiamondNumber": "855-292-2765",
+        "customerCareGlobalDiamondNumber": "+800 44 46 66 77",
+        "customerCareGlobalNumber": "+800 44 46 66 77",
+        "customerCareLifetimeDiamond": "844-543-3342",
+        "customerCareNumber": "855-271-3617",
+        "dataProtectionClause": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "datelessSearchControls": {
+          "calendarScrollStopWait": 500.0,
+          "concurrentCalendarQueries": 1.0,
+          "waitBetweenCalendarQueries": 3000.0
+        },
+        "datelessSearchText": {
+          "30dayCalendarLimit": "Staying a while? Our calendar can only show prices for up to 30-night stays, so we updated your results.",
+          "datelessFeeTransparencyText": "Price includes fees.",
+          "leadRatesDisclaimer": "*Prices are based on current availability over the next 30 days and are subject to change. Please select a hotel for specific pricing and availability."
+        },
+        "decorateStrings": [
+          "create",
+          "request",
+          "guests/login",
+          "reservationLogin",
+          "updateGuest",
+          "hotelSummaryOptions_flexibleDate",
+          "shopCalendarPropAvail"
+        ],
+        "deleteAccountURL": "https://www.hilton.com/en/hilton-honors/guest/delete-account",
+        "digitalKeyErrorPhoneCTYHOCN": [
+          {
+            "ctyhocn": "SINHITW",
+            "tel": "+65 6730 3207"
+          },
+          {
+            "ctyhocn": "SINCICI",
+            "tel": "+65 6432 7339"
+          },
+          {
+            "ctyhocn": "LONHPHN",
+            "tel": "+44 207 221 2217"
+          },
+          {
+            "ctyhocn": "LONEXDI",
+            "tel": "+44 207 540 4820"
+          },
+          {
+            "ctyhocn": "EXTAPHX",
+            "tel": "+44 1392 348348"
+          },
+          {
+            "ctyhocn": "OSAHITW",
+            "tel": "+81 6 6347 7111"
+          },
+          {
+            "ctyhocn": "ZQNHQHI",
+            "tel": "+64 3 450 9400"
+          },
+          {
+            "ctyhocn": "SINGIGI",
+            "tel": "+65 6737 2233"
+          },
+          {
+            "ctyhocn": "CANYD",
+            "tel": "0763-6408888"
+          }
+        ],
+        "disablePaMFlag": false,
+        "displayEFPFlag": true,
+        "dkOptInCutoffTime": "11:00",
+        "dkScanTimeMinutes": 10.0,
+        "emsgChat": {
+          "chatUrlTemplate": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile&contentSource=stayTile&channelType=mobile&stayId={stayId}&ctyhocn={ctyhocn}",
+          "postResWindow": 8760.0,
+          "preResWindow": 0.0
+        },
+        "expirationPolicy": "https://www.hilton.com/en/hilton-honors/terms/",
+        "featureModifiers": {
+          "AccountScreenLegalOptionFirst": {
+            "agentCode": "a-IxmhSQPuWP",
+            "relevance": "1.0"
+          },
+          "AmexOfferBanner": {
+            "CompletionTextVariants": {
+              "CompletionWithError": {
+                "bodyText": "Something went wrong...",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithPassback": {
+                "bodyText": "You're booking with your new credit card.",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithoutPassback": {
+                "bodyText": "You can update your payment details to pay with your new Card.",
+                "headlineText": "Congratulations on your new Card!"
+              }
+            },
+            "displayLocations": [
+              "ReservationSummaryBanner"
+            ],
+            "relevance": "1.0"
+          },
+          "ArabicLanguageSupport": {
+          },
+          "BookNowPayLaterBothPlacements": {
+            "relevance": "1.0"
+          },
+          "BookNowPayLaterTopPlacement": {
+            "relevance": "0.0"
+          },
+          "DigitalKeyAudioFeedbackToggle": {
+            "relevance": "1.0"
+          },
+          "EnhancedHelpExperience": {
+            "relevance": "1.0"
+          },
+          "FlexibleArrivalTime": {
+          },
+          "GooglePayFeatureToggle": {
+            "relevance": "1.0"
+          },
+          "H4BMultipleBusinesses": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabBrowseByView": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabFlow": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabHighlight": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSearchedProperties": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSpecialOffers": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookFavorites": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookHotelsNearMe": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookMapView": {
+            "relevance": "1.0"
+          },
+          "M3ShopFlow": {
+          },
+          "M3ShopFlowGuestSupport": {
+            "relevance": "1.0"
+          },
+          "NewStayView": {
+            "relevance": "0.0"
+          },
+          "PointsRatesTaxesMessaging": {
+            "relevance": "0.0"
+          },
+          "ResFormCancellationMessaging": {
+          },
+          "ReservationFormAnalyticsProductsToggle": {
+            "relevance": "1.0"
+          },
+          "ShowFreeAvailableRooms": {
+            "relevance": "1.0"
+          },
+          "TravelDocsDefaultOptIn": {
+            "relevance": "1.0"
+          },
+          "UseLockFramework": {
+            "relevance": "0.0"
+          },
+          "amexFNC": {
+            "disabled": false
+          },
+          "datelessBrowsing": {
+            "relevance": "1.0"
+          },
+          "digitalKeyBeaconLogging": {
+            "relevance": "1.0"
+          },
+          "digitalKeyShare": {
+            "disabled": false,
+            "keyShareHost": "www.hilton.com",
+            "maxInvites": 6.0,
+            "maxShares": 4.0
+          },
+          "enableCalendarRateQueries": {
+            "relevance": "0.0"
+          },
+          "enableSmbProfileSwitching": {
+            "relevance": "1.0"
+          },
+          "enableSmbShopBookMvp": {
+            "relevance": "1.0"
+          },
+          "feeTransparencyPhase2": {
+            "relevance": "1.0"
+          },
+          "globalPreferencesJSONRefactor": {
+            "relevance": "0.0"
+          },
+          "helpfeature_udfFlows": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookAddOns": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookConfirmedConnectingRooms": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookDateless": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookFilterByAvailability": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookGrayLabel": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookLoginSpeedBump": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookPAM": {
+            "relevance": "1.0"
+          },
+          "suppressHonorsMeter": {
+            "relevance": "0.0"
+          },
+          "tcaHelpRefactor": {
+            "relevance": "1.0"
+          },
+          "useEmsgMessaging": {
+            "relevance": "1.0"
+          },
+          "useLocalizedGlobalPrefs": {
+          },
+          "useOneLinkToTranslateContent": {
+            "relevance": "1.0"
+          },
+          "useOpenTableReservations": {
+            "relevance": "1.0"
+          }
+        },
+        "feedbackValidHonorsTiers": "B,S,G,D",
+        "forgotInformation": "https://www.hilton.com/en/hilton-honors/login/forgot-information/?style=hidden",
+        "freeNightsURL": {
+          "learnMore": {
+            "AX": "https://global.americanexpress.com/card-benefits/detail/earn-free-weekend-night-15k/hilton-surpass",
+            "AXAS": "https://global.americanexpress.com/card-benefits/view-all/hilton-aspire",
+            "AXBS": "https://global.americanexpress.com/card-benefits/detail/earn-two-weekend-nights/hilton-business"
+          },
+          "termsAndConditions": "https://www.hilton.com/en/hilton-honors/free-night-reward-terms/"
+        },
+        "fullCardButtonOrdering": [
+          "accountAlert",
+          "digitalKey",
+          "reservationMessage",
+          "checkIn",
+          "yourRooms",
+          "connectedRoom",
+          "checkOut",
+          "restaurantReservation",
+          "explore",
+          "messageHotel",
+          "nor1",
+          "benefits",
+          "hotelGuide",
+          "cleanStay",
+          "floorPlan",
+          "myStay",
+          "weather",
+          "map",
+          "lyft"
+        ],
+        "fullCardSuppressedButtons": [
+          "cleanStay"
+        ],
+        "fullServiceBrands": {
+          "Canopy": "PY",
+          "Conrad": "CH",
+          "Curio": "QQ",
+          "Double Tree": "DT",
+          "Embassy Suites": "ES",
+          "Hilton": "HI",
+          "Waldorf Astoria": "WA"
+        },
+        "globalSupportNumberWebsite": "https://help.hilton.com/s/article/Global-support-numbers",
+        "helpExperience": {
+          "enhancedHelpChatURL": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile",
+          "enhancedHelpRequestCallURL": "https://www.hilton.com/hrcc/click2call-canvas-prod.html?click2callType=inpage"
+        },
+        "hiltonHelpLink": "https://help.hilton.com?suppresschat=true",
+        "hotelMessaging": {
+          "hotelMessagingSwitch": true,
+          "inactiveMessageBody": "While we get everything connected, don't hesitate to call the front desk for whatever you need.",
+          "inactiveMessageTitle": "Messaging isn't available here - yet.",
+          "infoBottomText": "Responses may take longer during peak times. If it's urgent, please call. In the case of an emergency, dial 911.",
+          "infoIcon1": "https://hms.hiltonapi.com/akm/rtm/ic_local_sites.png",
+          "infoIcon1Desc": "Get advice on local favorites",
+          "infoIcon1Title": "What to do in town",
+          "infoIcon2": "https://hms.hiltonapi.com/akm/rtm/ic_event.png",
+          "infoIcon2Desc": "Ask about special events",
+          "infoIcon2Title": "Events & offers",
+          "infoIcon3": "https://hms.hiltonapi.com/akm/rtm/ic_room_supplies.png",
+          "infoIcon3Desc": "Get extra soap, towels, etc.",
+          "infoIcon3Title": "Requests",
+          "infoIcon4": "https://hms.hiltonapi.com/akm/rtm/ic_build.png",
+          "infoIcon4Desc": "Get help or report issues",
+          "infoIcon4Title": "Assistance",
+          "infoSubText": "Have questions? Ask away. Our staff will get right back to you.",
+          "infoTitle": "Message hotel",
+          "infoTitleIcon": "https://hms.hiltonapi.com/akm/rtm/ic_chat_bubble.png",
+          "outageMessageBody": "Messaging isn't available right now",
+          "outageMessageTitle": "Service unavailable",
+          "welcomeMessageBody": "We hope you have a great time - let us know if there's anything we can do to help make that happen!",
+          "welcomeMessageTitle": "Welcome to"
+        },
+        "keySyncTimeout": "30",
+        "lyftSwitch": true,
+        "milestoneBonusMeter": {
+          "suppress": false
+        },
+        "offerDetailSearchURL": "https://www.hilton.com/en/offers/",
+        "oneClickEnrollment": true,
+        "ownersGlobalOASNumber": "+1-415-905-6788",
+        "ownersGlobalODMNumber": "+1-972-726-3395",
+        "ownersUSOASNumber": "866-696-3771",
+        "ownersUSODMNumber": "866-731-1009",
+        "parkingRestrictions": {
+          "parkingRestrictionProperty": [
+            "HNLHV",
+            "KOAHW",
+            "NYCNH",
+            "CHICH",
+            "SFOFH",
+            "SFOSF",
+            "MSYNH",
+            "ORLHH",
+            "EYWCM",
+            "EYWRR",
+            "EWRSH",
+            "MIAAH",
+            "CHIOH",
+            "ORLDW",
+            "BOSLH",
+            "SJCCC",
+            "ATLAA",
+            "MSYAH",
+            "WASDN",
+            "DCAAE",
+            "JOSE",
+            "SEAAH",
+            "ATLPW",
+            "MKCWE",
+            "AUSLK",
+            "OAKHI",
+            "CTAC",
+            "SBAMC",
+            "SPCC",
+            "ONTO",
+            "SANCC",
+            "ORLOC",
+            "DCASH",
+            "SANTP",
+            "CHIWWHW",
+            "CHIWXHX"
+          ],
+          "parkingUnlockMax": 2.0,
+          "parkingUnlockWindow": 900.0
+        },
+        "partnerAccommodationsTerms": "https://www.hilton.com/en/p/partner-accommodations-terms/",
+        "partnerBrands": [
+          "LX",
+          "OU"
+        ],
+        "privacyPolicy": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "privacyPolicyHGV": "https://www.hiltongrandvacations.com/en/privacy-policy.html",
+        "pushNotifications": {
+          "CHECKOUT_AVAILABLE_DAY_BEFORE_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Checking out tomorrow?"
+          },
+          "CHECKOUT_AVAILABLE_DAY_OF_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Check-out available"
+          },
+          "CHECK_IN_AVAILABLE": {
+            "message": "It's time to choose your room & request a Digital Key for a Contactless Arrival at %s.",
+            "title": "Ready to check-in?"
+          },
+          "CHECK_IN_AVAILABLE_NON_DK": {
+            "message": "It's time to check-in and choose your room for your stay at %s.",
+            "title": "Ready to check-in?"
+          },
+          "DK_AWARENESS": {
+            "message": "For a Contactless Arrival, request a Digital Key now so you can skip the front desk and use your phone as your room key.",
+            "title": "We look forward to welcoming you!"
+          },
+          "STR_CC_AUTH_FAILED_TYPE1": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_CC_AUTH_FAILED_TYPE2": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_GENERAL_ERROR": {
+            "message": "We can't seem to get your Digital Key set up. Please see the front desk for help.",
+            "title": "Please visit front desk"
+          },
+          "STR_KEY_READY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room.",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_DUPLICATE_KEY": {
+            "message": "We updated your Digital Key to open more doors.",
+            "title": "Get your Digital Key"
+          },
+          "STR_KEY_READY_NEW_KEY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room. ",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_OPT_IN_ANY_TIME": {
+            "message": "View your Reservations screen to use it.",
+            "title": "Your Digital Key is here!"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT": {
+            "message": "We're giving you a new room - and it's ready, with a Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT_UPGRADE": {
+            "message": "Your upgraded room and Digital Key are ready for you.",
+            "title": "Here's an upgrade for you"
+          },
+          "STR_KEY_READY_ROOM_CHANGE": {
+            "message": "We're giving you a new room - and it's ready, with a new Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_CHANGE_UPGRADE": {
+            "message": "You're getting an upgraded room - and it's ready, with a new Digital Key.",
+            "title": "Here's an upgrade for you"
+          }
+        },
+        "regulationDisclaimer": "Regulations require us to collect the following personal information about each guest before issuing your Digital Key.",
+        "removingStaysCacheTime": "240",
+        "requestTime": "0001-01-01T12:01:01.001+0000",
+        "resGlobalSupportDiamondNumber": "+800 44 45 86 67",
+        "resGlobalSupportPhoneNumber": "+800 44 45 86 67",
+        "resSupportDiamondNumber": "855-292-2765",
+        "resSupportPhoneNumber": "855-292-3493",
+        "rideReminderHeading": "Get a push notification or SMS reminding you to call an Uber. The Uber trip destination will be preset to your hotel's address.",
+        "rideReminderPromo": "New to Uber? Set a reminder to get a code for a free first ride (up to $20)",
+        "rideReminderTerms": "I consent to Hilton sharing my phone number and the address of my hotel with Uber. I understand that such information will be subject to the Uber Terms & Conditions and Uber Privacy Policy.",
+        "rolloverNightsContent": {
+          "diamondLostNoRolloverBannerMsg": "Keep Diamond to get rollover nights",
+          "diamondLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainNoRolloverBannerMsg": "Keep Diamond easily with rollover nights",
+          "diamondRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostNoRolloverBannerMsg": "Keep Gold to get rollover nights",
+          "goldLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Gold",
+          "goldLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainNoRolloverBannerMsg": "Reach Diamond faster with rollover nights",
+          "goldRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Diamond",
+          "goldRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "rolloverNightsFAQURL": "https://www.hilton.com/en/hilton-honors/support-faq/#rollover-nights",
+          "silverLostNoRolloverBannerMsg": "Keep Silver to get rollover nights",
+          "silverLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Silver",
+          "silverLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainNoRolloverBannerMsg": "Reach Gold faster with rollover nights",
+          "silverRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Gold",
+          "silverRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life."
+        },
+        "s2rHelpNumber": "8554141393",
+        "searchComponents": {
+          "browsebyComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 2.0
+            }
+          },
+          "componentOrder": [
+            "SPOTLIGHT",
+            "HONORS",
+            "RECENTS",
+            "INSPIRE",
+            "OFFERS",
+            "HIGHLIGHT"
+          ],
+          "honorsComponent": {
+            "loggedIn": {
+              "messageBody": "{{totalPoints}} points",
+              "messageTitle": "Welcome\n{{firstName}}"
+            },
+            "loggedOut": {
+              "messageBody": "Get our lowest rates, plus the chance to earn free nights, and more.",
+              "messageTitle": "Join or sign in"
+            }
+          },
+          "previouslySearchedPropComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 1.0
+            },
+            "heading": "Previously viewed"
+          },
+          "specialOffersComponent": {
+            "heading": "Special offers",
+            "maxNumber": 3.0
+          },
+          "spotlight": {
+            "bundledImage": {
+              "altText": "Women in bathing suits having fun in the ocean, splashing and running."
+            }
+          }
+        },
+        "seeFrontDeskCopy": "We have a Digital Key waiting for you. Stop by the Front Desk, and we'll get that magic working for you.",
+        "shakeDkSwitch": "1",
+        "smbSpecialRatesMessaging": {
+          "minimumAppVersionForAdvancedSmb": "",
+          "unavailableSmbFeatureMessage": "Visit Hilton.com to see special rates for each of your business accounts."
+        },
+        "specialAlerts": {
+          "covid": {
+            "description": "Look for our flexible booking options with free changes and cancellations available at every hotel.",
+            "enabled": false,
+            "header": "Plans Change"
+          }
+        },
+        "startupAlerts": [
+          {
+            "enablePlayStoreLink": true,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/play-store.png",
+            "text": "Running Android 5.0 (Lollipop) or newer?\nGet new features with the updated Hilton Honors app.",
+            "title": "Update Now"
+          },
+          {
+            "enablePlayStoreLink": false,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/globe.png",
+            "link": "http://www.hilton.com",
+            "text": "Can't update?\nThe Hilton Honors website is mobile-friendly.",
+            "title": "Use the Web"
+          }
+        ],
+        "stayFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "CZ"
+          },
+          {
+            "Option": "Hilton Honors",
+            "Value": "LZ"
+          },
+          {
+            "Option": "Housekeeping",
+            "Value": "HZ"
+          },
+          {
+            "Option": "Maintenance",
+            "Value": "MZ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "RZ"
+          },
+          {
+            "Option": "Customer Service",
+            "Value": "SZ"
+          },
+          {
+            "Option": "Food & Beverage",
+            "Value": "FZ"
+          },
+          {
+            "Option": "Security & Parking",
+            "Value": "OS"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          }
+        ],
+        "suppressBrandingForProperties": [
+          "LAXMCOL"
+        ],
+        "suppressWidgetHhonorsInfo": false,
+        "termsAndConditions": "https://www.hilton.com/en/hilton-honors/terms/",
+        "twoFA": {
+          "internationalPhone": "+ 800 4445 8667",
+          "profileLink": "https://www.hilton.com/en/hilton-honors/guest/profile/",
+          "resendCodeTimeoutSeconds": 60.0,
+          "usCanadaPhone": "1-800-817-5143"
+        },
+        "unlockTimeout": 15.0,
+        "unplannedOutageCallNumber": "+1-855-672-1138",
+        "unplannedOutageMessage": "THE APP IS TEMPORARILY UNAVAILABLE",
+        "unplannedOutageType": "0",
+        "upgradeControl": {
+          "legacyOSVersionSupport": {
+          },
+          "playStoreURL": "https://play.google.com/store/apps/details?id=com.hilton.android.hhonors",
+          "upgradeForceCTA": "Update",
+          "upgradeForceCant": "Can't Update?",
+          "upgradeForceHilton": "Continue your session at Hilton.com",
+          "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+          "upgradeForceTitle": "It's time to update",
+          "upgradeHiltonURL": "http://www.hilton.com",
+          "upgradeHiltonURLMatchString": "Hilton.com",
+          "upgradeNagAppStore": "Go to the Play Store",
+          "upgradeNagCTA": "Update Now",
+          "upgradeNagContinue": "Continue to Hilton Honors app.",
+          "upgradeNagLaterCTA": "Update Later",
+          "upgradeNagMessage": "Experience something new: Update the Hilton Honors app for new features.",
+          "upgradeNagTitle": "New Version Available",
+          "upgradeNagViews": 3.0,
+          "upgradeOSCTA": "Ok",
+          "upgradeOSMessage": "In order to continue using the app, you must update your Android OS to a new version",
+          "upgradeOSTitle": "Update Required",
+          "versionRecommended": 354.0,
+          "versionRequired": 353.0
+        },
+        "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+        "upgradeForceTitle": "It's time to update",
+        "upgradeNagMsg": "Experience something new: Update the Hilton Honors app for new features.",
+        "upgradeNagTitle": "New Version Available",
+        "upgradeNagViews": "3",
+        "usageAgreement": "https://www.hilton.com/en/p/site-usage-agreement/",
+        "versionRecommended": "271",
+        "versionRequired": "271"
+      },
+      "locale": "es_MX"
+    },
+    {
+      "config": {
+        "CBPpropsMapi": {
+          "ctyhocn": [
+            "MBJRHHF",
+            "LRMFMHH",
+            "CUNQRHH"
+          ],
+          "enabled": true
+        },
+        "CRKeys": {
+          "CRBlacklist": [
+
+          ],
+          "CRCopy": {
+            "CRLearnMoreBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRLearnMoreBullet2": "See what's on - or binge your favorites.",
+            "CRLearnMoreBullet3": "Control the lights without getting up.",
+            "CRLearnMoreBullet4": "Set the perfect temperature from your bed.",
+            "CRLearnMoreBulletTitle1": "Easy setup",
+            "CRLearnMoreBulletTitle2": "TV",
+            "CRLearnMoreBulletTitle3": "Lighting",
+            "CRLearnMoreBulletTitle4": "Climate",
+            "CRLearnMoreSubtitle1": "Check your room for connected features once you arrive. We're upgrading more rooms every day.",
+            "CRLearnMoreTitle": "Kick back. Make yourself comfortable.",
+            "CRWelcomeBullet1": "Turn Bluetooth on and you're automatically paired.",
+            "CRWelcomeBullet2": "See what's on - or binge your favorites.",
+            "CRWelcomeBullet3": "Control the lights without getting up.",
+            "CRWelcomeBullet4": "Set the perfect temperature from your bed.",
+            "CRWelcomeBulletTitle1": "Easy setup",
+            "CRWelcomeBulletTitle2": "TV",
+            "CRWelcomeBulletTitle3": "Lighting",
+            "CRWelcomeBulletTitle4": "Climate",
+            "CRWelcomeTitle": "Kick back. Make yourself comfortable."
+          },
+          "CRIOTWhitelist": [
+            "MEMCWGI",
+            "MEMGEHX",
+            "DCACUPY",
+            "OLVCLHT",
+            "WASUAUA",
+            "SNSCAHX",
+            "HRLNOGI",
+            "LASVEHX",
+            "FLLRURU",
+            "FLLHTHT",
+            "DFWMMRU",
+            "PRCDTGI",
+            "DALNLRU",
+            "FWANHGI",
+            "FWANTHT",
+            "SCKTYHT",
+            "DAYRMHT",
+            "MSYORGI",
+            "MAFGSHT",
+            "SJCMSHX",
+            "GEGSVRU",
+            "RSWFTHT",
+            "CODEYHX",
+            "DSMDUHT",
+            "LBBLUHX",
+            "WVIWBHX",
+            "ICTDDHT",
+            "JAXJFRU",
+            "BOSBBGI",
+            "SMFSAQQ",
+            "SPSPPHT",
+            "SPSTXRU",
+            "MKESORU",
+            "MKESUHT",
+            "FLLAVHH",
+            "RFDDKHT",
+            "GRRGRPY",
+            "ATLRRHT",
+            "MRBMBHT",
+            "SRWJAHT",
+            "INDFRHX",
+            "INDCRHT",
+            "CLTPYPY",
+            "BOSBAHX",
+            "BOSSYHW",
+            "DENLLHT",
+            "PDXLLHT",
+            "CODEYHX",
+            "GRRRRRU",
+            "ROARVRU",
+            "MLBSKUP",
+            "AZONEGI",
+            "AZOKDHT",
+            "HOUEBHX",
+            "TUSCHTA",
+            "TUSCBHX",
+            "ORDCPHX",
+            "DFWFCRU",
+            "AUSPNHX",
+            "MFEWSHX",
+            "FNTHTHT",
+            "PDXSMHT",
+            "HVNORHW",
+            "PWMOPPY",
+            "NYCDLUA"
+          ],
+          "CRPresentKeyboard": true,
+          "CRProperties": [
+
+          ],
+          "CRSurvey": {
+            "Prompt": "Help us improve!",
+            "PromptTriggerPoints": 9.0,
+            "QuestionsAnswers": [
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using Digital Key to unlock your door?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your TV?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "No",
+                  "Don't care",
+                  "Haven't used it"
+                ],
+                "question": "Do you enjoy using the app to control your room's lighting and climate?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No"
+                ],
+                "question": "Would you recommend staying in a smart room to a friend?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your Digital Key with a travel companion?"
+              },
+              {
+                "answers": [
+                  "Yes",
+                  "Maybe",
+                  "No",
+                  "N/A"
+                ],
+                "question": "Do you wish you could share your app's TV or room controls with a travel companion?"
+              }
+            ],
+            "Status": false,
+            "Version": 1.0
+          },
+          "CRTVRemote": {
+            "ConnectRetryDelaySeconds": 0.1,
+            "ConnectionDelayMessage": "We're having trouble talking to your Connected Room. Give us a moment, then please try again.",
+            "ConnectionTimeout": 8.0,
+            "InstantStart": false,
+            "MaxConnectRetryCount": 2.0,
+            "NowPlayingRefreshTime": 1200.0,
+            "NumberEntryDelay": 2.0,
+            "ScanTimeout": 5.0,
+            "ScanTimeoutMessage": "This technology works while you are in your room. You may be out of range or in a room that hasn't been upgraded yet.",
+            "ScanTimeoutMessageTitle": "No Connected Room found"
+          }
+        },
+        "DCOStaySurvey2022": {
+          "ctyhocn": [
+
+          ],
+          "enabled": false
+        },
+        "DCOSurvey": {
+          "properties": {
+            "BOSHLH": {
+              "endTime": "",
+              "startTime": ""
+            }
+          },
+          "surveyEnabled": false,
+          "url": "http://survey.usabilla.com/live/s/5b7da1bcd5cedc20745df685?reset"
+        },
+        "DKOIAMessaging": {
+          "DKP2IDNeededMessage": "Stop by the front desk with a photo ID. We'll set you up for Digital Key.",
+          "DKP2IDNeededMessageTitle": "Let's make sure it's yours",
+          "DKP2IDNeededNotificationsMessage": "If your notifications are on, we'll let you know when your key arrives.",
+          "DKP2IDNeededNotificationsTitle": "Notifications",
+          "DKP2IDNeededTitle": "This device is new to us"
+        },
+        "DKParkingMessages": {
+          "Options": [
+            {
+              "Id": "Self1",
+              "Self1_Description": "Add parking access to my Digital Key.",
+              "Self1_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1",
+              "Valet1_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_Name": "Valet Parking"
+            },
+            {
+              "Id": "Self1_3rdParty",
+              "Self1_3rdParty_Description": "Self parking at this hotel doesn't offer Digital Key access at this time.",
+              "Self1_3rdParty_Name": "Gated Self Parking"
+            },
+            {
+              "Id": "Valet1_3rdParty",
+              "Valet1_3rdParty_Description": "Drive up and your valet will handle the rest.",
+              "Valet1_3rdParty_Name": "Valet Parking"
+            }
+          ]
+        },
+        "DKShakeToAccess": {
+          "minShakesToActivate": 3.0,
+          "shakeDKSwitch": true,
+          "shakeDiscardWindow": 250.0,
+          "shakeResetWindow": 1500.0,
+          "shakingThreshold": 2.3
+        },
+        "RUAConfirmationMessage": "If you'd like to make changes or cancel this order, you must do so prior to 24 hours before the hotel's standard check-in time.",
+        "akamaiPixelThreshold": 64.0,
+        "androidSmartLock": true,
+        "appFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "WC"
+          },
+          {
+            "Option": "Request",
+            "Value": "WQ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "WR"
+          },
+          {
+            "Option": "Digital Check-in",
+            "Value": "WD"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          },
+          {
+            "Option": "Defects",
+            "Value": "WF"
+          },
+          {
+            "Option": "Crashes",
+            "Value": "WX"
+          }
+        ],
+        "appInBackGroundDurationThreshold": "3600000",
+        "assetBundleURL": "https://hms.hiltonapi.com/akm/gp/android/android_assets_v2024.3.28.zip",
+        "blueKeyRequestAlertMessage": "For this visit, please stop by the front desk so we can verify your identity and enable your Digital Key.",
+        "bookUsingMAPI": false,
+        "brandAlertsNotificationLimit": "2",
+        "brandCodeOffersSearch": "HH",
+        "brandedContent": {
+          "CH": {
+            "callToBook_USandCanada": "1-800-266-7237",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "DT": {
+            "callToBook_USandCanada": "1-800-222-8733",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "ES": {
+            "callToBook_USandCanada": "1-800-362-2779",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "GI": {
+            "callToBook_USandCanada": "1-877-782-9444",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HI": {
+            "callToBook_USandCanada": "1-800-445-8667",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HP": {
+            "callToBook_USandCanada": "1-800-426-7866",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HT": {
+            "callToBook_USandCanada": "1-877-646-6302",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "HW": {
+            "callToBook_USandCanada": "1-800-225-5466",
+            "callToBook_World": "+44 8705 466677"
+          },
+          "WA": {
+            "callToBook_USandCanada": "1-800-925-3673",
+            "callToBook_World": "+44 8705 466677"
+          }
+        },
+        "ccpa": {
+          "ccpaDisclaimer": "California consumers, click here to learn about Hilton's collection and use of your personal information.",
+          "doNotSellUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/",
+          "personalDataRequestsUrl": "https://www.hilton.com/en/hilton-honors/personal-data-requests/"
+        },
+        "cleanStayDetailsURL": "https://www.hilton.com/en/p/what-to-expect/",
+        "conciergeCTYHOCN": {
+        },
+        "contentBundle": {
+          "AdditionalRoomPreferences": "Please indicate your preferences below (don't worry, this won't limit the room options we show you). We can't guarantee availability, but we'll try our best!",
+          "AddressInstruction": "Update your address below. * - Required fields",
+          "CheckInAvailableNotificationMessage": "It's time to choose your room and check-in for your stay on %s at the %s.",
+          "CheckInPaymentDisclaimer": "Add a card to pay for any in-room extras (WiFi, room service, etc.)",
+          "CombinedTermsExpPolicyPrivacyandCookie": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Expiration Policy, our Global Privacy Statement and our Cookies Statement.",
+          "CreditCardHoldDisclaimer": "If you use a debit/credit card to check in, a hold may be placed on your card account for the full, anticipated amount to be owed to the hotel, including estimated incidentals, through your date of check-out. This hold may not be released for 72 hours from the date of check-out or longer at the discretion of your card issuer.",
+          "EmailInstruction": "We'll store up to 3 email addresses. Confirmations will always be sent to your preferred email (indicated by the star).",
+          "FullPrepaymentDisclaimer": "To secure this reservation, you'll need to pay in advance, so we'll charge your credit card immediately. Payment is non-refundable if you cancel, change the reservation, or don't show up on your check-in date.",
+          "GDPR": {
+            "China": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive news, special offers and promotions from Hilton Domestic Operating Company Inc. via email, direct mail, telephone, text message, push notifications, in-app alerts, and other means as further described in the Hilton Global Privacy Statement. I understand that my personal data will be transferred to Hilton Domestic Operating Company Inc. in the United States for the foresaid purpose.",
+                "checkboxTitle": "Hilton Marketing"
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "USA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions, our Data Protection Clause, our Global Privacy Statement, and our Cookies Statement.",
+              "generalOCEDisclaimer": "By joining Hilton Honors, I agree to the Hilton Honors Program Terms and Conditions and I agree to the collection, use, sharing and transfer of information as set out in the Global Privacy Statement and the Data Protection Clause. I also agree to receive special offers and promotions from Hilton via email and direct mail. I understand that I can unsubscribe from offers and promotions by changing my subscription preferences in my Hilton Honors profile.",
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties."
+              }
+            },
+            "makesAutomatedDecisions": "Automated decision making is the process by which a decision is made automatically, meaning without human interference, to offer certain benefits to certain consumers based on segmentation.",
+            "notUSA": {
+              "generalEnrollDisclaimer": "By creating this Hilton Honors account, you agree to the Hilton Honors Terms and Conditions. You acknowledge that Hilton will process your information in accordance with Hilton's Data Protection Clause, Global Privacy Statement, and Cookies Statement.",
+              "generalOCEDisclaimer": "By agreeing to Join Hilton Honors, you agree to the Hilton Honors Program Terms and Conditions . Hilton collects personal data about you when you make a reservation or otherwise register with Hilton. Hilton uses your personal data to provide you with services and products, to provide customer service, for other purposes as detailed in our Global Privacy Statement. Hilton may share your personal data among members of the Hilton Portfolio of Brands, Hilton's service providers, and other third parties. By clicking the book now button you acknowledge that your personal data will be collected, used, shared, and transferred as set out in the Hilton Global Privacy Statement.",
+              "hgvMarketing": {
+                "checkboxMessage": "I want marketing messages and offers from Hilton Grand Vacations via email, direct mail, and telephone."
+              },
+              "hiltonMarketing": {
+                "checkboxMessage": "I want to receive marketing and offers from Hilton via SMS, email, and direct mail.",
+                "checkboxTitle": "Hilton marketing"
+              },
+              "personalisedOffers": {
+                "checkboxMessage": "I want Hilton to perform segmentation to make automated decisions to deliver me personalised offers and marketing.",
+                "checkboxTitle": "Personalised offers and content",
+                "confirmPersonalisedOffersAndContent": "By confirming, you agree to segmentation and automated decisions, so that Hilton can choose the best offers for you. Note: You'll only get personalised communications if you selected the Hilton Marketing box."
+              },
+              "specialOffersThirdParties": {
+                "checkboxBody": "I want to receive special offers and promotions from select third parties, including Points.com."
+              }
+            },
+            "optOutMessage": "I understand that if I provided my consent above to join Hilton's contact list or allow Hilton to make automated decisions I can withdraw that consent at any time by following instructions Hilton provides in each marketing message or, if I am a Hilton Honors member, by changing settings in my account. If I provided my consent to join HGV's contact list I can withdraw that consent at any time by following instructions HGV provides in each marketing message.",
+            "segmentation": "Segmentation (also referred to as profiling) is the process of dividing a large group of consumers into sub-groups of consumers (known as segments) based on some type of shared characteristics such as geography, behavior, or demographics."
+          },
+          "JIGSDataProtectionStatement": "Data Protection: Hilton, as data controller, will collect, process, and use your enrollment and participation data in the USA in order to administer the Hilton Honors program, analyze your travel and accommodation preferences within Hilton, and inform you as mentioned above. In order to credit you with mileage and other benefits earned through your participation in the Hilton Honors Program your personal data has to be shared with the business partners detailed on Hiltonhonors.com. You may obtain a copy of the Privacy Statement anytime from reception or at Hiltonhonors.com. Because Hilton Honors is a worldwide Hilton bonus program, your data may also be transferred to and processed by other participating Hilton companies, owners and operators of our franchised and managed hotels and service providers. This includes companies from countries where data protection laws may differ from the laws of your home country. You may object at any time to the processing and use of your personal data for advertisement purposes and as detailed in the Privacy Policy.",
+          "JoinEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "JoinPreconfirmationDisclaimer": "Click Join Hilton Honors to view your Hilton Honors account number and create a username. We'll also send your Hilton Honors account number via email.",
+          "JoinPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement.",
+          "MarketingOptIn": "I agree to Hilton companies, owners and operators of its franchised and managed hotels contacting me with information about special offers and promotions via e-mail and direct mail, as detailed in the Privacy Statement.",
+          "MarketingOptInGermany": "As part of the Hilton Honors Program, I would like to receive special offers, promotions, surveys and other Marketing information by email or postal mail and consent to this use of my personal data by Hilton companies, owners and operators of its franchised and managed hotels, and service providers.",
+          "MembershipForGermany": "Membership: Hilton Honors is the worldwide loyalty program of the HILTON group operated by Hilton at 7930 Jones Branch Drive, Suite 1100, McLean, Virginia 22102, USA ('Hilton'). Enrollment is subject to the Hilton Honors Terms & Conditions, which are available at the front desk and at Hiltonhonors.com. After your Hilton Honors account is created, we'll send you your Hilton Honors account number via email. You may then choose what information you receive from us by logging onto your account online and managing your subscriptions, or by contacting us in the manner described in the Global Privacy Statement which is available at the front desk and at Hiltonhonors.com. As part of the Hilton Honors program, we inform members via email and, occasionally, via post about special and, possibly, personalized individual offers, promotions, and surveys.",
+          "NoCancelledStays": "Recent cancellations may take up to 2 hours to appear.",
+          "NoPastStays": "You have no completed stays at this time. Hilton Honors Points and Miles information may take up to 48 hours to appear. Also, stays at hotels that don't participate in Hilton Honors will not show rewards listed.",
+          "NoPoints": "You currently have no point activity. Base Points, Bonus Points, and Miles Information may take 48 hours to appear. Also, stays at Hotels that don't participate in Hilton Honors will not show rewards listed",
+          "NoUpcomingStays": "You have no reservations at this time. New reservations may take up to 2 hours to appear.",
+          "Over18years": "I am at least 18 years old.",
+          "Over20Years": "I am at least 20 years old.",
+          "PaymentMethodsInstruction": "Save your credit card information and indicate your preferred method for easy booking.",
+          "PhoneInstruction": "We'll store up to 3 phone numbers. The star indicates your preferred number.",
+          "PrivacyTermsConditionsDisclaimer": "I agree to the Global Privacy Statement and Booking Terms and Conditions. (required)",
+          "ReservationCommentsDisclaimer": "Additional Comments (Optional)",
+          "ReservationEmailDisclaimer": "We'll email you an electronic receipt when you check out.",
+          "ReservationPrivacyDisclaimer": "Hilton is committed to respecting your privacy. View our Global Privacy Statement, and our Cookies Statement. All fields are required unless otherwise indicated.",
+          "SearchResultsBrandDivider": "In addition to your search, here are some nearby hotels from our other brands...",
+          "SeparateExp": "By creating this Hilton Honors account, you agree to our Expiration Policy.",
+          "SeparatePrivacy": "By creating this Hilton Honors account, you agree to our Global Privacy Statement and our Cookies Statement.",
+          "SeparateTerms": "By creating this Hilton Honors account, you agree to the Hilton Honors Program Terms and Conditions.",
+          "ThirdPartyOptIn": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptInGermany": "As part of the Hilton Honors program, I'd like to receive special offers, promotions, surveys and other marketing information by email or postal mail and consent to this use of my personal data by business partners in the Hilton Honors Program.",
+          "ThirdPartyOptInItaly": "I want to receive information from select third parties about complimentary products and services.",
+          "ThirdPartyOptOut": "I don't want to receive information from select third parties about complimentary products and services.",
+          "oneClickEnrollmentPromoText": {
+            "promotionHeader": "FREE Wi-Fi* + Digital check-In + other exclusive member benefits",
+            "promotionPerksMessage": "Instantly join Hilton Honors and enjoy the perks with each stay.",
+            "promotionWifiResortMessage": "*In-Room Wi-Fi Internet access may not be complimentary at properties with a resort charge."
+          }
+        },
+        "cookiesStatement": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "customerCareDiamondNumber": "855-292-2765",
+        "customerCareGlobalDiamondNumber": "+800 44 46 66 77",
+        "customerCareGlobalNumber": "+800 44 46 66 77",
+        "customerCareLifetimeDiamond": "844-543-3342",
+        "customerCareNumber": "855-271-3617",
+        "dataProtectionClause": "https://www.hilton.com/en/p/global-privacy-statement/",
+        "datelessSearchControls": {
+          "calendarScrollStopWait": 500.0,
+          "concurrentCalendarQueries": 1.0,
+          "waitBetweenCalendarQueries": 3000.0
+        },
+        "datelessSearchText": {
+          "30dayCalendarLimit": "Staying a while? Our calendar can only show prices for up to 30-night stays, so we updated your results.",
+          "datelessFeeTransparencyText": "Price includes fees.",
+          "leadRatesDisclaimer": "*Prices are based on current availability over the next 30 days and are subject to change. Please select a hotel for specific pricing and availability."
+        },
+        "decorateStrings": [
+          "create",
+          "request",
+          "guests/login",
+          "reservationLogin",
+          "updateGuest",
+          "hotelSummaryOptions_flexibleDate",
+          "shopCalendarPropAvail"
+        ],
+        "deleteAccountURL": "https://www.hilton.com/en/hilton-honors/guest/delete-account",
+        "digitalKeyErrorPhoneCTYHOCN": [
+          {
+            "ctyhocn": "SINHITW",
+            "tel": "+65 6730 3207"
+          },
+          {
+            "ctyhocn": "SINCICI",
+            "tel": "+65 6432 7339"
+          },
+          {
+            "ctyhocn": "LONHPHN",
+            "tel": "+44 207 221 2217"
+          },
+          {
+            "ctyhocn": "LONEXDI",
+            "tel": "+44 207 540 4820"
+          },
+          {
+            "ctyhocn": "EXTAPHX",
+            "tel": "+44 1392 348348"
+          },
+          {
+            "ctyhocn": "OSAHITW",
+            "tel": "+81 6 6347 7111"
+          },
+          {
+            "ctyhocn": "ZQNHQHI",
+            "tel": "+64 3 450 9400"
+          },
+          {
+            "ctyhocn": "SINGIGI",
+            "tel": "+65 6737 2233"
+          },
+          {
+            "ctyhocn": "CANYD",
+            "tel": "0763-6408888"
+          }
+        ],
+        "disablePaMFlag": false,
+        "displayEFPFlag": true,
+        "dkOptInCutoffTime": "11:00",
+        "dkScanTimeMinutes": 10.0,
+        "emsgChat": {
+          "chatUrlTemplate": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile&contentSource=stayTile&channelType=mobile&stayId={stayId}&ctyhocn={ctyhocn}",
+          "postResWindow": 8760.0,
+          "preResWindow": 0.0
+        },
+        "expirationPolicy": "https://www.hilton.com/en/hilton-honors/terms/",
+        "featureModifiers": {
+          "AccountScreenLegalOptionFirst": {
+            "agentCode": "a-IxmhSQPuWP",
+            "relevance": "1.0"
+          },
+          "AmexOfferBanner": {
+            "CompletionTextVariants": {
+              "CompletionWithError": {
+                "bodyText": "Something went wrong...",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithPassback": {
+                "bodyText": "You're booking with your new credit card.",
+                "headlineText": "Congratulations on your new Card!"
+              },
+              "CompletionWithoutPassback": {
+                "bodyText": "You can update your payment details to pay with your new Card.",
+                "headlineText": "Congratulations on your new Card!"
+              }
+            },
+            "displayLocations": [
+              "ReservationSummaryBanner"
+            ],
+            "relevance": "1.0"
+          },
+          "ArabicLanguageSupport": {
+          },
+          "BookNowPayLaterBothPlacements": {
+            "relevance": "1.0"
+          },
+          "BookNowPayLaterTopPlacement": {
+            "relevance": "0.0"
+          },
+          "DigitalKeyAudioFeedbackToggle": {
+            "relevance": "1.0"
+          },
+          "EnhancedHelpExperience": {
+            "relevance": "1.0"
+          },
+          "FlexibleArrivalTime": {
+          },
+          "GooglePayFeatureToggle": {
+            "relevance": "1.0"
+          },
+          "H4BMultipleBusinesses": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabBrowseByView": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabFlow": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabHighlight": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSearchedProperties": {
+            "relevance": "1.0"
+          },
+          "M3SearchTabSpecialOffers": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookFavorites": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookHotelsNearMe": {
+            "relevance": "1.0"
+          },
+          "M3ShopBookMapView": {
+            "relevance": "1.0"
+          },
+          "M3ShopFlow": {
+          },
+          "M3ShopFlowGuestSupport": {
+            "relevance": "1.0"
+          },
+          "NewStayView": {
+            "relevance": "0.0"
+          },
+          "PointsRatesTaxesMessaging": {
+            "relevance": "0.0"
+          },
+          "ResFormCancellationMessaging": {
+          },
+          "ReservationFormAnalyticsProductsToggle": {
+            "relevance": "1.0"
+          },
+          "ShowFreeAvailableRooms": {
+            "relevance": "1.0"
+          },
+          "TravelDocsDefaultOptIn": {
+            "relevance": "1.0"
+          },
+          "UseLockFramework": {
+            "relevance": "0.0"
+          },
+          "amexFNC": {
+            "disabled": false
+          },
+          "datelessBrowsing": {
+            "relevance": "1.0"
+          },
+          "digitalKeyBeaconLogging": {
+            "relevance": "1.0"
+          },
+          "digitalKeyShare": {
+            "disabled": false,
+            "keyShareHost": "www.hilton.com",
+            "maxInvites": 6.0,
+            "maxShares": 4.0
+          },
+          "enableCalendarRateQueries": {
+            "relevance": "0.0"
+          },
+          "enableSmbProfileSwitching": {
+            "relevance": "1.0"
+          },
+          "enableSmbShopBookMvp": {
+            "relevance": "1.0"
+          },
+          "feeTransparencyPhase2": {
+            "relevance": "1.0"
+          },
+          "globalPreferencesJSONRefactor": {
+            "relevance": "0.0"
+          },
+          "helpfeature_udfFlows": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookAddOns": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookConfirmedConnectingRooms": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookDateless": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookFilterByAvailability": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookGrayLabel": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookLoginSpeedBump": {
+            "relevance": "1.0"
+          },
+          "m3ShopBookPAM": {
+            "relevance": "1.0"
+          },
+          "suppressHonorsMeter": {
+            "relevance": "0.0"
+          },
+          "tcaHelpRefactor": {
+            "relevance": "1.0"
+          },
+          "useEmsgMessaging": {
+            "relevance": "1.0"
+          },
+          "useLocalizedGlobalPrefs": {
+          },
+          "useOneLinkToTranslateContent": {
+            "relevance": "1.0"
+          },
+          "useOpenTableReservations": {
+            "relevance": "1.0"
+          }
+        },
+        "feedbackValidHonorsTiers": "B,S,G,D",
+        "forgotInformation": "https://www.hilton.com/en/hilton-honors/login/forgot-information/?style=hidden",
+        "freeNightsURL": {
+          "learnMore": {
+            "AX": "https://global.americanexpress.com/card-benefits/detail/earn-free-weekend-night-15k/hilton-surpass",
+            "AXAS": "https://global.americanexpress.com/card-benefits/view-all/hilton-aspire",
+            "AXBS": "https://global.americanexpress.com/card-benefits/detail/earn-two-weekend-nights/hilton-business"
+          },
+          "termsAndConditions": "https://www.hilton.com/en/hilton-honors/free-night-reward-terms/"
+        },
+        "fullCardButtonOrdering": [
+          "accountAlert",
+          "digitalKey",
+          "reservationMessage",
+          "checkIn",
+          "yourRooms",
+          "connectedRoom",
+          "checkOut",
+          "restaurantReservation",
+          "explore",
+          "messageHotel",
+          "nor1",
+          "benefits",
+          "hotelGuide",
+          "cleanStay",
+          "floorPlan",
+          "myStay",
+          "weather",
+          "map",
+          "lyft"
+        ],
+        "fullCardSuppressedButtons": [
+          "cleanStay"
+        ],
+        "fullServiceBrands": {
+          "Canopy": "PY",
+          "Conrad": "CH",
+          "Curio": "QQ",
+          "Double Tree": "DT",
+          "Embassy Suites": "ES",
+          "Hilton": "HI",
+          "Waldorf Astoria": "WA"
+        },
+        "globalSupportNumberWebsite": "https://help.hilton.com/s/article/Global-support-numbers",
+        "helpExperience": {
+          "enhancedHelpChatURL": "https://www.hilton.com/hrcc/chat-canvas-prod.html?mobilePlatform=android&chatType=mobile",
+          "enhancedHelpRequestCallURL": "https://www.hilton.com/hrcc/click2call-canvas-prod.html?click2callType=inpage"
+        },
+        "hiltonHelpLink": "https://help.hilton.com?suppresschat=true",
+        "hotelMessaging": {
+          "hotelMessagingSwitch": true,
+          "inactiveMessageBody": "While we get everything connected, don't hesitate to call the front desk for whatever you need.",
+          "inactiveMessageTitle": "Messaging isn't available here - yet.",
+          "infoBottomText": "Responses may take longer during peak times. If it's urgent, please call. In the case of an emergency, dial 911.",
+          "infoIcon1": "https://hms.hiltonapi.com/akm/rtm/ic_local_sites.png",
+          "infoIcon1Desc": "Get advice on local favorites",
+          "infoIcon1Title": "What to do in town",
+          "infoIcon2": "https://hms.hiltonapi.com/akm/rtm/ic_event.png",
+          "infoIcon2Desc": "Ask about special events",
+          "infoIcon2Title": "Events & offers",
+          "infoIcon3": "https://hms.hiltonapi.com/akm/rtm/ic_room_supplies.png",
+          "infoIcon3Desc": "Get extra soap, towels, etc.",
+          "infoIcon3Title": "Requests",
+          "infoIcon4": "https://hms.hiltonapi.com/akm/rtm/ic_build.png",
+          "infoIcon4Desc": "Get help or report issues",
+          "infoIcon4Title": "Assistance",
+          "infoSubText": "Have questions? Ask away. Our staff will get right back to you.",
+          "infoTitle": "Message hotel",
+          "infoTitleIcon": "https://hms.hiltonapi.com/akm/rtm/ic_chat_bubble.png",
+          "outageMessageBody": "Messaging isn't available right now",
+          "outageMessageTitle": "Service unavailable",
+          "welcomeMessageBody": "We hope you have a great time - let us know if there's anything we can do to help make that happen!",
+          "welcomeMessageTitle": "Welcome to"
+        },
+        "keySyncTimeout": "30",
+        "lyftSwitch": true,
+        "milestoneBonusMeter": {
+          "suppress": false
+        },
+        "offerDetailSearchURL": "https://www.hilton.com/en/offers/",
+        "oneClickEnrollment": true,
+        "ownersGlobalOASNumber": "+1-415-905-6788",
+        "ownersGlobalODMNumber": "+1-972-726-3395",
+        "ownersUSOASNumber": "866-696-3771",
+        "ownersUSODMNumber": "866-731-1009",
+        "parkingRestrictions": {
+          "parkingRestrictionProperty": [
+            "HNLHV",
+            "KOAHW",
+            "NYCNH",
+            "CHICH",
+            "SFOFH",
+            "SFOSF",
+            "MSYNH",
+            "ORLHH",
+            "EYWCM",
+            "EYWRR",
+            "EWRSH",
+            "MIAAH",
+            "CHIOH",
+            "ORLDW",
+            "BOSLH",
+            "SJCCC",
+            "ATLAA",
+            "MSYAH",
+            "WASDN",
+            "DCAAE",
+            "JOSE",
+            "SEAAH",
+            "ATLPW",
+            "MKCWE",
+            "AUSLK",
+            "OAKHI",
+            "CTAC",
+            "SBAMC",
+            "SPCC",
+            "ONTO",
+            "SANCC",
+            "ORLOC",
+            "DCASH",
+            "SANTP",
+            "CHIWWHW",
+            "CHIWXHX"
+          ],
+          "parkingUnlockMax": 2.0,
+          "parkingUnlockWindow": 900.0
+        },
+        "partnerAccommodationsTerms": "https://www.hilton.com/ar/p/partner-accommodations-terms/",
+        "partnerBrands": [
+          "LX",
+          "OU"
+        ],
+        "privacyPolicy": "https://www.hilton.com/ar/p/global-privacy-statement/",
+        "privacyPolicyHGV": "https://www.hiltongrandvacations.com/en/privacy-policy.html",
+        "pushNotifications": {
+          "CHECKOUT_AVAILABLE_DAY_BEFORE_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Checking out tomorrow?"
+          },
+          "CHECKOUT_AVAILABLE_DAY_OF_DEPARTURE": {
+            "message": "Save time for traveling: check out from the Hilton Honors app. No front desk required.",
+            "title": "Check-out available"
+          },
+          "CHECK_IN_AVAILABLE": {
+            "message": "It's time to choose your room & request a Digital Key for a Contactless Arrival at %s.",
+            "title": "Ready to check-in?"
+          },
+          "CHECK_IN_AVAILABLE_NON_DK": {
+            "message": "It's time to check-in and choose your room for your stay at %s.",
+            "title": "Ready to check-in?"
+          },
+          "DK_AWARENESS": {
+            "message": "For a Contactless Arrival, request a Digital Key now so you can skip the front desk and use your phone as your room key.",
+            "title": "We look forward to welcoming you!"
+          },
+          "STR_CC_AUTH_FAILED_TYPE1": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_CC_AUTH_FAILED_TYPE2": {
+            "message": "We couldn't authorize your card. We need to try another to set up your Digital Key.",
+            "title": "Please update your payment"
+          },
+          "STR_GENERAL_ERROR": {
+            "message": "We can't seem to get your Digital Key set up. Please see the front desk for help.",
+            "title": "Please visit front desk"
+          },
+          "STR_KEY_READY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room.",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_DUPLICATE_KEY": {
+            "message": "We updated your Digital Key to open more doors.",
+            "title": "Get your Digital Key"
+          },
+          "STR_KEY_READY_NEW_KEY": {
+            "message": "View your Stays screen to access Digital Key and head straight to your room. ",
+            "title": "Your room is ready."
+          },
+          "STR_KEY_READY_OPT_IN_ANY_TIME": {
+            "message": "View your Reservations screen to use it.",
+            "title": "Your Digital Key is here!"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT": {
+            "message": "We're giving you a new room - and it's ready, with a Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_ASSIGNMENT_UPGRADE": {
+            "message": "Your upgraded room and Digital Key are ready for you.",
+            "title": "Here's an upgrade for you"
+          },
+          "STR_KEY_READY_ROOM_CHANGE": {
+            "message": "We're giving you a new room - and it's ready, with a new Digital Key.",
+            "title": "Ready to get settled?"
+          },
+          "STR_KEY_READY_ROOM_CHANGE_UPGRADE": {
+            "message": "You're getting an upgraded room - and it's ready, with a new Digital Key.",
+            "title": "Here's an upgrade for you"
+          }
+        },
+        "regulationDisclaimer": "Regulations require us to collect the following personal information about each guest before issuing your Digital Key.",
+        "removingStaysCacheTime": "240",
+        "requestTime": "0001-01-01T12:01:01.001+0000",
+        "resGlobalSupportDiamondNumber": "+800 44 45 86 67",
+        "resGlobalSupportPhoneNumber": "+800 44 45 86 67",
+        "resSupportDiamondNumber": "855-292-2765",
+        "resSupportPhoneNumber": "855-292-3493",
+        "rideReminderHeading": "Get a push notification or SMS reminding you to call an Uber. The Uber trip destination will be preset to your hotel's address.",
+        "rideReminderPromo": "New to Uber? Set a reminder to get a code for a free first ride (up to $20)",
+        "rideReminderTerms": "I consent to Hilton sharing my phone number and the address of my hotel with Uber. I understand that such information will be subject to the Uber Terms & Conditions and Uber Privacy Policy.",
+        "rolloverNightsContent": {
+          "diamondLostNoRolloverBannerMsg": "Keep Diamond to get rollover nights",
+          "diamondLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainNoRolloverBannerMsg": "Keep Diamond easily with rollover nights",
+          "diamondRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "diamondRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Diamond",
+          "diamondRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostNoRolloverBannerMsg": "Keep Gold to get rollover nights",
+          "goldLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Gold",
+          "goldLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainNoRolloverBannerMsg": "Reach Diamond faster with rollover nights",
+          "goldRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "goldRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Diamond",
+          "goldRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "rolloverNightsFAQURL": "https://www.hilton.com/en/hilton-honors/support-faq/#rollover-nights",
+          "silverLostNoRolloverBannerMsg": "Keep Silver to get rollover nights",
+          "silverLostNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverLostRolloverBannerMsg": "%rolledOverNights rollover night(s) help you keep Silver",
+          "silverLostRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainNoRolloverBannerMsg": "Reach Gold faster with rollover nights",
+          "silverRetainNoRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life.",
+          "silverRetainRolloverBannerMsg": "%rolledOverNights rollover night(s) put you closer to Gold",
+          "silverRetainRolloverMsg": "What are elite rollover nights?\n\nElite rollover nights provide a faster way to earn elite status. Starting at Silver, at the end of the calendar year, any qualifying nights in excess of those required to qualify for your elite status level will be counted toward your elite status qualification for the following calendar year (January 1st to December 31st).\n\n\nWho is eligible to roll over nights?\n\nAll elite tiers (Silver, Gold, and Diamond Members) are eligible to roll over elite qualifying nights. Lifetime Diamond members will not rollover nights as elite status is secured for life."
+        },
+        "s2rHelpNumber": "8554141393",
+        "searchComponents": {
+          "browsebyComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 2.0
+            }
+          },
+          "componentOrder": [
+            "SPOTLIGHT",
+            "HONORS",
+            "RECENTS",
+            "INSPIRE",
+            "OFFERS",
+            "HIGHLIGHT"
+          ],
+          "honorsComponent": {
+            "loggedIn": {
+              "messageBody": "{{totalPoints}} points",
+              "messageTitle": "Welcome\n{{firstName}}"
+            },
+            "loggedOut": {
+              "messageBody": "Get our lowest rates, plus the chance to earn free nights, and more.",
+              "messageTitle": "Join or sign in"
+            }
+          },
+          "previouslySearchedPropComponent": {
+            "display": {
+              "maxNumber": 6.0,
+              "minNumber": 1.0
+            },
+            "heading": "Previously viewed"
+          },
+          "specialOffersComponent": {
+            "heading": "Special offers",
+            "maxNumber": 3.0
+          },
+          "spotlight": {
+            "bundledImage": {
+              "altText": "Women in bathing suits having fun in the ocean, splashing and running."
+            }
+          }
+        },
+        "seeFrontDeskCopy": "We have a Digital Key waiting for you. Stop by the Front Desk, and we'll get that magic working for you.",
+        "shakeDkSwitch": "1",
+        "smbSpecialRatesMessaging": {
+          "minimumAppVersionForAdvancedSmb": "",
+          "unavailableSmbFeatureMessage": "Visit Hilton.com to see special rates for each of your business accounts."
+        },
+        "specialAlerts": {
+          "covid": {
+            "description": "Look for our flexible booking options with free changes and cancellations available at every hotel.",
+            "enabled": false,
+            "header": "Plans Change"
+          }
+        },
+        "startupAlerts": [
+          {
+            "enablePlayStoreLink": true,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/play-store.png",
+            "text": "Running Android 5.0 (Lollipop) or newer?\nGet new features with the updated Hilton Honors app.",
+            "title": "Update Now"
+          },
+          {
+            "enablePlayStoreLink": false,
+            "icon": "https://786cc23c3163952006c2-830810ae1dd3dcd669fdf3b53a7f949f.ssl.cf5.rackcdn.com/gp/android/globe.png",
+            "link": "http://www.hilton.com",
+            "text": "Can't update?\nThe Hilton Honors website is mobile-friendly.",
+            "title": "Use the Web"
+          }
+        ],
+        "stayFeedbackCategoryCodes": [
+          {
+            "Option": "Compliment",
+            "Value": "CZ"
+          },
+          {
+            "Option": "Hilton Honors",
+            "Value": "LZ"
+          },
+          {
+            "Option": "Housekeeping",
+            "Value": "HZ"
+          },
+          {
+            "Option": "Maintenance",
+            "Value": "MZ"
+          },
+          {
+            "Option": "Reservations",
+            "Value": "RZ"
+          },
+          {
+            "Option": "Customer Service",
+            "Value": "SZ"
+          },
+          {
+            "Option": "Food & Beverage",
+            "Value": "FZ"
+          },
+          {
+            "Option": "Security & Parking",
+            "Value": "OS"
+          },
+          {
+            "Option": "Digital Key",
+            "Value": "WK"
+          }
+        ],
+        "suppressBrandingForProperties": [
+          "LAXMCOL"
+        ],
+        "suppressWidgetHhonorsInfo": false,
+        "termsAndConditions": "https://www.hilton.com/ar/hilton-honors/terms/",
+        "twoFA": {
+          "internationalPhone": "+ 800 4445 8667",
+          "profileLink": "https://www.hilton.com/en/hilton-honors/guest/profile/",
+          "resendCodeTimeoutSeconds": 60.0,
+          "usCanadaPhone": "1-800-817-5143"
+        },
+        "unlockTimeout": 15.0,
+        "unplannedOutageCallNumber": "+1-855-672-1138",
+        "unplannedOutageMessage": "THE APP IS TEMPORARILY UNAVAILABLE",
+        "unplannedOutageType": "0",
+        "upgradeControl": {
+          "legacyOSVersionSupport": {
+          },
+          "playStoreURL": "https://play.google.com/store/apps/details?id=com.hilton.android.hhonors",
+          "upgradeForceCTA": "Update",
+          "upgradeForceCant": "Can't Update?",
+          "upgradeForceHilton": "Continue your session at Hilton.com",
+          "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+          "upgradeForceTitle": "It's time to update",
+          "upgradeHiltonURL": "http://www.hilton.com",
+          "upgradeHiltonURLMatchString": "Hilton.com",
+          "upgradeNagAppStore": "Go to the Play Store",
+          "upgradeNagCTA": "Update Now",
+          "upgradeNagContinue": "Continue to Hilton Honors app.",
+          "upgradeNagLaterCTA": "Update Later",
+          "upgradeNagMessage": "Experience something new: Update the Hilton Honors app for new features.",
+          "upgradeNagTitle": "New Version Available",
+          "upgradeNagViews": 3.0,
+          "upgradeOSCTA": "Ok",
+          "upgradeOSMessage": "In order to continue using the app, you must update your Android OS to a new version",
+          "upgradeOSTitle": "Update Required",
+          "versionRecommended": 354.0,
+          "versionRequired": 353.0
+        },
+        "upgradeForceMessage": "We don't do this often, but we've made some changes to our app that can only be used with the latest version.",
+        "upgradeForceTitle": "It's time to update",
+        "upgradeNagMsg": "Experience something new: Update the Hilton Honors app for new features.",
+        "upgradeNagTitle": "New Version Available",
+        "upgradeNagViews": "3",
+        "usageAgreement": "https://www.hilton.com/ar/p/site-usage-agreement/",
+        "versionRecommended": "271",
+        "versionRequired": "271"
+      },
+      "locale": "ar_AE"
+    }
+  ],
+  "name": "hhonorsAndroid",
+  "version": "2024.10.15"
+}

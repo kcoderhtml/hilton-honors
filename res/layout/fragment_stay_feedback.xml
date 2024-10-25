@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.mofo.android.hilton.core.view.StayInfoView android:id="@id/stay_info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.mofo.android.hilton.core.view.FeedbackCategoriesView android:id="@id/feedback_categories_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" />
+        <TextView android:id="@id/feedback_comments_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="48.0dip" android:layout_marginRight="16.0dip" android:text="@string/feedback_edit_text_title" style="@style/Feedback_Form_Title" />
+        <com.google.android.material.textfield.TextInputLayout android:textColorHint="@color/feedback_hint" android:id="@id/feedback_text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:hint="@string/feedback_edit_text_hint" app:errorEnabled="true" app:hintTextColor="@color/feedback_hint">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/feedback_comments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="1850" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:id="@id/contact_me_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/fragment_stay_feedback_contact_me" style="@style/Feedback_Form_Title" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/email_error" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textColorHint="@color/feedback_hint" android:id="@id/email_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_stay_feedback_email_hint" android:layout_toLeftOf="@id/email_radio_button" android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RadioButton android:id="@id/email_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/phone_error" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:textColorHint="@color/feedback_hint" android:id="@id/phone_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/fragment_stay_feedback_phone_hint" android:layout_toLeftOf="@id/phone_radio_button" android:inputType="phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RadioButton android:id="@id/phone_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff636363" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fragment_stay_feedback_dont_contact_me" android:layout_toLeftOf="@id/do_not_contact_radio_button" android:layout_centerVertical="true" />
+            <RadioButton android:id="@id/do_not_contact_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="128.0dip" />
+    </LinearLayout>
+</ScrollView>

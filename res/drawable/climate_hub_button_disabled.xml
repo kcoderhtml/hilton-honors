@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_oval_hub_off" />
+    <item android:drawable="@drawable/ic_ac_unit_disabled" android:left="13.0dip" android:top="13.0dip" android:right="13.0dip" android:bottom="13.0dip" />
+</layer-list>

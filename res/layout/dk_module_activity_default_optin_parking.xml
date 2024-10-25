@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_container_rr" android:tag="layout/dk_module_activity_default_optin_parking_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/parking_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <GridLayout android:id="@id/parking_not_needed_layout" android:padding="22.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="5">
+            <TextView android:tag="binding_1" android:importantForAccessibility="no" style="@style/DefaultOptInParkingTitle" />
+            <RadioButton android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/parking_not_needed_checkbox" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:layout_columnSpan="3" android:importantForAccessibility="yes" />
+        </GridLayout>
+        <View android:tag="binding_3" style="@style/ECheckinParkingDivider" />
+        <GridLayout android:id="@id/gated_self_parking_gl" android:tag="binding_4" android:padding="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="5">
+            <TextView android:tag="binding_5" android:importantForAccessibility="no" style="@style/DefaultOptInParkingTitle" />
+            <TextView android:gravity="end|center" android:layout_gravity="fill_horizontal" android:id="@id/gated_self_parking_price_tv" android:tag="binding_6" android:layout_width="0.0dip" android:layout_column="2" android:layout_columnSpan="3" android:importantForAccessibility="no" android:paddingEnd="6.0dip" style="@style/DefaultOptInParkingAmountSubtext" />
+            <TextView android:textStyle="normal" android:tag="binding_7" android:layout_columnSpan="2" style="@style/DefaultOptInParkingSubtext" />
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/light_gray" android:gravity="end|center" android:layout_gravity="fill_horizontal" android:id="@id/gated_self_parking_currency" android:tag="binding_8" android:layout_width="0.0dip" android:layout_column="2" android:layout_columnSpan="3" android:importantForAccessibility="no" android:paddingEnd="6.0dip" style="@style/DefaultOptInParkingAmountSubtext" />
+            <RadioButton android:layout_gravity="end|center" android:id="@id/gated_self_parking_checkbox" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:layout_columnSpan="3" android:importantForAccessibility="yes" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/text_brand_color" android:id="@id/gated_self_parking_view_instruction_tv" android:tag="binding_10" android:background="?android:selectableItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:text="@string/dk_module_parking_view_instructions_label" android:layout_row="2" android:layout_columnSpan="5" android:fontFamily="sans-serif-medium" android:accessibilityTraversalAfter="@id/gated_self_parking_checkbox" />
+        </GridLayout>
+        <GridLayout android:id="@id/valet_parking_gl" android:tag="binding_11" android:background="@color/dk_module_default_optin_valet_parking_background_color" android:padding="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="2">
+            <TextView android:tag="binding_12" android:text="@string/dk_module_valet_parking" android:importantForAccessibility="yes" style="@style/DefaultOptInValetParking" />
+            <TextView android:textStyle="bold" android:gravity="end|center" android:layout_gravity="fill_horizontal" android:id="@id/valet_parking_price_tv" android:tag="binding_13" android:layout_width="0.0dip" android:importantForAccessibility="no" android:paddingEnd="6.0dip" style="@style/DefaultOptInValetParking" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:text="@string/dk_module_valet_parking_instruction" android:importantForAccessibility="no" style="@style/DefaultOptInValetParking" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/light_gray" android:gravity="end|center" android:layout_gravity="fill_horizontal" android:id="@id/valet_parking_curreny" android:tag="binding_14" android:layout_width="0.0dip" android:layout_column="1" android:importantForAccessibility="no" android:paddingEnd="6.0dip" style="@style/DefaultOptInValetParking" />
+            <ImageView android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dk_module_ic_parking" android:layout_columnSpan="2" android:importantForAccessibility="no" android:paddingEnd="6.0dip" />
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

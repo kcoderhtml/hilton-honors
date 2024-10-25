@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TimeSelectorCell_Time" />
+    <TextView android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TimeSelectorCell_AmPm" />
+    <TextView android:id="@id/after_lbl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/legacy_time_selector_after" style="@style/TimeSelectorCell_After" />
+</LinearLayout>

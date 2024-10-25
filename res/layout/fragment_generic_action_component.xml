@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bottom_sheet_indicator" />
+    <TextView android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/AdyenCheckout.TextAppearance.HeaderTitle" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.adyen.checkout.ui.core.AdyenComponentView android:id="@id/componentView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.google.android.material.button.MaterialButton android:id="@id/button_finish" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginBottom="@dimen/standard_margin" android:text="@string/checkout_voucher_finish" style="@style/AdyenCheckout.Button.Colored" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

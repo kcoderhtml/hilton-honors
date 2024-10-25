@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/dci_module_recent_ctyhocn_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/nero" android:id="@id/ctyhocn" android:background="?selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:fontFamily="sans-serif-regular" app:layout_constraintEnd_toStartOf="@id/imageView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageView" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/dci_module_ic_right" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/light_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ctyhocn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

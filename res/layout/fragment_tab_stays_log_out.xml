@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:tag="layout/fragment_tab_stays_log_out_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/layout_log_out" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_logged_out_sign_in" />
+    <include android:id="@id/layout_looking_for_reservation" layout="@layout/layout_looking_for_reservation" />
+</LinearLayout>

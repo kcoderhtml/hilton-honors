@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/reservation_details_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/toolbar_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+    <ImageView android:id="@id/ivHotelImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignBottom="@id/info_container" android:layout_alignParentTop="true" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/iv_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/stay_details_gradient" android:layout_alignBottom="@id/info_container" android:layout_alignParentTop="true" android:importantForAccessibility="no" />
+    <RelativeLayout android:id="@id/info_container" android:background="@null" android:paddingLeft="@dimen/half_full_card_dimen_vertical" android:paddingTop="12.0dip" android:paddingRight="@dimen/half_full_card_dimen_vertical" android:paddingBottom="@dimen/half_full_card_dimen_horizontal" android:layout_width="fill_parent" android:layout_height="165.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/toolbar_padding">
+        <RelativeLayout android:id="@id/rl_date_name_container" android:paddingLeft="@dimen/half_full_card_dimen_vertical" android:paddingRight="@dimen/half_full_card_dimen_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:id="@id/arrival_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/moon_container" android:layout_alignBottom="@id/moon_container">
+                <TextView android:id="@id/arrival_date" android:layout_alignTop="@id/ll_day_month_container" android:layout_alignBottom="@id/ll_day_month_container" style="@style/HalfCardLargeDateText" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_day_month_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/arrival_date">
+                    <TextView android:id="@id/arrival_day_of_week" android:layout_marginTop="6.0dip" style="@style/HalfCardSmallDateText" />
+                    <TextView android:id="@id/arrival_month" style="@style/HalfCardSmallDateText" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/moon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/departure_container" android:layout_toEndOf="@id/arrival_container">
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/ll_night_moon_container" android:layout_alignParentStart="true">
+                    <View android:id="@id/div0" android:background="@color/white" android:layout_width="1.0dip" android:layout_height="43.0dip" style="@style/VerticalDivider" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_night_moon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <ImageView android:id="@id/moon_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_moon" android:importantForAccessibility="no" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/night_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                        <TextView android:id="@id/night_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StayDetails_Nights" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/ll_night_moon_container" android:layout_alignParentEnd="true">
+                    <View android:id="@id/div1" android:background="@color/white" android:layout_width="1.0dip" android:layout_height="43.0dip" style="@style/VerticalDivider" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:id="@id/departure_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/moon_container" android:layout_alignBottom="@id/moon_container" android:layout_alignParentEnd="true">
+                <TextView android:id="@id/departure_date" android:layout_alignTop="@id/ll_day_month_container_departure" android:layout_alignBottom="@id/ll_day_month_container_departure" style="@style/HalfCardLargeDateText" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_day_month_container_departure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/departure_date">
+                    <TextView android:id="@id/departure_day_of_week" android:layout_marginTop="6.0dip" style="@style/HalfCardSmallDateText" />
+                    <TextView android:id="@id/departure_month" style="@style/HalfCardSmallDateText" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="2.0dip" android:layout_below="@id/rl_date_name_container">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/hotel_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:minLines="2" />
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/hotel_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/hotel_name" android:layout_toStartOf="@id/ll_confirmation_container" android:layout_alignParentStart="true" style="@style/StayDetails_Location" />
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/ll_confirmation_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stay_detail_confirmation_num" android:layout_below="@id/hotel_name" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true">
+                <TextView android:id="@id/tv_confirmation_num_label" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stay_detail_confirmation_num" style="@style/StayDetails_Confirmation_Label" />
+                <TextView android:id="@id/tv_confirmation_number" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StayDetails_Confirmation_Number" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_add_additional_guests_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_vertical_margin" android:layout_marginTop="@dimen/guest_address_margin_top" android:layout_marginRight="@dimen/activity_vertical_margin">
+        <TextView android:id="@id/textViewHeaderText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/additional_guests_header_text" style="@style/AddAdditionalGuests_Header_Text" />
+        <LinearLayout android:orientation="vertical" android:id="@id/additionalGuestsContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</ScrollView>

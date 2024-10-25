@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_ll" android:tag="layout/view_pay_with_pam_item_0" android:background="@drawable/card_shadow_no_corner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/room_number_tv" android:tag="binding_1" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="4.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/adjoining_room_icon" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/ic_connecting_rooms_icon" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_toEndOf="@id/room_number_tv" />
+        <ImageView android:id="@id/expand_collapse" android:tag="binding_3" android:background="?selectableItemBackgroundBorderless" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_carat_down_grey" android:tint="@color/nero" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="22.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/room_type_tv" android:tag="binding_4" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <TextView android:id="@id/rate_name_tv" android:tag="binding_5" style="@style/Pam_SubText" />
+    <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/pam_indicator_tv" android:background="@drawable/standard_action_button_default" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/pay_with_pam_label" android:drawableLeft="@drawable/ic_pam_compat" android:drawablePadding="16.0dip" android:textAllCaps="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pam_slider_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageButton android:id="@id/decrement" android:tag="binding_6" android:background="@null" android:padding="0.0dip" android:layout_width="@dimen/pam_button_dimen" android:layout_height="@dimen/pam_button_dimen" android:src="@drawable/ic_remove_circle_black" android:scaleType="fitCenter" android:tint="@color/pam_button" android:contentDescription="@string/points_and_money_decrement" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/pam_slider" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/increment" android:tag="binding_7" android:background="@null" android:padding="0.0dip" android:layout_width="@dimen/pam_button_dimen" android:layout_height="@dimen/pam_button_dimen" android:src="@drawable/ic_add_circle_black" android:scaleType="fitCenter" android:tint="@color/pam_button" android:contentDescription="@string/points_and_money_increment" />
+    </LinearLayout>
+    <TextView android:id="@id/pam_slider_instruction_tv" android:text="@string/pam_slider_instruction" style="@style/Pam_Slider_SubText" />
+    <TextView android:id="@id/pam_fnf_instruction_tv" android:tag="binding_8" android:text="@string/pam_fnf_instruction" style="@style/Pam_Slider_Fnf_SubText" />
+    <LinearLayout android:id="@id/pam_scale_indicator_tv" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="13.0">
+        <TextView android:id="@id/points_indicator_tv" android:tag="binding_9" style="@style/Pam_ChosenItem_Text" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/nero" android:gravity="center" android:id="@id/plus_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/plus" android:layout_weight="1.0" />
+        <TextView android:gravity="end" android:id="@id/cash_indicator_tv" android:tag="binding_10" style="@style/Pam_ChosenItem_Text" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/dark_gray" android:id="@id/points_available_tv" android:tag="binding_11" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <View android:layout_marginTop="8.0dip" style="@style/Pam_Divider" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.hilton.android.module.book.feature.paywithpam.JustifyTextView android:id="@id/price_tv" android:tag="binding_12" android:layout_marginTop="8.0dip" app:leftText="@string/fragment_hotel_search_results_filter_price" style="@style/Pam_ItemCharge_Text" />
+            <com.hilton.android.module.book.feature.paywithpam.JustifyTextView android:id="@id/points_tv" android:tag="binding_13" app:leftText="@string/label_points" style="@style/Pam_ItemCharge_Text" />
+            <TextView android:id="@id/pam_fnf_earned_tv" android:tag="binding_14" style="@style/Pam_ItemCharge_Text" />
+            <com.hilton.android.module.book.feature.paywithpam.JustifyTextView android:id="@id/taxes_tv" android:tag="binding_15" app:leftText="@string/label_taxes" style="@style/Pam_ItemCharge_Text" />
+            <com.hilton.android.module.book.feature.paywithpam.JustifyTextView android:id="@id/mandatory_charges_tv" android:tag="binding_16" style="@style/Pam_ItemCharge_Text" />
+            <View android:id="@id/total_for_stay_divider" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/Pam_Divider" />
+            <com.hilton.android.module.book.feature.paywithpam.JustifyTextView android:textColor="@color/nero" android:id="@id/tv_total_for_stay" android:tag="binding_17" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif-medium" app:leftText="@string/label_total_for_stay" style="@style/Pam_ItemCharge_Text" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/parent_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:id="@id/child_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="22.0sp" android:textColor="@color/white" android:gravity="end" android:layout_gravity="center_vertical" android:id="@id/update_tv" android:tag="binding_18" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/pam_update_total_btn" android:tag="binding_19" android:background="@drawable/pam_update_btn_background" android:padding="16.0dip" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_widget_refresh" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <View android:id="@id/reset_apply_divider" android:layout_marginBottom="8.0dip" style="@style/Pam_Divider" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/reset_apply_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <TextView android:textSize="16.0sp" android:id="@id/reset_btn" android:tag="binding_20" android:text="@string/menu_item_reset" style="@style/OutlinedButton" />
+        <TextView android:textSize="16.0sp" android:id="@id/apply_btn" android:tag="binding_21" android:text="@string/menu_item_apply" android:layout_marginEnd="8.0dip" style="@style/OutlinedButton" />
+    </LinearLayout>
+</LinearLayout>

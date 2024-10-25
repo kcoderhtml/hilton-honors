@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hub_root" android:tag="layout/activity_hub_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <com.hilton.android.connectedroom.feature.hub.hubbuttonset.HubButtonsView android:id="@id/hub_buttons_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="25.0dip" layout="@layout/ble_disabled" />
+    <com.hilton.android.connectedroom.feature.hub.dropdown.RoomListDropDown android:orientation="vertical" android:id="@id/room_list_drop_down" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    <TextView android:textStyle="bold" android:id="@id/after_dco_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:text="@string/after_dco_title" style="@style/AfterDcoText" />
+    <TextView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/after_dco_message" android:layout_below="@id/after_dco_title" style="@style/AfterDcoText" />
+    <androidx.appcompat.widget.AppCompatImageView android:tag="binding_4" android:layout_width="50.0dip" android:layout_height="46.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onRateClicked" bind:srcCompat="@drawable/ic_rate" />
+    <TextView android:textColor="@color/prompt_text" android:tag="binding_5" android:paddingBottom="19.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="23.0dip" android:layout_alignParentStart="true" />
+</RelativeLayout>

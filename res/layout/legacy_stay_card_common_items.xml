@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/common_root" android:tag="layout/legacy_stay_card_common_items_0" android:padding="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/legacy_white" android:id="@id/stay_dates" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/legacy_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/hotel_name" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="2" android:lineSpacingMultiplier="1.1" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/legacy_white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/hotel_title" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:maxLines="3" android:lineSpacingMultiplier="1.1" />
+    <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.hilton.mobile.legacymodule.common.view.FavoriteHeart android:layout_gravity="center_vertical" android:id="@id/favorite_heart" android:tag="binding_4" android:focusable="true" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/legacy_white" android:layout_gravity="center_vertical" android:id="@id/hotel_subtitle" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

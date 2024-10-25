@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_ll" android:tag="layout/activity_nor1_upgrade_details_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nivUpgradeImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/rooms_rates_carousel_height" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:weightSum="2.0">
+        <TextView android:id="@id/tvUpgradeName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Nor1UpgradeDetailsName" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/tvUpgradeStrikePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_toLeftOf="@id/tvUpgradePrice" android:layout_alignBottom="@id/tvUpgradePrice" style="@style/Nor1UpgradeDetailsStrikePrice" />
+            <TextView android:id="@id/tvUpgradePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/Nor1UpgradeDetailsPrice" />
+            <TextView android:id="@id/tvUpgradePriceUnit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/tvUpgradePrice" android:layout_alignParentRight="true" style="@style/Nor1UpgradeDetailsPriceUnit" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/HorizontalDivider" />
+    <TextView android:id="@id/tvDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+</LinearLayout>

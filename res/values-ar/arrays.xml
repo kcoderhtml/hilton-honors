@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shopfeature_kids_ages">
+        <item>اختيار</item>
+        <item>أقل من 1</item>
+        <item>1 </item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>(15) سنة</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+    <string-array name="shopfeature_room_title_tabs">
+        <item>جميع الأسِرّة</item>
+        <item>سرير واحد</item>
+        <item>سريران</item>
+    </string-array>
+    <string-array name="shopfeature_room_type_list">
+        <item>سرير واحد</item>
+        <item>سريران</item>
+        <item>لا توجد تفضيلات</item>
+    </string-array>
+    <string-array name="shopfeature_smokingPreferenceList">
+        <item>للمدخنين</item>
+        <item>لغير المدخنين</item>
+        <item>لا توجد تفضيلات</item>
+    </string-array>
+    <string-array name="shopfeature_special_rates">
+        <item>سعر AAA (اتحاد السيارات الأمريكي)*</item>
+        <item>سعر الجمعية الأمريكية للمتقاعدين*</item>
+        <item>سعر كبار السن*</item>
+        <item>الأسعار الخاصة بالهيئات الحكومية/العسكرية*</item>
+        <item>وكيل سفر</item>
+    </string-array>
+    <string-array name="shopfeature_special_rates_a11y">
+        <item>سعر AAA (اتحاد السيارات الأمريكي). بطاقة الهوية مطلوبة عند تسجيل الوصول</item>
+        <item>سعر AARP (الجمعية الأمريكية للمتقاعدين). بطاقة الهوية مطلوبة عند تسجيل الوصول</item>
+        <item>سعر كبار السن. بطاقة الهوية مطلوبة عند تسجيل الوصول</item>
+        <item>الأسعار الخاصة بالهيئات الحكومية/العسكرية. بطاقة الهوية مطلوبة عند تسجيل الوصول</item>
+        <item>وكيل سفر</item>
+    </string-array>
+</resources>

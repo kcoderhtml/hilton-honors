@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobileforming.module.common.view.SlideDownLinearLayout android:orientation="vertical" android:id="@id/ll_popup" android:tag="layout/dci_module_layout_push_down_notification_0" android:background="@color/background_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_message" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dci_module_elite_1_room_upgraded_msg" android:minLines="2" />
+    <TextView android:textStyle="bold" android:textColor="@color/brand_accent" android:id="@id/btn_close" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dci_module_close" android:textAllCaps="true" />
+</com.mobileforming.module.common.view.SlideDownLinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_sign_in_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <fragment android:name="com.mofo.android.hilton.core.fragment.SignInFragment" android:id="@id/sign_in_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/nero" android:gravity="center" android:id="@id/privacy_cookies_statement_tv" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sign_in_fragment" android:contentDescription="@string/privacy_cookie_statement_content_desc" />
+    </RelativeLayout>
+</ScrollView>

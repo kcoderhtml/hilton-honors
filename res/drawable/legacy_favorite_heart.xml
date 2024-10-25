@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/legacy_ic_favorite" />
+    <item android:id="@id/favorite_border" android:drawable="@drawable/legacy_ic_favorite_border" />
+</layer-list>

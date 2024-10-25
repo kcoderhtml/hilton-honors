@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval" android:innerRadius="108.0dip">
+            <solid android:color="@color/dk_module_digital_key_light_gray" />
+            <stroke android:width="14.0dip" android:color="@color/dk_module_unlock_red" />
+        </shape>
+    </item>
+</layer-list>

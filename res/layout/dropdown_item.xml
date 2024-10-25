@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item_layout" android:tag="layout/dropdown_item_0" android:background="@color/room_list_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:tag="binding_1" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/indicator" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_arrow_drop_down" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:layout_alignParentStart="true" />
+        <TextView android:textSize="16.0sp" android:id="@id/room_number" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/status" android:layout_toEndOf="@id/indicator" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/room_list_hotel_name" android:ellipsize="end" android:id="@id/hotel_name" android:tag="binding_3" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:singleLine="true" android:layout_below="@id/room_number" android:layout_marginStart="8.0dip" android:layout_toStartOf="@id/status" android:layout_toEndOf="@id/indicator" />
+        <TextView android:textSize="16.0sp" android:gravity="end|center" android:id="@id/status" android:tag="binding_4" android:paddingTop="21.0dip" android:paddingBottom="21.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="11.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/divider" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

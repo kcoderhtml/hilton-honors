@@ -1,0 +1,33 @@
+{
+  "existingSession": null,
+  "title": "Report missing Points",
+  "description": "### Missing Points from a past stay\nIt can take up to two weeks after check-out to see your Points appear in your account.\n\nYou can [report a missing stay](https://www.hilton.com) if it has been over two weeks. We'll collect some information about your stay and have a customer care agent contact you.\n### Missing Points from a cancellation\nIf you made a reservation with Points, it can take up to 48 hours after you canceled for your Points to appear back in your account.\n\nNeed to make another reservation and need your Points back sooner? Our customer care agents would be happy to help.",
+  "relatedTopics": [
+    {
+      "name": "Subject 1",
+      "navLink": "subject1.json"
+    },
+    {
+      "name": "Subject 2",
+      "navLink": "subject2.json"
+    },
+    {
+      "name": "Subject 3",
+      "navLink": "subject3.json"
+    }
+  ],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/minus" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:backgroundTint="@color/brand_accent" app:elevation="0.0dip" app:fabCustomSize="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/cell_count" app:srcCompat="@drawable/ic_minus" app:tint="@color/white" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/cell_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toStartOf="@id/plus" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/plus" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:backgroundTint="@color/brand_accent" app:elevation="0.0dip" app:fabCustomSize="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/ic_add" app:tint="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

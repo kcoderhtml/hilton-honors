@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lights_root" android:tag="layout/activity_lights_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/center_point_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/ble_off_img" android:tag="binding_2" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_oval_bluetooth_off" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true" android:onClick="requestBle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/ble_off_img" android:layout_alignBottom="@id/ble_off_img" android:layout_alignStart="@id/ble_off_img" android:layout_alignEnd="@id/ble_off_img">
+        <TextView android:textSize="21.0sp" android:gravity="center" android:id="@id/ble_off_text" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/bluetooth_off_oval_text" />
+        <ImageView android:tag="binding_4" android:layout_width="84.0dip" android:layout_height="84.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/ic_bluetooth" android:tint="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

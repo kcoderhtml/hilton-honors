@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="@id/rg_finger_print" android:tag="layout/legacy_view_fingerprint_es_suppress_duration_rg_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/rb_fingerprint_es_each_time" android:text="@string/legacy_finger_print_extra_security_each_time" style="@style/Fingerprint_ExtraSecurityTime_RadioBtn" />
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/rb_fingerprint_es_1_minute" android:text="@string/legacy_finger_print_extra_security_1_minute" style="@style/Fingerprint_ExtraSecurityTime_RadioBtn" />
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/rb_fingerprint_es_5_minutes" android:text="@string/legacy_finger_print_extra_security_5_minutes" style="@style/Fingerprint_ExtraSecurityTime_RadioBtn" />
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/rb_fingerprint_es_10_minutes" android:text="@string/legacy_finger_print_extra_security_10_minutes" style="@style/Fingerprint_ExtraSecurityTime_RadioBtn" />
+</RadioGroup>

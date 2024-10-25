@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/root" android:tag="layout/fragment_choose_rate_0" android:background="@color/grey_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/no_image_header" android:background="@color/dark_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/no_room_image_details" android:layout_marginStart="16.0dip" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/no_image_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" style="@style/Carousel_Title" />
+        </LinearLayout>
+        <com.mobileforming.module.common.view.ImageCarouselView android:id="@id/view_carousel" android:layout_width="fill_parent" android:layout_height="@dimen/rooms_rates_carousel_height" android:importantForAccessibility="no" />
+        <RelativeLayout android:id="@id/alert_region" android:background="@color/white" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/expand_collapse_button" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/ic_action_expand" android:layout_marginStart="4.0dip" android:layout_marginEnd="18.0dip" android:layout_alignParentEnd="true" style="@style/RoomsAndRates_Details_Toggle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/room_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/expand_collapse_button">
+                <TextView android:id="@id/room_description" style="@style/RoomsAndRates_Room_Description" />
+                <LinearLayout android:orientation="vertical" android:id="@id/for_your_comfort_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/for_your_comfort_label" android:text="@string/for_your_comfort" style="@style/RoomsAndRates_Room_Amenities" />
+                    <View android:background="@color/header_text" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/for_your_convenience_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                    <TextView android:id="@id/for_your_convenience_label" android:text="@string/for_your_convenience" style="@style/RoomsAndRates_Room_Amenities" />
+                    <View android:background="@color/header_text" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="10.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/for_your_confidence_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+                    <TextView android:id="@id/for_your_confidence_label" android:text="@string/for_your_confidence" style="@style/RoomsAndRates_Room_Amenities" />
+                    <View android:background="@color/header_text" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="10.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <com.hilton.android.module.book.view.SMBAlertView android:id="@id/smb_profile_alert" android:tag="binding_1" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/pam_banner" android:tag="binding_3" android:background="@color/light_secondary_action_blue" android:paddingBottom="4.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground">
+            <ImageView android:id="@id/imageView4" android:layout_width="32.0dip" android:layout_height="17.0dip" android:src="@drawable/ic_points_and_money" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/secondary_action_blue" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/secondary_action_blue" android:id="@id/textView5" android:paddingTop="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="-1.0dip" android:text="@string/pay_with_points_amp_money" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toTopOf="@id/pam_banner_text" app:layout_constraintLeft_toRightOf="@id/imageView4" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_action_blue" android:id="@id/pam_banner_text" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginBottom="0.0dip" android:paddingEnd="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/textView5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rate_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/tv_rate_change_disclaimer" android:background="@color/choose_rate_disclaimer_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="32.0dip" android:text="@string/rate_details_rate_change_disclaimer" android:fontFamily="sans-serif-regular" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

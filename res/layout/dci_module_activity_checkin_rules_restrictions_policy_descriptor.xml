@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/descriptor" android:tag="layout/dci_module_activity_checkin_rules_restrictions_policy_descriptor_0" style="@style/RateDetailsRulesAndRestrictionsDescriptor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

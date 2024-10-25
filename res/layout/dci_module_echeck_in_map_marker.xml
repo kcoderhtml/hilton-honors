@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/pin_root" android:tag="layout/dci_module_echeck_in_map_marker_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@id/container_outline" android:background="@drawable/dci_module_map_pin_background_outline_selector" android:layout_width="58.0dip" android:layout_height="58.0dip" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/container" android:background="@drawable/dci_module_map_pin_background_selector" android:duplicateParentState="true" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="5.0dip" android:layout_marginStart="5.0dip">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/text_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/text_beds" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/upgrade" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="-4.0dip" android:src="@drawable/dci_module_ic_pin_efp_upgrade_arrow" android:layout_alignTop="@id/container" android:layout_marginStart="-14.0dip" android:layout_toEndOf="@id/container" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/upgrade_text" android:background="@drawable/dci_module_map_pin_upgrade_background_selector" android:visibility="gone" android:duplicateParentState="true" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/container" android:layout_alignStart="@id/container" android:layout_alignEnd="@id/container" />
+</RelativeLayout>

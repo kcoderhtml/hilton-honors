@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/dci_module_fragment_finding_my_room_0" android:background="@color/dci_module_finding_your_rooms_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mobileforming.module.common.view.WaveAnimatedLayout android:id="@id/layout_wave_animated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:wal_color="@color/dci_module_finding_your_rooms_wave_color" app:wal_numCircle="3" app:wal_radius="60.0dip" app:wal_scale="2.2" />
+    <ImageView android:id="@id/iv_bed" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/dci_module_icon_bed" android:tint="@color/white" android:layout_centerInParent="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:id="@id/tv_finding_room" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/dci_module_finding_your_room" android:layout_below="@id/iv_bed" android:layout_centerHorizontal="true" />
+</RelativeLayout>

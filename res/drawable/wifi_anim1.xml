@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center" android:drawable="@drawable/ic_wireless_3" />
+    <item android:gravity="center" android:drawable="@drawable/ic_wireless_alpha_2" android:top="15.0dip" />
+    <item android:gravity="center" android:drawable="@drawable/ic_wireless_alpha_1" android:top="30.0dip" />
+</layer-list>

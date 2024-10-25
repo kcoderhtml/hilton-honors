@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/dci_module_fragment_echeckin_room_map_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/iv_recenter_icon" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="28.0dip" android:src="@drawable/dci_module_back_to_center" android:layout_alignParentBottom="true" android:scaleX="0.0" android:scaleY="0.0" android:layout_marginStart="28.0dip" />
+    <include android:id="@id/filter_layout" layout="@layout/dci_module_layout_filter_button" />
+    <FrameLayout android:id="@id/rl_room_details_container" android:tag="binding_1" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:translationY="1.0dip">
+        <View style="@style/Divider" />
+        <include android:id="@id/room_details" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_mapview_echeckin_room_item" />
+    </FrameLayout>
+</RelativeLayout>

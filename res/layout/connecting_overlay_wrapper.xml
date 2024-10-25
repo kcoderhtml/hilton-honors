@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/overlay_content_stub" android:inflatedId="@id/overlay_content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/overlay_layout" layout="@layout/connecting_overlay" />
+</FrameLayout>

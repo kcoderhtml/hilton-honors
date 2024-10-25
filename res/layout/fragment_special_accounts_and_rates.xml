@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobileforming.module.common.view.FullscreenFrameLayout android:id="@id/fullscreen_layout" android:tag="layout/fragment_special_accounts_and_rates_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.percentlayout.widget.PercentRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <CheckBox android:id="@id/government_military_input" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/special_rate_item_height" android:text="@string/personal_info_government_military_checkbox_label" android:layout_toRightOf="@id/tv_gov_mil_title" android:layout_alignTop="@id/tv_gov_mil_title" android:layout_alignBottom="@id/tv_gov_mil_title" app:layout_widthPercent="55.000008%" />
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_aaa_container" android:layout_alignTop="@id/tv_aaa_container" android:layout_alignBottom="@id/tv_aaa_container" app:layout_widthPercent="55.000008%">
+                <EditText android:id="@id/aaa_number_input" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="16" android:imeOptions="actionDone" />
+            </FrameLayout>
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_aaa_intl_container" android:layout_alignTop="@id/tv_aaa_intl_container" android:layout_alignBottom="@id/tv_aaa_intl_container" app:layout_widthPercent="55.000008%">
+                <EditText android:id="@id/aaa_international_input" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="3" android:imeOptions="actionDone" app:layout_widthPercent="55.000008%" />
+            </FrameLayout>
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_aarp_title" android:layout_alignTop="@id/tv_aarp_title" android:layout_alignBottom="@id/tv_aarp_title" app:layout_widthPercent="55.000008%">
+                <EditText android:id="@id/aarp_number_input" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:imeOptions="actionDone" app:layout_widthPercent="55.000008%" />
+            </FrameLayout>
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_corp_title" android:layout_alignTop="@id/tv_corp_title" android:layout_alignBottom="@id/tv_corp_title" app:layout_widthPercent="55.000008%">
+                <EditText android:id="@id/corporate_account_input" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="10" android:imeOptions="actionDone" app:layout_widthPercent="55.000008%" />
+            </FrameLayout>
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_agent_title" android:layout_alignTop="@id/tv_agent_title" android:layout_alignBottom="@id/tv_agent_title" app:layout_widthPercent="55.000008%">
+                <EditText android:id="@id/travel_agent_number_input" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="8" android:inputType="number" android:imeOptions="actionDone" />
+            </FrameLayout>
+            <FrameLayout android:layout_height="wrap_content" android:layout_toRightOf="@id/tv_agent_unlimited_title" android:layout_alignTop="@id/tv_agent_unlimited_title" android:layout_alignBottom="@id/tv_agent_unlimited_title" app:layout_widthPercent="55.000008%">
+                <EditText android:gravity="center_vertical" android:id="@id/travel_agent_unlimited_input" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="11" android:imeOptions="actionDone" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_aaa_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/special_rate_item_height" android:layout_below="@id/tv_rates_instructions" app:layout_widthPercent="45.000004%">
+                <TextView android:id="@id/tv_aaa_title" android:text="@string/personal_info_special_rates_AAA_number" style="@style/PersonalInformation_SpecialRates_Label" />
+                <TextView android:id="@id/tv_aaa_note" android:text="@string/personal_info_special_rates_AAA_restiction" style="@style/PersonalInformation_SpecialRates_Restriction" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_aaa_intl_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/special_rate_item_height" android:layout_below="@id/tv_aaa_container" app:layout_widthPercent="45.000004%">
+                <TextView android:id="@id/tv_aaa_intl_title" android:text="@string/personal_info_special_rates_AAA_international" style="@style/PersonalInformation_SpecialRates_Label" />
+                <TextView android:id="@id/tv_aaa_intl_note" android:text="@string/personal_info_special_rates_AAA_international_restriction" style="@style/PersonalInformation_SpecialRates_Restriction" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/tv_rates_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="20.0dip" android:text="@string/personal_info_special_rates_header_text" android:layout_alignParentTop="true" />
+            <TextView android:id="@id/tv_aarp_title" android:minHeight="@dimen/special_rate_item_height" android:text="@string/personal_info_special_rates_AARP_number" android:layout_below="@id/tv_aaa_intl_container" app:layout_widthPercent="45.000004%" style="@style/PersonalInformation_SpecialRates_Label" />
+            <TextView android:id="@id/tv_corp_title" android:minHeight="@dimen/special_rate_item_height" android:text="@string/personal_info_special_rates_corporate_account" android:layout_below="@id/tv_aarp_title" app:layout_widthPercent="45.000004%" style="@style/PersonalInformation_SpecialRates_Label" />
+            <TextView android:id="@id/tv_agent_title" android:minHeight="@dimen/special_rate_item_height" android:text="@string/personal_info_special_rates_travel_agent_number" android:layout_below="@id/tv_corp_title" app:layout_widthPercent="45.000004%" style="@style/PersonalInformation_SpecialRates_Label" />
+            <TextView android:id="@id/tv_agent_unlimited_title" android:minHeight="@dimen/special_rate_item_height" android:text="@string/personal_info_special_rates_travel_agent_unlimited_budget" android:layout_below="@id/tv_agent_title" app:layout_widthPercent="45.000004%" style="@style/PersonalInformation_SpecialRates_Label" />
+            <TextView android:id="@id/tv_gov_mil_title" android:paddingBottom="8.0dip" android:text="@string/personal_info_special_rates_government_military" android:layout_below="@id/tv_agent_unlimited_title" app:layout_widthPercent="45.000004%" style="@style/PersonalInformation_SpecialRates_Label" />
+            <View android:id="@id/dkey_space" android:layout_width="fill_parent" android:layout_height="@dimen/dkey_layout_padding" android:layout_below="@id/tv_gov_mil_title" android:layout_alignParentBottom="true" />
+        </androidx.percentlayout.widget.PercentRelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.mobileforming.module.common.view.FullscreenFrameLayout>

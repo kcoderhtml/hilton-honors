@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/dci_module_pre_assigned_selected_pin_hollow_bg" />
+</selector>

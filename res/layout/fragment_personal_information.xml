@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:tag="layout/fragment_personal_information_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/personal_information_menu_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/username_item" android:layout_width="0.0dip" android:text="@string/username" android:drawableLeft="@drawable/ic_person_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_2" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/password_item" android:layout_width="0.0dip" android:text="@string/password" android:drawableLeft="@drawable/ic_lock_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_3" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/email_item" android:layout_width="0.0dip" android:text="@string/email" android:drawableLeft="@drawable/ic_email_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_4" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/phone_item" android:layout_width="0.0dip" android:text="@string/phone" android:drawableLeft="@drawable/ic_phone_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_5" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/address_item" android:layout_width="0.0dip" android:text="@string/address" android:drawableLeft="@drawable/ic_home_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_6" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/payment_methods_item" android:layout_width="0.0dip" android:text="@string/payment_methods" android:drawableLeft="@drawable/ic_credit_card_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_7" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/special_accounts_and_rates_item" android:layout_width="0.0dip" android:text="@string/special_accounts_and_rates" android:drawableLeft="@drawable/ic_local_offer_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_8" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/preferred_language_item" android:layout_width="0.0dip" android:text="@string/preferred_language" android:drawableLeft="@drawable/ic_language_black_24dp" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_9" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.mobileforming.module.common.view.DrawableTextView android:id="@id/enhanced_security_item" android:layout_width="0.0dip" android:text="@string/enhanced_security" android:drawableLeft="@drawable/ic_verified_user" android:layout_weight="1.0" android:drawableTint="@color/dark_gray" style="@style/PersonalInformation_Menu_Item" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_right_black_24dp" android:tint="@color/light_gray" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:id="@id/disclaimer_links" android:tag="binding_10" android:background="@drawable/rounded_rectangle_gray_outline" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" />
+    </LinearLayout>
+</ScrollView>

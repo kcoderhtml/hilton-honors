@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/favoritesRoot" android:tag="layout/view_account_favorite_item_0" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mobileforming.module.common.view.FavoriteHeart android:layout_gravity="center" android:id="@id/favoriteHeart" android:tag="binding_1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="20.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/favoriteDetails" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#de000000" android:id="@id/hotelName" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:lineSpacingExtra="8.0sp" android:fontFamily="sans-serif" />
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/light_gray" android:id="@id/favoriteRoomsCount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_favorites_rooms" android:lineSpacingExtra="6.0sp" android:fontFamily="sans-serif" />
+        <View android:id="@id/divider" android:visibility="visible" android:layout_marginTop="13.0dip" style="@style/RoomRateDivider" />
+    </LinearLayout>
+</LinearLayout>

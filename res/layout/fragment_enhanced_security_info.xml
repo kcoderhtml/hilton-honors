@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_enhanced_security_info_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/dark_gray" android:id="@id/tv_enrolled_desc" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/enhanced_security_info_two_step_verification_info" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/tv_enabled" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/enhanced_security_info_enabled" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingTop="72.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_image_2fa" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_enhanced_security" />
+            <TextView android:textColor="@color/dark_gray" android:gravity="center" android:id="@id/tv_not_enrolled_desc" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/enhanced_security_info_two_step_verification_info" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center_vertical" android:id="@id/tv_enrolled_email_or_number" android:tag="binding_5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_weight="0.75" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/enhanced_security_green" android:gravity="center_vertical" android:id="@id/tv_verified" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/enhanced_security_info_verified" android:drawablePadding="4.0dip" android:drawableStart="@drawable/ic_check_2fa" android:drawableTint="@color/enhanced_security_green" />
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_panel" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="16.0dip" app:layout_constraintBottom_toTopOf="@id/text_1" style="@style/Divider" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/nero" android:id="@id/text_1" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:drawablePadding="16.0dip" android:drawableStart="@drawable/ic_website" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toTopOf="@id/text_2" />
+        <TextView android:textColor="@color/light_gray" android:id="@id/text_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enhanced_security_info_log_in" android:layout_marginStart="56.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toTopOf="@id/online_button" />
+        <com.google.android.material.button.MaterialButton android:id="@id/online_button" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginStart="36.0dip" android:layout_marginEnd="36.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/TextButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

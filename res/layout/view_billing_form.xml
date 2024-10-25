@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/billingInformationHeader" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_information_header" android:layout_alignParentTop="true" android:paddingStart="8.0dip" android:layout_alignParentStart="true" style="@style/SpecialRates_Header" />
+    <View android:id="@id/div0" android:layout_width="328.0dip" android:layout_height="1.0dip" android:layout_below="@id/billingInformationHeader" style="@style/HeaderDivider" />
+    <LinearLayout android:id="@id/copyReservationAddressLinearLayout" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/billingInformationHeader" android:paddingStart="8.0dip" android:paddingEnd="40.0dip">
+        <TextView android:id="@id/copyAlreadyEnteredAddressTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/billing_information_copy_address_text" android:layout_weight="1.0" style="@style/SpecialRates_Label" />
+        <CheckBox android:id="@id/copyAlreadyEnteredAddressCb" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_marginStart="10.0dip" />
+    </LinearLayout>
+    <EditText android:id="@id/cardHolderName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/billing_information_card_holder_name" android:singleLine="true" android:maxLength="42" android:digits="@string/alphanumeric_and_space_characters" android:layout_below="@id/copyReservationAddressLinearLayout" android:imeOptions="actionNext" android:layout_marginEnd="16.0dip" />
+    <com.mobileforming.module.common.view.AddressFormView android:id="@id/address_form_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cardHolderName" android:paddingEnd="16.0dip" />
+</RelativeLayout>

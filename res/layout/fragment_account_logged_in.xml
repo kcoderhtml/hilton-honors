@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_account_logged_in_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_content_layout" android:background="@color/meter_fragment_background_color_default" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/top_most_toolbar_wrapper" android:background="@color/meter_fragment_background_color_default" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.tabs.TabLayout android:id="@id/account_tab_layout" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+        </FrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/account_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <com.mofo.android.hilton.feature.bottomnav.account.mystatus.MeterOverlayView android:id="@id/account_meter_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="100.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:maplibre="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_background" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.mapbox.mapboxsdk.maps.MapView android:id="@id/map_view_internal" android:layout_width="fill_parent" android:layout_height="fill_parent" maplibre:mapbox_uiAttribution="false" maplibre:mapbox_uiCompass="false" maplibre:mapbox_uiLogo="false" />
+</merge>

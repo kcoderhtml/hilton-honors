@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="account_milestone_nights_needed">
+        <item quantity="other">الليالي المطلوبة</item>
+        <item quantity="one">الليلة مطلوب</item>
+    </plurals>
+    <plurals name="account_nights_stayed">
+        <item quantity="other">لقد قضيت %1$s ليال هذا العام.</item>
+        <item quantity="one">لقد قضيت ليلة %1$s هذا العام.</item>
+    </plurals>
+    <plurals name="account_nights_to_achieve">
+        <item quantity="other">حالتك %2$s على بعد %1$s ليال.</item>
+        <item quantity="one">حالتك %2$s على بعد ليلة %1$s.</item>
+    </plurals>
+    <plurals name="account_nights_to_maintain">
+        <item quantity="other">تحتاج إلى %1$s ليال للحفاظ على حالة الفئة %2$s.</item>
+        <item quantity="one">تحتاج إلى ليلة %1$s للحفاظ على حالة المستوى %2$s.</item>
+    </plurals>
+    <plurals name="account_points_earned">
+        <item quantity="other">لقد حصلت على %1$s نقاط أساسية هذا العام.</item>
+        <item quantity="one">لقد حصلت على نقطة %1$s أساسية هذا العام.</item>
+    </plurals>
+    <plurals name="account_points_to_achieve">
+        <item quantity="other">حالتك %2$s تبعد %1$s نقاط.</item>
+        <item quantity="one">حالتك %2$s تبعد %1$s نقطة.</item>
+    </plurals>
+    <plurals name="account_points_to_maintain">
+        <item quantity="other">احصل على %1$s نقاط للحفاظ على حالة المستوى %2$s.</item>
+        <item quantity="one">احصل على %1$s نقطة للحفاظ على حالة المستوى %2$s.</item>
+    </plurals>
+    <plurals name="account_stays_had">
+        <item quantity="other">لقد كانت لك %1$s إقامات هذا العام.</item>
+        <item quantity="one">لقد كان لديك %1$s إقامة هذا العام.</item>
+    </plurals>
+    <plurals name="account_stays_to_achieve">
+        <item quantity="other">حالتك %2$s على بعد %1$s إقامات.</item>
+        <item quantity="one">حالتك %2$s على بعد %1$s إقامة.</item>
+    </plurals>
+    <plurals name="account_stays_to_maintain">
+        <item quantity="other">ابقى %1$s مرات من الإقامات للحفاظ على حالة المستوى %2$s.</item>
+        <item quantity="one">ابقى مرة %1$s للحفاظ على حالة المستوى %2$s.</item>
+    </plurals>
+    <plurals name="fractal_calendar_nights">
+        <item quantity="other">%d ليال</item>
+        <item quantity="one">%d ليلة</item>
+    </plurals>
+    <plurals name="fractal_picker_modal_results_below">
+        <item quantity="other">%d النتائج أدناه</item>
+        <item quantity="one">%d النتيجة أدناه</item>
+    </plurals>
+    <plurals name="fractal_standard_card_image_gallery_content_description">
+        <item quantity="other">%1$s معرض صور ، %2$d صورة.</item>
+        <item quantity="one">%1$s معرض صور ، %2$d صورة.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="shopfeature_amenities_chip_a11y_label">
+        <item quantity="other">تكوين مرشح وسائل الراحة، %1$d الراحة المحدد</item>
+        <item quantity="one">تكوين مرشح وسائل الراحة، %1$d الراحة المحدد</item>
+    </plurals>
+    <plurals name="shopfeature_brands_chip_a11y_label">
+        <item quantity="other">تكوين مرشح العلامات التجارية، %1$d العلامات التجارية المحدد</item>
+        <item quantity="one">تكوين مرشح العلامات التجارية، %1$d ماركة المحدد</item>
+    </plurals>
+    <plurals name="shopfeature_calendar_nights">
+        <item quantity="other">%d ليال</item>
+        <item quantity="one">%d ليلة</item>
+    </plurals>
+    <plurals name="shopfeature_cluster_map_pin_text">
+        <item quantity="other">%1$d فندق</item>
+        <item quantity="one">%1$d فندق</item>
+    </plurals>
+    <plurals name="shopfeature_guests">
+        <item quantity="other">%d النزلاء</item>
+        <item quantity="one">%d نزيل</item>
+    </plurals>
+    <plurals name="shopfeature_kids">
+        <item quantity="other">%d أطفال</item>
+        <item quantity="one">%d طفل</item>
+    </plurals>
+    <plurals name="shopfeature_less_than_miles">
+        <item quantity="other">&lt; %d أميال</item>
+        <item quantity="one">&lt; %d ميل</item>
+    </plurals>
+    <plurals name="shopfeature_miles">
+        <item quantity="other">%d أميال</item>
+        <item quantity="one">%d ميل</item>
+    </plurals>
+    <plurals name="shopfeature_more_filters_chip_a11y_label">
+        <item quantity="other">تكوين المزيد من المرشحات، %1$d المرشحات المحدد</item>
+        <item quantity="one">تكوين المزيد من المرشحات، %1$d منقي المحدد</item>
+    </plurals>
+    <plurals name="shopfeature_reservation_summary_insufficient_points_alert_message">
+        <item quantity="other">لديك %s نقطة لا تغطي هذا الحجز، ولكن لا يزال بإمكانك استخدامها في السعر الخاص بك</item>
+        <item quantity="one">لديك %s نقطة لا تغطي هذا الحجز، ولكن لا يزال بإمكانك استخدامها في السعر الخاص بك</item>
+    </plurals>
+    <plurals name="shopfeature_rooms">
+        <item quantity="other">%d غرف</item>
+        <item quantity="one">%d غرفة</item>
+    </plurals>
+    <plurals name="shopfeature_search_adults_label">
+        <item quantity="other">للبالغين فقطnغير قادر على الحجز %s أطفال.nقم بتحديث معلومات الضيف للمتابعة.</item>
+        <item quantity="zero">للبالغين فقطnغير قادر على الحجز %s أطفال.nقم بتحديث معلومات الضيف للمتابعة.</item>
+        <item quantity="one">للبالغين فقطnغير قادر على الحجز %s طفل.nتحديث معلومات الضيف للمتابعة.</item>
+        <item quantity="two">للبالغين فقطnغير قادر على الحجز %s أطفال.nقم بتحديث معلومات الضيف للمتابعة.</item>
+        <item quantity="few">للبالغين فقطnغير قادر على الحجز %s أطفال.nقم بتحديث معلومات الضيف للمتابعة.</item>
+        <item quantity="many">للبالغين فقطnغير قادر على الحجز %s أطفال.nقم بتحديث معلومات الضيف للمتابعة.</item>
+    </plurals>
+    <plurals name="shopfeature_search_result_rooms">
+        <item quantity="other">%d غرف</item>
+        <item quantity="one">%d غرفة</item>
+    </plurals>
+    <plurals name="shopfeature_search_result_rooms_people">
+        <item quantity="other">%d بالغين</item>
+        <item quantity="one">%d بالغ</item>
+    </plurals>
+    <plurals name="shopfeature_search_results_gallery_content_description">
+        <item quantity="other">%1$s معرض صور ، %2$d صورة.قم بالتمرير بإصبعين إلى اليسار أو اليمين لرؤية المزيد</item>
+        <item quantity="one">%1$s معرض صور ، %2$d صورة.</item>
+    </plurals>
+    <plurals name="shopfeature_search_widget_special_rates_and_codes_accessibility">
+        <item quantity="other">تعديل الأسعار الخاصة، %1$s تطبق أسعار خاصة</item>
+        <item quantity="one">تعديل الأسعار الخاصة، %1$s يتم تطبيق سعر خاص</item>
+    </plurals>
+    <plurals name="shopfeature_special_offers_header_content_desc">
+        <item quantity="other">عروض خاصة (%1$d أغراض)</item>
+        <item quantity="one">عروض خاصة (%1$d غرض)</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_aaa_input_validation_error">
+        <item quantity="other">يجب أن يتكون رقم عضويتك في AAA من %d أرقام بالضبط</item>
+        <item quantity="one">يجب أن يتكون رقم عضويتك في AAA من %d رقم بالضبط</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_aarp_input_validation_error">
+        <item quantity="other">يجب ألا يزيد رقم عضوية AARP عن %d رقم</item>
+        <item quantity="one">يجب ألا يزيد رقم عضوية AARP عن %d رقم</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_travel_agent_validation_error">
+        <item quantity="other">يجب أن يتكون رقم وكيل السفر الخاص بك من %d أرقام بالضبط</item>
+        <item quantity="one">يجب أن يتكون رقم وكيل السفر الخاص بك من %d رقم بالضبط</item>
+    </plurals>
+    <plurals name="shopfeature_special_rates_unlimited_rewards_validation_error">
+        <item quantity="other">يجب ألا يزيد عدد المكافآت غير المحدودة الخاصة بك عن %d رقم</item>
+        <item quantity="one">يجب ألا يزيد عدد المكافآت غير المحدودة الخاصة بك عن %d رقم</item>
+    </plurals>
+    <plurals name="stays_feature_number_of_nights">
+        <item quantity="other">%d ليلة</item>
+        <item quantity="one">%d ليلة</item>
+    </plurals>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:tag="layout/fragment_members_benefits_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/hhonors_benefits_tier_view_pager_height" />
+    <View android:id="@id/vertical_line" android:background="@color/gray_divider" android:layout_width="@dimen/hhonors_benefits_divider_width" android:layout_height="@dimen/hhonors_benenfits_divider_length_vertical" android:layout_below="@id/view_pager" android:layout_centerHorizontal="true" />
+    <View android:id="@id/horizontal_line" android:background="@color/gray_divider" android:layout_width="@dimen/hhonors_benenfits_divider_length_horizontal" android:layout_height="@dimen/hhonors_benefits_divider_width" android:layout_below="@id/vertical_line" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/nero" android:id="@id/your_benefits" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/activity_hhonors_benefits_your_benefits" android:layout_below="@id/horizontal_line" android:layout_centerHorizontal="true" />
+    <androidx.core.widget.NestedScrollView android:id="@id/recyclerViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_below="@id/your_benefits">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/benefits_recycler_view" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fadeScrollbars="false" android:nestedScrollingEnabled="false" />
+            <View android:id="@id/dkeySpaceRecyclerView" android:layout_width="fill_parent" android:layout_height="@dimen/dkey_layout_padding" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ScrollView android:id="@id/benefit_detail" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/vertical_line" android:elevation="3.0dip">
+        <LinearLayout android:orientation="vertical" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="14.0dip" android:paddingEnd="16.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="-8.0dip">
+                <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/benefit_detail_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <com.google.android.material.button.MaterialButton android:layout_gravity="center_vertical" android:id="@id/close_detail_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/content_description_member_benefits_close_button" app:icon="@drawable/ic_close" app:iconTint="@color/nero" style="@style/IconOnly" />
+            </LinearLayout>
+            <TextView android:textSize="17.0dip" android:textColor="@color/white" android:id="@id/benefit_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="40.0dip" />
+            <View android:id="@id/benefit_detail_bar" android:background="@color/text_brand_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="20.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/benefit_detail_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:id="@id/dkey_space" android:layout_width="fill_parent" android:layout_height="@dimen/dkey_layout_padding" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

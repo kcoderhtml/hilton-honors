@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll_container" android:tag="layout/activity_benefits_information_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.mofo.android.hilton.core.view.AspectScaleImageView android:id="@id/honors_card" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="24.0sp" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/benefits_information_vertical_margin" android:layout_marginEnd="@dimen/benefits_information_vertical_margin" />
+        <TextView android:textColor="@color/dark_gray" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/benefits_information_vertical_margin" android:layout_marginEnd="@dimen/benefits_information_vertical_margin" />
+        <TextView android:textColor="@color/dark_gray" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/your_chosen_benefits_are" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/benefits_information_vertical_margin" android:layout_marginEnd="@dimen/benefits_information_vertical_margin" />
+        <LinearLayout android:orientation="vertical" android:id="@id/benefits_container" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="@dimen/benefits_information_vertical_margin" android:layout_marginEnd="@dimen/benefits_information_vertical_margin" />
+        <Button android:tag="binding_7" android:text="@string/edit_myway_hotel_benefits" style="@style/MyWayBenefitsButton" />
+    </LinearLayout>
+</ScrollView>

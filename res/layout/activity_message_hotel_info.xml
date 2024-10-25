@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_message_hotel_info_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+        <ImageView android:id="@id/close_button" android:tag="binding_2" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="32.0dip" android:src="@drawable/ic_close" style="@style/TextButton" />
+        <ImageView android:id="@id/info_title_icon" android:tag="binding_3" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="24.0dip" android:scaleType="centerCrop" android:tint="@color/brand_accent" />
+        <TextView android:textSize="24.0sp" android:textColor="@color/nero" android:id="@id/info_title" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/dark_gray" android:id="@id/info_subtext" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/item_1" layout="@layout/message_hotel_info_item" />
+        <include android:id="@id/item_2" layout="@layout/message_hotel_info_item" />
+        <include android:id="@id/item_3" layout="@layout/message_hotel_info_item" />
+        <include android:id="@id/item_4" layout="@layout/message_hotel_info_item" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/activity_reservation_form_rules_and_restrictions_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_taxes_header" android:text="@string/rules_restrictions_activity_taxes" style="@style/RulesRestritionsHeader.First" />
+        <TextView android:id="@id/tv_taxes_subtext" style="@style/RulesRestritionsSubText" />
+        <TextView android:id="@id/tv_guarantee_and_cancellation_header" android:text="@string/rules_restrictions_activity_guarantee_and_cancellation" style="@style/RulesRestritionsHeader" />
+        <TextView android:id="@id/tv_guarantee_and_cancellation_subtext" style="@style/RulesRestritionsSubText" />
+        <TextView android:id="@id/tv_restrictions_header" android:text="@string/rules_restrictions_activity_rules" style="@style/RulesRestritionsHeader" />
+        <TextView android:id="@id/tv_restrictions_subtext" style="@style/RulesRestritionsSubText" />
+        <TextView android:id="@id/tv_optional_services_header" android:text="@string/rules_restrictions_activity_optional" style="@style/RulesRestritionsHeader" />
+        <TextView android:id="@id/tv_optional_services_subtext" style="@style/RulesRestritionsSubText" />
+    </LinearLayout>
+</ScrollView>

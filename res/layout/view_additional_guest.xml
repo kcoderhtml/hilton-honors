@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/view_additional_guest_id" android:tag="layout/view_additional_guest_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textViewRoomLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/AddAdditionalGuests_Room_Label" />
+    <TextView android:id="@id/textViewClear" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/additional_guests_clear_label" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/AddAdditionalGuests_Clear" />
+    <TextView android:id="@id/textViewRoomHeaderText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_below="@id/textViewRoomLabel" style="@style/AddAdditionalGuests_Room_Header_Text" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayoutFirstName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/first_name" android:layout_below="@id/textViewRoomHeaderText">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/editTextFirstName" android:tag="binding_2" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="36.0dip" android:maxLines="1" android:imeOptions="actionNext" style="@style/AddAdditionalGuests_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayoutLastName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/last_name" android:layout_below="@id/textInputLayoutFirstName">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/editTextLastName" android:tag="binding_3" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:maxLines="1" android:imeOptions="actionNext" style="@style/AddAdditionalGuests_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

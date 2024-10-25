@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/faq_top_hr" android:background="@color/gray_divider" android:paddingTop="24.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+    <TextView android:id="@id/tv_faq_question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_toLeftOf="@id/iv_faq_expand_collapse" android:layout_below="@id/faq_top_hr" android:layout_alignParentLeft="true" style="@style/DigitalKeyFaq" />
+    <ImageView android:id="@id/iv_faq_expand_collapse" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/dk_module_ic_action_expand" android:layout_below="@id/faq_top_hr" android:layout_alignParentRight="true" />
+</RelativeLayout>

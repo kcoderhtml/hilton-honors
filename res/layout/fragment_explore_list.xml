@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_explore_list_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bottom_sheet_grabber" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_grabber" />
+    <View android:background="#fff4f4f4" style="@style/Divider" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/pb_content_loading" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip" android:contentDescription="Loading Spinner" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/pager_tab_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabMode="scrollable" app:tabSelectedTextColor="@color/brand_accent" app:tabTextAppearance="@style/CategoryTabTextStyle" app:tabTextColor="@color/explore_light_gray" />
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

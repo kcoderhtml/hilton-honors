@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_guest_information_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/contact_info_header_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_info" style="@style/GuestInfo_Headers" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/email">
+        <com.hilton.android.module.book.view.DropDownTextView android:id="@id/email_drop_down" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="60" android:inputType="textEmailAddress" android:importantForAccessibility="yes" style="@style/GuestInfo_EditText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0">
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="30.5dip" android:hint="@string/phone" android:layout_weight="1.8" android:layout_marginEnd="30.5dip">
+            <com.hilton.android.module.book.view.DropDownTextView android:id="@id/phone_drop_down" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="16" android:digits="@string/guest_phone_acceptable_digits" android:inputType="phone" android:importantForAccessibility="yes" style="@style/GuestInfo_EditText" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatSpinner android:layout_gravity="bottom" android:id="@id/phone_spinner" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.2" android:layout_marginEnd="16.0dip" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+    </LinearLayout>
+</LinearLayout>

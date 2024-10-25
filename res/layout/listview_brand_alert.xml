@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mobileforming.module.common.view.DrawableTextView android:textColor="@color/nero" android:id="@id/alert_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="32.0dip" android:drawableLeft="@drawable/ic_notification_important" android:layout_marginStart="24.0dip" />
+    <TextView android:textColor="@color/nero" android:id="@id/alert_title" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toEndOf="@id/alert_icon" />
+    <TextView android:textColor="@color/dark_gray" android:id="@id/alert_description" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/alert_title" android:layout_toEndOf="@id/alert_icon" />
+</RelativeLayout>

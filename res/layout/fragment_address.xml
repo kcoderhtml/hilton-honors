@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_address_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/address_header" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="96.0dip" android:text="@string/personal_info_address_header" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/add_button" android:tag="binding_1" android:src="@drawable/ic_add" app:fabSize="mini" style="@style/FABPlus" />
+    <androidx.core.widget.NestedScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/address_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

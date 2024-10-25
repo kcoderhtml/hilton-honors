@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_floor_plan_viewer_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/selector_layout" android:tag="binding_1" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <NumberPicker android:id="@id/building_picker" android:tag="binding_2" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_weight="1.0" />
+            <NumberPicker android:id="@id/floor_picker" android:descendantFocusability="blocksDescendants" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/fl_map_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/selector_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.fragment.app.FragmentContainerView android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/google_map" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <Switch android:id="@id/google_map_switch" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:checked="true" android:text="@string/lokion_floor_plan_map" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toTopOf="@id/selector_layout" app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

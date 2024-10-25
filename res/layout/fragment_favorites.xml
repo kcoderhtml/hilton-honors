@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_favorites_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/favorites_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/apps_header" android:tag="binding_1" android:text="@string/streaming_apps" style="@style/FavoritesSectionHeader" />
+            <View android:tag="binding_2" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/apps_recycler_view" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+            <TextView android:id="@id/channels_header" android:tag="binding_4" android:text="@string/tv_channels" style="@style/FavoritesSectionHeader" />
+            <View android:tag="binding_5" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/channels_recycler_view" android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_favorites" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="180.0dip" android:layout_height="116.0dip" android:src="@drawable/ic_no_favorite" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/no_favorites_yet" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/favorites_secondary_text" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/tap_on_heart" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+.class public interface abstract Lcom/adyen/threeds2/ProtocolErrorEvent;
+.super Ljava/lang/Object;
+
+
+# virtual methods
+.method public abstract getAdditionalDetails()Ljava/lang/String;
+.end method
+
+.method public abstract getErrorMessage()Lcom/adyen/threeds2/ErrorMessage;
+.end method
+
+.method public abstract getSDKTransactionID()Ljava/lang/String;
+.end method

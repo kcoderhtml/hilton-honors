@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobileforming.module.common.view.FullscreenFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/address_type_and_company" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Spinner android:id="@id/address_type_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/Widget.AppCompat.Spinner.Underlined" />
+            <com.mobileforming.module.common.view.ValidatedEditText android:id="@id/address_form_company" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/company" android:maxLines="1" android:maxLength="80" android:layout_weight="1.0" android:imeOptions="actionNext" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/address_fields_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Spinner android:id="@id/address_country_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.Spinner.Underlined" />
+    </LinearLayout>
+</com.mobileforming.module.common.view.FullscreenFrameLayout>

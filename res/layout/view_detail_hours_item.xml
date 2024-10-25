@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/view_detail_hours_item_0" android:background="@drawable/shape_rounded_rectangle" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:backgroundTint="@color/explore_detail_item_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="4.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="end" android:layout_gravity="end" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dip" />
+</LinearLayout>

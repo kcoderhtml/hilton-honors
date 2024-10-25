@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/profile_switch_layout" android:tag="layout/view_profile_switch_toggle_0" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Switch android:textStyle="bold" android:id="@id/profile_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/business_travel_header_text" android:switchPadding="10.0dip" android:importantForAccessibility="yes" style="@style/HotelSearchResultsFilterSectionLabel" />
+    <TextView android:textSize="13.0sp" android:id="@id/profile_switch_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" style="@style/HotelSearchResultsFilterSectionLabel" />
+    <TextView android:textSize="13.0sp" android:id="@id/profile_switch_change_business" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/profile_switch_change_business_button" android:layout_marginStart="-6.0dip" style="@style/TextButton" />
+</LinearLayout>

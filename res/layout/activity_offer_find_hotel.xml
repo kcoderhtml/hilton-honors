@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/offers_root" android:tag="layout/activity_offer_find_hotel_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:isScrollContainer="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/searchFragment" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/offerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/nivOfferImage" android:layout_width="fill_parent" android:layout_height="@dimen/offer_detail_image_height" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxHeight="@dimen/offer_detail_image_height" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/llOfferName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                <TextView android:id="@id/tvOfferName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Offer_Detail_Name" />
+                <TextView android:id="@id/tvStartFrom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/Offer_Detail_Start_Date" />
+            </LinearLayout>
+            <TextView android:id="@id/tvBookBy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignBottom="@id/llOfferName" android:layout_alignParentRight="true" style="@style/Offer_Detail_Book_By" />
+        </RelativeLayout>
+        <View android:id="@id/div1" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/OfferDetailDivider" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+                <EditText android:id="@id/search_bar" android:focusable="false" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:transitionName="@string/location_search_edit_text_transition" style="@style/Offers_Find_A_Hotel_Search_Bar" />
+                <View android:id="@id/search_bar_div" style="@style/OfferFindHotelDivider" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/stay_duration_summary" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:weightSum="10.0" android:onClick="onClickSummary">
+                    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+                    <RelativeLayout android:gravity="center" android:id="@id/arrival_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+                        <TextView android:id="@id/arrival_date" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:paddingEnd="2.0dip" style="@style/EditReservation_Date_Date" />
+                        <TextView android:id="@id/arrival_day_of_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/arrival_date" android:layout_alignTop="@id/arrival_date" android:layout_toEndOf="@id/arrival_date" style="@style/EditReservation_Date_Day" />
+                        <TextView android:textColor="@color/nero" android:id="@id/arrival_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@id/arrival_date" android:layout_below="@id/arrival_day_of_week" android:layout_alignBaseline="@id/arrival_date" android:layout_toEndOf="@id/arrival_date" style="@style/EditReservation_Date_Month" />
+                        <TextView android:textColor="@color/nero" android:id="@id/arrival_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@id/arrival_date" android:layout_below="@id/arrival_month" android:layout_toEndOf="@id/arrival_date" style="@style/EditReservation_Date_Month" />
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+                        <View android:id="@id/left_divider" android:background="#ffdbdbdb" android:layout_width="1.0dip" android:layout_height="fill_parent" style="EditReservationVerticalDivider" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/moon_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.1">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/moon_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_moon_full_bk" android:contentDescription="@string/moon" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/nero" android:id="@id/night_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+                        <View android:id="@id/right_divider" android:background="#ffdbdbdb" android:layout_width="1.0dip" android:layout_height="fill_parent" style="EditReservationVerticalDivider" />
+                    </LinearLayout>
+                    <RelativeLayout android:gravity="center" android:id="@id/departure_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+                        <TextView android:id="@id/departure_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" style="@style/EditReservation_Date_Date" />
+                        <TextView android:id="@id/departure_day_of_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/departure_date" android:layout_alignTop="@id/departure_date" android:layout_toEndOf="@id/departure_date" style="@style/EditReservation_Date_Day" />
+                        <TextView android:id="@id/departure_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@id/departure_date" android:layout_below="@id/departure_day_of_week" android:layout_alignBaseline="@id/departure_date" android:layout_toEndOf="@id/departure_date" style="@style/EditReservation_Date_Month" />
+                        <TextView android:id="@id/departure_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_toRightOf="@id/departure_date" android:layout_below="@id/departure_month" android:layout_toEndOf="@id/departure_date" style="@style/EditReservation_Date_Month" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <com.hilton.android.module.shop.view.RequestRoomConfigurationView android:textColor="?android:textColorPrimary" android:id="@id/requestedRoomsView" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" app:theme="@style/UpdateBookAgainRoomConfigThemeOverlay" />
+                <Button android:id="@id/btn_find_hotel" android:layout_width="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/find_hotels" android:onClick="onSearchButtonClicked" style="@style/StandardActionButton" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

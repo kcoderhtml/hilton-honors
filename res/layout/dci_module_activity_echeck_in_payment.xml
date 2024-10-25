@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/dci_module_activity_echeck_in_payment_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/room_details_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_room_details_container" />
+        <include android:id="@id/additional_charges_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/room_details_container" layout="@layout/dci_module_echeckin_payment_additional_charges_container" />
+        <include android:id="@id/select_arrival_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_select_arrival_container" />
+        <include android:id="@id/payment_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_payments_container" />
+        <include android:id="@id/digital_key_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_digital_key_container" />
+        <include android:id="@id/parking_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_parking_container" />
+        <include android:id="@id/disability_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dci_module_echeckin_payment_disability_container" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/light_gray" android:id="@id/terms_and_conditions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dci_module_echeckin_default_outside_margin" android:text="@string/dci_module_echeck_in_payment_terms_and_conditions" android:layout_marginStart="@dimen/dci_module_echeckin_default_outside_margin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/disability_container" />
+        <Button android:id="@id/checkin_button" android:tag="binding_2" android:layout_width="fill_parent" android:layout_margin="@dimen/dci_module_echeckin_default_outside_margin" android:textAllCaps="false" app:layout_constraintTop_toBottomOf="@id/terms_and_conditions" style="@style/StandardActionButton" />
+    </LinearLayout>
+</ScrollView>

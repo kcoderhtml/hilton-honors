@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/member_benefits_silver_oval" android:left="@dimen/member_benefits_gradient_padding" android:top="@dimen/member_benefits_gradient_padding" android:right="@dimen/member_benefits_gradient_padding" android:bottom="@dimen/member_benefits_gradient_padding" />
+    <item android:drawable="@drawable/account_meter_circle_background" />
+</layer-list>

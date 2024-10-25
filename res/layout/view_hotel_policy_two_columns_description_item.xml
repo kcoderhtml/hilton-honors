@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/view_hotel_policy_two_columns_description_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="13.0dip" android:paddingEnd="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/first_column_tv" android:tag="binding_1" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HotelPoliciesLabel" />
+    <TextView android:id="@id/second_column_tv" android:tag="binding_2" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HotelPoliciesParagraph" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+{
+    "existingSession": null,
+    "title": "Contact Us",
+    "description": "Friendly copy would go here and direct the user to the [contact us](https://help.hilton.com/s/contactsupport).",
+    "relatedTopics": [],
+    "feedback": {
+      "header": "Was this helpful?",
+      "options": [
+        {
+          "label": "Yes",
+          "navLink": "yes.json"
+        },
+        {
+          "label": "No",
+          "navLink": "no.json"
+        }
+      ]
+    },
+    "errors": null
+  }
+  

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobileforming.module.common.view.FullscreenFrameLayout android:tag="layout/fragment_phone_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/phone_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/nero" android:gravity="center_vertical" android:id="@id/tv_phone_disclaimer" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="96.0dip" android:text="@string/personal_info_phone_header" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/add_button" android:tag="binding_1" android:src="@drawable/ic_add" style="@style/FABPlus" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.mobileforming.module.common.view.FullscreenFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_sca_webview_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/web_view_header" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <fragment android:name="com.hilton.android.library.shimpl.ui.webview.ScaWebViewFragment" android:id="@id/sca_web_view_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

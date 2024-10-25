@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/search_location_row_font_size_large" android:textStyle="bold" android:textColor="@color/nero" android:id="@id/narrow_your_search_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/narrow_location_header" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/search_location_row_font_size" android:textColor="@color/dark_gray" android:id="@id/narrow_your_search_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/narrow_location_message" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/narrow_your_search_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

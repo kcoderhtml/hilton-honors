@@ -1,0 +1,20 @@
+{
+  "existingSession": null,
+  "title": "Markdown Lists",
+  "description": "### Supported Lists:\n### Bulleted List\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n### Numbered List\n1. Item 1\n2. Item 2\n3. Item 3",
+  "relatedTopics": [],
+  "feedback": {
+    "header": "Was this helpful?",
+    "options": [
+      {
+        "label": "Yes",
+        "navLink": "yes.json"
+      },
+      {
+        "label": "No",
+        "navLink": "no.json"
+      }
+    ]
+  },
+  "errors": null
+}

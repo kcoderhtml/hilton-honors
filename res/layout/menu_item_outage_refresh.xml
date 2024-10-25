@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/menu_item_outage_refresh_0" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?actionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/brand_accent" android:id="@id/refresh_text" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" android:layout_marginEnd="4.0dip" />
+    <ProgressBar android:id="@id/refresh_progressbar" android:tag="binding_2" android:padding="2.0dip" android:focusable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminateTint="@color/brand_accent" style="@android:style/Widget.Holo.Light.ProgressBar" />
+    <ImageView android:id="@id/refresh_icon" android:tag="binding_3" android:focusable="true" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_refresh" android:tint="@color/brand_accent" style="@android:style/Widget.Holo.Light.ProgressBar" />
+</LinearLayout>

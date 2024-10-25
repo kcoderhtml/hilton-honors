@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/scroll" android:tag="layout/fragment_honors_card_0" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip">
+        <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:src="@color/nero" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" app:cardCornerRadius="8.0dip" app:cardElevation="8.0dip" style="@style/Base.CardView">
+            <com.mofo.android.hilton.core.view.AspectScaleImageView android:id="@id/tierImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@color/nero" android:contentDescription="@string/my_account_tier_image_content_desc" />
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/nero" android:gravity="center" android:id="@id/card_member_name" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/nero" android:gravity="center" android:id="@id/additional_member_name" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:id="@id/hhonors_card_number_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhonors_card_number_lbl" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont1" />
+            <TextView android:gravity="end" android:id="@id/card_hhonors_number" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont2" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:id="@id/card_status_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhonors_card_status_lbl" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont1" />
+            <TextView android:gravity="end" android:id="@id/card_current_status" android:tag="binding_6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont2" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:id="@id/card_hhonors_points_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhonors_card_points_lbl" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont1" />
+            <TextView android:gravity="end" android:id="@id/card_hhonors_points" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont2" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip">
+            <TextView android:id="@id/card_member_since_lbl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hhonors_card_member_since_lbl" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont1" />
+            <TextView android:gravity="end" android:id="@id/card_member_since" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/HHonors_Card_TitleFont2" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" style="@style/Divider" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/btn_save_to_android_pay" android:tag="binding_11" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:src="@drawable/btn_google_pay_save_to_phone" android:adjustViewBounds="true" android:contentDescription="@string/ada_save_to_google_pay" android:elevation="5.0dip" />
+        <TextView android:gravity="center" android:id="@id/card_disclaimer_text" android:tag="binding_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:importantForAccessibility="yes" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/HHonors_Card_TitleFont4" />
+        <View android:id="@id/dkey_space" android:layout_width="fill_parent" android:layout_height="@dimen/dkey_layout_padding" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

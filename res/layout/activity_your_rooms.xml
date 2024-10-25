@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:tag="layout/activity_your_rooms_0" android:background="@color/your_rooms_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/dark_gray" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:text="@string/your_rooms_header_text" android:contentDescription="@string/your_rooms_header_text_content_description" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/card_container" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    </ScrollView>
+    <Button android:textColor="@color/white" android:id="@id/bt_done" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/done" android:textAllCaps="true" style="@style/FlatDefaultButton" />
+</LinearLayout>

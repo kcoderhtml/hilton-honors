@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dk_module_layout_single_lock_0" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:gravity="center" android:tag="binding_1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxLines="2" android:layout_weight="1.0" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center_horizontal" android:id="@id/btn_turn_on_bluetooth" android:tag="binding_2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_marginBottom="20.0dip" android:text="@string/dk_module_turn_on_bluetooth" android:textAllCaps="false" android:layout_marginStart="95.0dip" android:layout_marginEnd="95.0dip" style="@style/StandardActionButton" />
+    <FrameLayout android:layout_gravity="bottom|center" android:paddingBottom="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:tag="binding_3" android:background="@drawable/dk_module_digital_key_outline_bg" android:visibility="invisible" android:layout_width="@dimen/dk_module_button_large" android:layout_height="@dimen/dk_module_button_large" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/button_root" android:tag="binding_4" android:background="@drawable/dk_module_digital_key_tap_area_default_selector" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="@dimen/dk_module_touchpoint_large" android:layout_height="@dimen/dk_module_touchpoint_large" android:layout_marginBottom="25.0dip">
+            <TextView android:textSize="22.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/textView" android:tag="binding_5" android:layout_width="158.0dip" android:layout_height="90.0dip" android:text="@string/dk_module_digital_key_stand_close" android:lines="3" />
+            <ImageView android:id="@id/dk_image" android:tag="binding_6" android:layout_width="@dimen/dk_module_touch_point_large_bt_icon" android:layout_height="@dimen/dk_module_touch_point_large_bt_icon" android:src="@drawable/dk_module_ic_fab_minikey_bluetooth" android:tint="@color/dark_gray" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/nero" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_spinner" android:tag="binding_8" android:visibility="invisible" android:layout_width="230.0dip" android:layout_height="230.0dip" android:layout_marginBottom="25.0dip" android:src="@drawable/dk_module_ic_gradient_loading_digital_key_updated" />
+    </FrameLayout>
+</LinearLayout>
